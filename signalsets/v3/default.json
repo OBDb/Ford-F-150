@@ -1,40 +1,4 @@
 { "commands": [
-{ "hdr": "7E0", "dbg": true, "cmd": {"22": "160E"}, "freq": 30,
-  "signals": [
-    {"id": "F150_MIS_C1_CNT", "path": "Engine.Cylinders", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Misfire count: cylinder 1"}
-  ]},
-{ "hdr": "7E0", "dbg": true, "cmd": {"22": "160F"}, "freq": 30,
-  "signals": [
-    {"id": "F150_MIS_C2_CNT", "path": "Engine.Cylinders", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Misfire count: cylinder 2"}
-  ]},
-{ "hdr": "7E0", "dbg": true, "cmd": {"22": "1610"}, "freq": 30,
-  "signals": [
-    {"id": "F150_MIS_C3_CNT", "path": "Engine.Cylinders", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Misfire count: cylinder 3"}
-  ]},
-{ "hdr": "7E0", "dbg": true, "cmd": {"22": "1611"}, "freq": 30,
-  "signals": [
-    {"id": "F150_MIS_C4_CNT", "path": "Engine.Cylinders", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Misfire count: cylinder 4"}
-  ]},
-{ "hdr": "7E0", "dbg": true, "cmd": {"22": "1612"}, "freq": 30,
-  "signals": [
-    {"id": "F150_MIS_C5_CNT", "path": "Engine.Cylinders", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Misfire count: cylinder 5"}
-  ]},
-{ "hdr": "7E0", "dbg": true, "cmd": {"22": "1613"}, "freq": 30,
-  "signals": [
-    {"id": "F150_MIS_C6_CNT", "path": "Engine.Cylinders", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Misfire count: cylinder 6"}
-  ]},
-{ "hdr": "7E0", "dbg": true, "cmd": {"22": "1614"}, "freq": 30,
-  "signals": [
-    {"id": "F150_MIS_C7_CNT", "path": "Engine.Cylinders", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Misfire count: cylinder 7"}
-  ]},
-{ "hdr": "7E0", "dbg": true, "cmd": {"22": "1615"}, "freq": 30,
-  "signals": [
-    {"id": "F150_MIS_C8_CNT", "path": "Engine.Cylinders", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Misfire count: cylinder 8"}
-  ]},
-{ "hdr": "7E0", "dbg": true, "cmd": {"22": "1616"}, "freq": 30,
-  "signals": [
-    {"id": "F150_MIS_CNT", "path": "Engine.Misfires", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Misfire count"}
-  ]},
 { "hdr": "720", "tmo": "96", "fcm1": true, "dbg": true, "cmd": {"22": "6180"}, "freq": 30,
   "signals": [
     {"id": "F150_ODO", "path": "Trips", "fmt": { "len": 24, "max": 1677721, "div": 10, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
