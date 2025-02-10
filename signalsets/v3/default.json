@@ -1,4 +1,8 @@
 { "commands": [
+{ "hdr": "720", "tmo": "96", "fcm1": true, "dbg": true, "cmd": {"22": "6180"}, "freq": 30,
+  "signals": [
+    {"id": "F150_ODO", "path": "Trips", "fmt": { "len": 24, "max": 1677721, "div": 10, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
+  ]},
 { "hdr": "726", "rax": "72E", "cmd": {"22": "2813"}, "freq": 5,
   "signals": [
     {"id": "F150_TP_FL", "path": "Tires", "fmt": { "len": 16, "max": 3276, "div": 20, "unit": "psi" }, "name": "Front left tire pressure", "suggestedMetric": "frontLeftTirePressure"}
