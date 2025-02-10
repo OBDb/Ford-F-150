@@ -1,5 +1,5 @@
 { "commands": [
-{ "hdr": "720", "rax": "728", "dbg": true, "cmd": {"22": "404C"}, "freq": 30,
+{ "hdr": "720", "rax": "728", "cmd": {"22": "404C"}, "freq": 5,
   "signals": [
     {"id": "F150_ODO", "path": "Trips", "fmt": { "len": 24, "max": 1677721, "div": 10, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
