@@ -43,10 +43,6 @@
   "signals": [
     {"id": "F150_GEAR_SHFT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Shift gear"}
   ]},
-{ "hdr": "7DF", "dbg": true, "cmd": {"22": "402A"}, "freq": 30,
-  "signals": [
-    {"id": "F150_BATTERY_V", "path": "Battery", "fmt": { "len": 8, "max": 255, "min": 6, "div": 20, "add": 6, "unit": "volts" }, "name": "Battery voltage"}
-  ]},
 { "hdr": "7DF", "dbg": true, "cmd": {"22": "F45C"}, "freq": 30,
   "signals": [
     {"id": "F150_EOP", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Engine oil pressure"}
@@ -58,6 +54,10 @@
 { "hdr": "7E0", "dbg": true, "cmd": {"22": "1310"}, "freq": 30,
   "signals": [
     {"id": "F150_EOT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Engine oil temperature"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "402A"}, "freq": 30,
+  "signals": [
+    {"id": "F150_BATTERY_V", "path": "Battery", "fmt": { "len": 8, "max": 255, "min": 6, "div": 20, "add": 6, "unit": "volts" }, "name": "Battery voltage"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F42F"}, "freq": 30,
   "signals": [
