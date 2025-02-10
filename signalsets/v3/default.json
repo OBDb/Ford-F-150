@@ -31,10 +31,6 @@
   "signals": [
     {"id": "F150_STEER_ANGLE", "path": "Control", "fmt": { "len": 16, "max": 1638, "min": -1638, "div": 20, "add": -1638.4, "unit": "degrees" }, "name": "Steering wheel angle (ABS)", "description": "Positive is rotated to the left, negative is rotated to the right."}
   ]},
-{ "hdr": "7DF", "dbg": true, "cmd": {"22": "1310"}, "freq": 30,
-  "signals": [
-    {"id": "F150_EOT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Engine oil temperature"}
-  ]},
 { "hdr": "7DF", "dbg": true, "cmd": {"22": "1E12"}, "freq": 30,
   "signals": [
     {"id": "F150_GEAR", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Current gear", "description": "The automatic transmission gear. Numbers aren't yet mapped to named gears."}
@@ -58,6 +54,10 @@
 { "hdr": "7E0", "dbg": true, "cmd": {"22": "0519"}, "freq": 30,
   "signals": [
     {"id": "F150_OILCHG_DIST", "path": "Engine", "fmt": { "len": 8, "max": 637.5, "mul": 2.5, "unit": "miles" }, "name": "Distance since last oil change"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "1310"}, "freq": 30,
+  "signals": [
+    {"id": "F150_EOT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Engine oil temperature"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F42F"}, "freq": 30,
   "signals": [
