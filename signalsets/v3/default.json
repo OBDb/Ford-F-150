@@ -31,6 +31,10 @@
   "signals": [
     {"id": "F150_STEER_ANGLE", "path": "Control", "fmt": { "len": 8, "max": 790, "min": -790, "mul": 6.25, "sign": true, "unit": "degrees" }, "name": "Steering wheel angle", "description": "Positive is rotated to the left, negative is rotated to the right."}
   ]},
+{ "hdr": "7DF", "dbg": true, "cmd": {"22": "0519"}, "freq": 30,
+  "signals": [
+    {"id": "F150_OILCHG_DIST", "path": "Engine", "fmt": { "len": 8, "max": 637.5, "mul": 2.5, "unit": "miles" }, "name": "Distance since last oil change"}
+  ]},
 { "hdr": "7DF", "dbg": true, "cmd": {"22": "1310"}, "freq": 30,
   "signals": [
     {"id": "F150_EOT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Engine oil temperature"}
@@ -46,6 +50,10 @@
 { "hdr": "7DF", "dbg": true, "cmd": {"22": "1E23"}, "freq": 30,
   "signals": [
     {"id": "F150_GEAR_SHFT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Shift gear"}
+  ]},
+{ "hdr": "7DF", "dbg": true, "cmd": {"22": "402A"}, "freq": 30,
+  "signals": [
+    {"id": "F150_BATTERY_V", "path": "Battery", "fmt": { "len": 8, "max": 255, "min": 6, "add": 6, "div": 20, "unit": "volts" }, "name": "Battery voltage"}
   ]},
 { "hdr": "7DF", "dbg": true, "cmd": {"22": "F42F"}, "freq": 30,
   "signals": [
