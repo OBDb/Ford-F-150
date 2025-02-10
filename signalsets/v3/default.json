@@ -29,7 +29,7 @@
   ]},
 { "hdr": "760", "rax": "768", "dbg": true, "cmd": {"22": "3201"}, "freq": 30,
   "signals": [
-    {"id": "F150_STEER_ANGLE", "path": "Control", "fmt": { "len": 8, "max": 790, "min": -790, "mul": 6.25, "sign": true, "unit": "degrees" }, "name": "Steering wheel angle", "description": "Positive is rotated to the left, negative is rotated to the right."}
+    {"id": "F150_STEER_ANGLE", "path": "Control", "fmt": { "len": 16, "max": 1638, "min": -1638, "div": 20, "add": -1638.4, "unit": "degrees" }, "name": "Steering wheel angle", "description": "Positive is rotated to the left, negative is rotated to the right."}
   ]},
 { "hdr": "7DF", "dbg": true, "cmd": {"22": "0519"}, "freq": 30,
   "signals": [
