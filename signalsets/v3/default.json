@@ -1,5 +1,5 @@
 { "commands": [
-{ "hdr": "720", "tmo": "96", "fmc1": true, "dbg": true, "cmd": {"22": "6180"}, "freq": 30,
+{ "hdr": "720", "tmo": "96", "fcm1": true, "dbg": true, "cmd": {"22": "6180"}, "freq": 30,
   "signals": [
     {"id": "F150_ODO", "path": "Trips", "fmt": { "len": 24, "max": 1677721, "div": 10, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
