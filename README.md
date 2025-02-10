@@ -2,6 +2,10 @@
 
 This repository contains signal set configurations for the Ford F-150, organized by model year and version. The files are structured to allow for easy differentiation between model generations and other vehicle parameters, ensuring accurate signal mapping for each version of the Ford F-150.
 
+## References
+
+- [ford pid list](https://forum.hptuners.com/showthread.php?92-ford-pid-list&p=349494#post349494)
+
 ## Generations
 
 - **First Generation (1948-1952)**: The original F-Series introduced the F-1 (later renamed F-100), which would eventually evolve into today's F-150. Featured a range of engines including a 226 CID inline-six and a 239 CID Flathead V8.
