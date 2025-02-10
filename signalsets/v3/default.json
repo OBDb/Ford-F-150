@@ -70,6 +70,6 @@
 { "hdr": "7DF", "dbg": true, "cmd": {"22": "1E12"}, "freq": 30,
   "signals": [
     {"id": "F150_GEAR", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Gear?"}
-  ]},
+  ]}
 ]
 }
