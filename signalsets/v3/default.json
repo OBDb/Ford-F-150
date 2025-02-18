@@ -47,7 +47,7 @@
   "signals": [
     {"id": "F150_GEAR_SHFT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Shift gear"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F42F"}, "freq": 30,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F42F"}, "freq": 1,
   "signals": [
     {"id": "F150_FLI", "path": "Fuel", "fmt": { "len": 8, "max": 255, "mul": 100, "div": 255, "unit": "percent" }, "name": "Fuel level", "suggestedMetric": "fuelTankLevel"}
   ]}
