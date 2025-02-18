@@ -35,10 +35,6 @@
   "signals": [
     {"id": "F150_CC_TGT_VSS", "path": "Cruise control", "fmt": { "len": 16, "max": 736, "min": -736, "mul": 3.6, "div": 10, "sign": true, "unit": "kilometersPerHour" }, "name": "Target vehicle speed", "description": "The speed of the vehicle ahead of you."}
   ]},
-{ "hdr": "764", "dbg": true, "cmd": {"22": "DD01"}, "freq": 30,
-  "signals": [
-    {"id": "F150_CC_DST", "path": "Cruise control", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Vehicle distance", "description": "The distance to the vehicle ahead of you."}
-  ]},
 { "hdr": "7DF", "cmd": {"22": "1E12"}, "freq": 2,
   "signals": [
     {"id": "F150_GEAR", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Current gear", "description": "The automatic transmission gear. Numbers aren't yet mapped to named gears."}
