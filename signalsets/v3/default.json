@@ -47,10 +47,6 @@
   "signals": [
     {"id": "F150_GEAR_SHFT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Shift gear"}
   ]},
-{ "hdr": "7E0", "dbg": true, "cmd": {"22": "0519"}, "freq": 30,
-  "signals": [
-    {"id": "F150_OILCHG_DIST", "path": "Engine", "fmt": { "len": 8, "max": 637.5, "mul": 2.5, "unit": "miles" }, "name": "Distance since last oil change"}
-  ]},
 { "hdr": "7E0", "dbg": true, "cmd": {"22": "1310"}, "freq": 30,
   "signals": [
     {"id": "F150_EOT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Engine oil temperature"}
