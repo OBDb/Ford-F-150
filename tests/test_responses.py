@@ -11,6 +11,24 @@ from schemas.python.can_frame import CANIDFormat
 REPO_ROOT = Path(__file__).parent.parent.absolute()
 
 TEST_CASES = [
+    # 2024 model year
+    {
+        "model_year": "2024",
+        "signalset": "default.json",
+        "tests": [
+            # Gear: 3
+            ("7E804621E1203", {"F150_CC_TGT_VSS": -61.2}),
+        ]
+    },
+    # 2022 model year
+    {
+        "model_year": "2022",
+        "signalset": "default.json",
+        "tests": [
+            # Gear: 3
+            ("7E804621E1246", {"F150_CC_TGT_VSS": -61.2}),
+        ]
+    },
     # 2021 model year
     {
         "model_year": "2021",

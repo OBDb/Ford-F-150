@@ -1,0 +1,17 @@
+{
+	"name": "Python Development",
+	"image": "mcr.microsoft.com/devcontainers/python:3.10",
+
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-python.python",
+				"ms-python.vscode-pylance"
+			]
+		}
+	},
+
+	"postCreateCommand": "git clone https://github.com/OBDb/.schemas.git tests/schemas && pip install pytest",
+
+	"remoteUser": "vscode"
+}
