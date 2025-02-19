@@ -16,8 +16,7 @@ TEST_CASES = [
         "model_year": "2024",
         "signalset": "default.json",
         "tests": [
-            # Gear: 3
-            ("7E804621E1203", {"F150_CC_TGT_VSS": -61.2}),
+            ("7E804621E1203", {"F150_GEAR": "3"}),
         ]
     },
     # 2022 model year
@@ -25,8 +24,15 @@ TEST_CASES = [
         "model_year": "2022",
         "signalset": "default.json",
         "tests": [
-            # Gear: 3
-            ("7E804621E1246", {"F150_CC_TGT_VSS": -61.2}),
+            ("7E804621E1201", {"F150_GEAR": "1"}),
+            ("7E804621E1203", {"F150_GEAR": "3"}),
+            ("7E804621E1205", {"F150_GEAR": "5"}),
+            ("7E804621E1206", {"F150_GEAR": "6"}),
+            ("7E804621E1207", {"F150_GEAR": "7"}),
+            ("7E804621E1208", {"F150_GEAR": "8"}),
+            ("7E804621E1209", {"F150_GEAR": "9"}),
+            ("7E804621E123C", {"F150_GEAR": "REVERSE"}),
+            ("7E804621E1246", {"F150_GEAR": "PARK"}),
         ]
     },
     # 2021 model year
@@ -34,7 +40,6 @@ TEST_CASES = [
         "model_year": "2021",
         "signalset": "default.json",
         "tests": [
-            # Target vehicle speed - -61.2 km/h
             ("76C0562A224FF56", {"F150_CC_TGT_VSS": -61.2}),
         ]
     },
@@ -57,13 +62,9 @@ TEST_CASES = [
         "model_year": "2012",
         "signalset": "0000-2015.json",
         "tests": [
-            # Odometer - 234652.4 km
             ("7280662404C23CE1D", {"F150_ODO": 234652.4}),
-            # Fuel level - 49.02%
             ("7E80462F42F7D", {"F150_FLI": 49.01960784313726}),
-            # Steering angle - 555.7 degrees
             ("76805623201AB6A", {"F150_STEER_ANGLE": 555.6999999999998}),
-            # Transmission oil temp - 68.31 C
             ("7E805621E1C0445", {"F150_TOT": 68.3125}),
         ]
     }
@@ -75,9 +76,13 @@ def load_signalset(filename: str) -> str:
     with open(signalset_path) as f:
         return f.read()
 
-@pytest.mark.parametrize("test_group", TEST_CASES)
-def test_ford_f150_signals(test_group: Dict[str, Any]):
-    """Test Ford F-150 signal decoding against known responses."""
+@pytest.mark.parametrize(
+    "test_group",
+    TEST_CASES,
+    ids=lambda test_case: f"MY{test_case['model_year']}"
+)
+def test_signals(test_group: Dict[str, Any]):
+    """Test signal decoding against known responses."""
     signalset_json = load_signalset(test_group["signalset"])
 
     # Run each test case in the group
