@@ -31,10 +31,6 @@
   "signals": [
     {"id": "F150_STEER_ANGLE", "path": "Control", "fmt": { "len": 16, "max": 1638, "min": -1638, "div": 20, "add": -1638.4, "unit": "degrees" }, "name": "Steering wheel angle (ABS)", "description": "Positive is rotated to the left, negative is rotated to the right."}
   ]},
-{ "hdr": "7DF", "cmd": {"22": "1E12"}, "freq": 2,
-  "signals": [
-    {"id": "F150_GEAR", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Current gear", "description": "The automatic transmission gear. Numbers aren't yet mapped to named gears."}
-  ]},
 { "hdr": "7DF", "cmd": {"22": "1E1C"}, "freq": 1,
   "signals": [
     {"id": "F150_TOT", "path": "Engine", "fmt": { "len": 16, "max": 255, "div": 16, "unit": "celsius" }, "name": "Transmission oil temperature"}
@@ -42,6 +38,10 @@
 { "hdr": "7DF", "cmd": {"22": "1E23"}, "freq": 2,
   "signals": [
     {"id": "F150_GEAR_SHFT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Shift gear"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1E12"}, "freq": 2,
+  "signals": [
+    {"id": "F150_GEAR", "path": "Engine", "fmt": { "len": 8, "map": {"1":{"description":"First gear","value":"1"},"10":{"description":"Manual","value":"Manul"},"2":{"description":"Second gear","value":"2"},"3":{"description":"Third gear","value":"3"},"4":{"description":"FOurth gear","value":"4"},"46":{"description":"Drive","value":"DRIVE"},"5":{"description":"Fifth gear","value":"5"},"50":{"description":"Neutral","value":"NEUTRAL"},"6":{"description":"Sixth gear","value":"6"},"60":{"description":"Reverse","value":"REVERSE"},"7":{"description":"Seventh gear","value":"7"},"70":{"description":"Park","value":"PARK"},"8":{"description":"Eighth gear","value":"8"},"9":{"description":"Ninth gear","value":"9"}} }, "name": "Current gear", "description": "The automatic transmission gear."}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F42F"}, "freq": 1,
   "signals": [
