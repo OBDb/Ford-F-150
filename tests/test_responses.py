@@ -1,12 +1,13 @@
-import pytest
+import glob
 import os
-import json
+import pytest
 from pathlib import Path
 from typing import Dict, Any
 
 # These will be imported from the schemas repository
-from schemas.python.signals_testing import obd_testrunner
 from schemas.python.can_frame import CANIDFormat
+from schemas.python.json_formatter import format_file
+from schemas.python.signals_testing import obd_testrunner
 
 REPO_ROOT = Path(__file__).parent.parent.absolute()
 
@@ -116,6 +117,26 @@ def test_signals(test_group: Dict[str, Any]):
                 f"(Model Year: {test_group['model_year']}, "
                 f"Signalset: {test_group['signalset']}): {e}"
             )
+
+def get_json_files():
+    """Get all JSON files from the signalsets/v3 directory."""
+    signalsets_path = os.path.join(REPO_ROOT, 'signalsets', 'v3')
+    json_files = glob.glob(os.path.join(signalsets_path, '*.json'))
+    # Convert full paths to relative filenames
+    return [os.path.basename(f) for f in json_files]
+
+@pytest.mark.parametrize("test_file", 
+    get_json_files(),
+    ids=lambda x: x.split('.')[0].replace('-', '_')  # Create readable test IDs
+)
+def test_formatting(test_file):
+    """Test signal set formatting for all vehicle models in signalsets/v3/."""
+    signalset_path = os.path.join(REPO_ROOT, 'signalsets', 'v3', test_file)
+    
+    formatted = format_file(signalset_path)
+    
+    with open(signalset_path) as f:
+        assert f.read() == formatted
 
 if __name__ == '__main__':
     pytest.main([__file__])
