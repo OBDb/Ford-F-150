@@ -18,4 +18,5 @@
     "postAttachCommand": "cd tests/schemas && git pull || git clone https://github.com/OBDb/.schemas.git tests/schemas",
 
     "remoteUser": "vscode"
+
 }
