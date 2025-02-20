@@ -6,7 +6,8 @@
         "vscode": {
             "extensions": [
                 "ms-python.python",
-                "ms-python.vscode-pylance"
+                "ms-python.vscode-pylance",
+                "GitHub.vscode-github-actions"
             ],
             "settings": {
                 "task.quickOpen.skip": false
@@ -18,5 +19,4 @@
     "postAttachCommand": "cd tests/schemas && git pull || git clone https://github.com/OBDb/.schemas.git tests/schemas",
 
     "remoteUser": "vscode"
-
 }
