@@ -1,17 +1,22 @@
 {
-	"name": "Python Development",
-	"image": "mcr.microsoft.com/devcontainers/python:3.10",
+    "name": "Python Development",
+    "image": "mcr.microsoft.com/devcontainers/python:3.10",
 
-	"customizations": {
-		"vscode": {
-			"extensions": [
-				"ms-python.python",
-				"ms-python.vscode-pylance"
-			]
-		}
-	},
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-python.vscode-pylance"
+            ],
+            "settings": {
+                "task.quickOpen.skip": false
+            }
+        }
+    },
 
-	"postCreateCommand": "git clone https://github.com/OBDb/.schemas.git tests/schemas && pip install pytest",
+    "postCreateCommand": "pip install pytest",
+    "postAttachCommand": "cd tests/schemas && git pull || git clone https://github.com/OBDb/.schemas.git tests/schemas",
 
-	"remoteUser": "vscode"
+    "remoteUser": "vscode"
+
 }
