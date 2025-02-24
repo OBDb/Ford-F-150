@@ -1,7 +1,11 @@
 {
-    "name": "Python Development",
-    "image": "mcr.microsoft.com/devcontainers/python:3.10",
-
+    "name": "Python and Node.js Development",
+    "image": "mcr.microsoft.com/devcontainers/python:3.13",
+    "features": {
+        "ghcr.io/devcontainers/features/node:1": {
+            "version": "lts"
+        }
+    },
     "customizations": {
         "vscode": {
             "extensions": [
@@ -14,9 +18,7 @@
             }
         }
     },
-
-    "postCreateCommand": "pip install pytest",
-    "postAttachCommand": "cd tests/schemas && git pull || git clone https://github.com/OBDb/.schemas.git tests/schemas",
-
+    "postCreateCommand": "pip install pytest && npm install -g @anthropic-ai/claude-code",
+    "postAttachCommand": "pushd tests/schemas && git pull && popd || git clone https://github.com/OBDb/.schemas.git tests/schemas",
     "remoteUser": "vscode"
 }
