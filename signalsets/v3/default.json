@@ -39,7 +39,7 @@
   "signals": [
     {"id": "F150_TOT", "path": "Engine", "fmt": { "len": 16, "max": 255, "div": 16, "unit": "celsius" }, "name": "Transmission oil temperature"}
   ]},
-{ "hdr": "7DF", "cmd": {"22": "1E23"}, "freq": 2,
+  { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1E23"}, "freq": 2,
   "signals": [
     {"id": "F150_GEAR_SHFT", "path": "Engine", "name": "Shift gear", "fmt": {"len": 8, "map": {
           "10": { "description": "Manual",  "value": "MANUAL" },
