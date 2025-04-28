@@ -1,0 +1,193 @@
+command_id: 7E0.010D
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: |-
+    7E804410C1180
+    7E803410D42
+    STOPPED
+  expected_values:
+    RPM: 1120
+    VSS: 66
+- response: |-
+    7E804410C1B04
+    7E803410D21
+    STOPPED
+  expected_values:
+    RPM: 1729
+    VSS: 33
+- response: |-
+    7E803410D00
+    STOPPED
+  expected_values:
+    VSS: 0
+- response: |-
+    7E803410D02
+    STOPPED
+  expected_values:
+    VSS: 2
+- response: |-
+    7E803410D22
+    STOPPED
+  expected_values:
+    VSS: 34
+- response: |-
+    7E803410D46
+    STOPPED
+  expected_values:
+    VSS: 70
+- response: |-
+    7E803410D47
+    STOPPED
+  expected_values:
+    VSS: 71
+- response: |-
+    7E803410D48
+    STOPPED
+  expected_values:
+    VSS: 72
+- response: |-
+    7E803410D49
+    STOPPED
+  expected_values:
+    VSS: 73
+- response: |-
+    7E804410C08D6
+    7E803410D00
+    STOPPED
+  expected_values:
+    RPM: 565.5
+    VSS: 0
+- response: |-
+    7E804410C0951
+    7E803412F39
+    7E803410D00
+    STOPPED
+  expected_values:
+    FLI: 22.35294
+    RPM: 596.25
+    VSS: 0
+- response: |-
+    7E804410C1581
+    7E803410D14
+    STOPPED
+  expected_values:
+    RPM: 1376.25
+    VSS: 20
+- response: |-
+    7E803410D00
+    STOPPED
+  expected_values:
+    VSS: 0
+- response: |-
+    7E803410D05
+    STOPPED
+  expected_values:
+    VSS: 5
+- response: |-
+    7E803410D08
+    STOPPED
+  expected_values:
+    VSS: 8
+- response: |-
+    7E803410D11
+    STOPPED
+  expected_values:
+    VSS: 17
+- response: |-
+    7E803410D19
+    STOPPED
+  expected_values:
+    VSS: 25
+- response: |-
+    7E803410D29
+    STOPPED
+  expected_values:
+    VSS: 41
+- response: |-
+    7E803410D2D
+    STOPPED
+  expected_values:
+    VSS: 45
+- response: |-
+    7E803410D3E
+    STOPPED
+  expected_values:
+    VSS: 62
+- response: |-
+    7E803410D43
+    STOPPED
+  expected_values:
+    VSS: 67
+- response: |-
+    7E803410D4D
+    STOPPED
+  expected_values:
+    VSS: 77
+- response: |-
+    7E8037F2413
+    7E803410D1D
+    STOPPED
+  expected_values:
+    VSS: 29
+- response: |-
+    7E8037F2F7F
+    7E803410D0C
+    STOPPED
+  expected_values:
+    VSS: 12
+- response: |-
+    7E8037F2F7F
+    7E803410D1F
+    STOPPED
+  expected_values:
+    VSS: 31
+- response: |-
+    7E803412F32
+    7E803410D0D
+    STOPPED
+  expected_values:
+    FLI: 19.60784
+    VSS: 13
+- response: |-
+    7E80441423741
+    7E803410D00
+    STOPPED
+  expected_values:
+    VPWR: 14.145
+    VSS: 0
+- response: |-
+    7E80462F42F00
+    7E8064100BF9FA893
+    7E804410C16E4
+    7E803410D00
+    7E804411002C3
+    7E803412F00
+    7E804410C165E
+    7E803410D00
+    7E804411002F9
+    7E804410C151A
+    7E8064100BF9FA893
+    7E804410C1321
+    7E803410D00
+    7E8044110035A
+    7E80441422F01
+    7E804410C1207
+    7E803410D00
+    7E8044110030D
+    7E80441448000
+    7E804410C1180
+    7E8064100BF9FA893
+    7E804410C10DD
+    7E803410D00
+    7E80441100346
+    7E803412F00
+    7E804410C10A3
+    7E803410D00
+  expected_values:
+    EQ_RAT: 1.00002
+    F150_FLI: 0
+    MAF: 8.38
+    RPM: 1064.75
+    VPWR: 12.033
+    VSS: 0
