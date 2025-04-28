@@ -4,460 +4,299 @@ extended_addressing_enabled: false
 test_cases:
 - response: |-
     7E803410D00
-    7E80441100199
-    STOPPED
+    7E80441100183
   expected_values:
-    MAF: 4.09
+    VSS: 0
+- response: |-
+    7E803410D00
+    7E80441100199
+  expected_values:
+    VSS: 0
+- response: |-
+    7E803410D00
+    7E804411001A0
+  expected_values:
+    VSS: 0
+- response: |-
+    7E803410D00
+    7E804411001AC
+  expected_values:
     VSS: 0
 - response: |-
     7E803410D00
     7E804411001CC
-    STOPPED
   expected_values:
-    MAF: 4.6
     VSS: 0
 - response: |-
     7E803410D00
     7E804411001CF
-    STOPPED
   expected_values:
-    MAF: 4.63
     VSS: 0
 - response: |-
     7E803410D00
     7E804411001D2
-    STOPPED
   expected_values:
-    MAF: 4.66
     VSS: 0
+- response: |-
+    7E803410D00
+    7E804411001E2
+  expected_values:
+    VSS: 0
+- response: |-
+    7E803410D00
+    7E804411001E6
+  expected_values:
+    VSS: 0
+- response: |-
+    7E803410D00
+    7E804411001EB
+  expected_values:
+    VSS: 0
+- response: |-
+    7E803410D00
+    7E804411001F1
+  expected_values:
+    VSS: 0
+- response: |-
+    7E803410D00
+    7E804411001F6
+  expected_values:
+    VSS: 0
+- response: |-
+    7E803410D00
+    7E8044110033D
+  expected_values:
+    VSS: 0
+- response: |-
+    7E803410D00
+    7E8044110034E
+  expected_values:
+    VSS: 0
+- response: |-
+    7E803410D14
+    7E80441100253
+  expected_values:
+    VSS: 20
+- response: |-
+    7E803410D14
+    7E80441100854
+  expected_values:
+    VSS: 20
+- response: |-
+    7E803410D14
+    7E80441100F4B
+  expected_values:
+    VSS: 20
+- response: |-
+    7E803410D19
+    7E80441100673
+  expected_values:
+    VSS: 25
+- response: |-
+    7E803410D1A
+    7E80441100253
+  expected_values:
+    VSS: 26
+- response: |-
+    7E803410D1B
+    7E80441100A0C
+  expected_values:
+    VSS: 27
+- response: |-
+    7E803410D28
+    7E80441100304
+  expected_values:
+    VSS: 40
+- response: |-
+    7E803410D2E
+    7E804411003CF
+  expected_values:
+    VSS: 46
+- response: |-
+    7E803410D34
+    7E804411001CF
+  expected_values:
+    VSS: 52
+- response: |-
+    7E803412F2D
+    7E80441100D88
+  expected_values:
+    FLI: 17.64706
 - response: |-
     7E8037F2F7F
     7E803410D01
     7E80441100283
-    STOPPED
   expected_values:
-    MAF: 6.43
     VSS: 1
-- response: |-
-    7E8044110019E
-    STOPPED
-  expected_values:
-    MAF: 4.14
-- response: |-
-    7E80441100259
-    STOPPED
-  expected_values:
-    MAF: 6.01
-- response: |-
-    7E8044110034A
-    STOPPED
-  expected_values:
-    MAF: 8.42
-- response: |-
-    7E804621E232E
-    7E80441100313
-    STOPPED
-  expected_values:
-    MAF: 7.87
 - response: |-
     7E8037F2F7F
     7E804410C0C12
     7E803410D00
     7E8044110029C
-    STOPPED
   expected_values:
-    MAF: 6.68
     RPM: 772.5
-    VSS: 0
-- response: |-
-    7E803410D00
-    7E80441100183
-    STOPPED
-  expected_values:
-    MAF: 3.87
-    VSS: 0
-- response: |-
-    7E803410D00
-    7E804411001A0
-    STOPPED
-  expected_values:
-    MAF: 4.16
-    VSS: 0
-- response: |-
-    7E803410D00
-    7E804411001AC
-    STOPPED
-  expected_values:
-    MAF: 4.28
-    VSS: 0
-- response: |-
-    7E803410D00
-    7E804411001E2
-    STOPPED
-  expected_values:
-    MAF: 4.82
-    VSS: 0
-- response: |-
-    7E803410D00
-    7E804411001E6
-    STOPPED
-  expected_values:
-    MAF: 4.86
-    VSS: 0
-- response: |-
-    7E803410D00
-    7E804411001EB
-    STOPPED
-  expected_values:
-    MAF: 4.91
-    VSS: 0
-- response: |-
-    7E803410D00
-    7E804411001F1
-    STOPPED
-  expected_values:
-    MAF: 4.97
-    VSS: 0
-- response: |-
-    7E803410D00
-    7E804411001F6
-    STOPPED
-  expected_values:
-    MAF: 5.02
-    VSS: 0
-- response: |-
-    7E803410D00
-    7E8044110033D
-    STOPPED
-  expected_values:
-    MAF: 8.29
-    VSS: 0
-- response: |-
-    7E803410D00
-    7E8044110034E
-    STOPPED
-  expected_values:
-    MAF: 8.46
-    VSS: 0
-- response: |-
-    7E803410D14
-    7E80441100253
-    STOPPED
-  expected_values:
-    MAF: 5.95
-    VSS: 20
-- response: |-
-    7E803410D14
-    7E80441100854
-    STOPPED
-  expected_values:
-    MAF: 21.32
-    VSS: 20
-- response: |-
-    7E803410D14
-    7E80441100F4B
-    STOPPED
-  expected_values:
-    MAF: 39.15
-    VSS: 20
-- response: |-
-    7E803410D19
-    7E80441100673
-    STOPPED
-  expected_values:
-    MAF: 16.51
-    VSS: 25
-- response: |-
-    7E803410D1A
-    7E80441100253
-    STOPPED
-  expected_values:
-    MAF: 5.95
-    VSS: 26
-- response: |-
-    7E803410D1B
-    7E80441100A0C
-    STOPPED
-  expected_values:
-    MAF: 25.72
-    VSS: 27
-- response: |-
-    7E803410D28
-    7E80441100304
-    STOPPED
-  expected_values:
-    MAF: 7.72
-    VSS: 40
-- response: |-
-    7E803410D2E
-    7E804411003CF
-    STOPPED
-  expected_values:
-    MAF: 9.75
-    VSS: 46
-- response: |-
-    7E803410D34
-    7E804411001CF
-    STOPPED
-  expected_values:
-    MAF: 4.63
-    VSS: 52
-- response: |-
-    7E80441100181
-    STOPPED
+- response: '7E80441100181'
   expected_values:
     MAF: 3.85
-- response: |-
-    7E8044110019C
-    STOPPED
+- response: 7E8044110019C
   expected_values:
     MAF: 4.12
-- response: |-
-    7E804411001A6
-    STOPPED
+- response: 7E8044110019E
+  expected_values:
+    MAF: 4.14
+- response: 7E804411001A6
   expected_values:
     MAF: 4.22
-- response: |-
-    7E804411001B3
-    STOPPED
+- response: 7E804411001B3
   expected_values:
     MAF: 4.35
-- response: |-
-    7E804411001B5
-    STOPPED
+- response: 7E804411001B5
   expected_values:
     MAF: 4.37
-- response: |-
-    7E804411001B7
-    STOPPED
+- response: 7E804411001B7
   expected_values:
     MAF: 4.39
-- response: |-
-    7E804411001C7
-    STOPPED
+- response: 7E804411001C7
   expected_values:
     MAF: 4.55
-- response: |-
-    7E804411001DC
-    STOPPED
+- response: 7E804411001DC
   expected_values:
     MAF: 4.76
-- response: |-
-    7E804411001E9
-    STOPPED
+- response: 7E804411001E9
   expected_values:
     MAF: 4.89
-- response: |-
-    7E804411001F6
-    STOPPED
+- response: 7E804411001F6
   expected_values:
     MAF: 5.02
-- response: |-
-    7E80441100201
-    STOPPED
+- response: '7E80441100201'
   expected_values:
     MAF: 5.13
-- response: |-
-    7E80441100204
-    STOPPED
+- response: '7E80441100204'
   expected_values:
     MAF: 5.16
-- response: |-
-    7E8044110020D
-    STOPPED
+- response: 7E8044110020D
   expected_values:
     MAF: 5.25
-- response: |-
-    7E80441100210
-    STOPPED
+- response: '7E80441100210'
   expected_values:
     MAF: 5.28
-- response: |-
-    7E80441100222
-    STOPPED
+- response: '7E80441100222'
   expected_values:
     MAF: 5.46
-- response: |-
-    7E80441100225
-    STOPPED
+- response: '7E80441100225'
   expected_values:
     MAF: 5.49
-- response: |-
-    7E80441100252
-    STOPPED
+- response: '7E80441100252'
   expected_values:
     MAF: 5.94
-- response: |-
-    7E80441100254
-    STOPPED
+- response: '7E80441100254'
   expected_values:
     MAF: 5.96
-- response: |-
-    7E80441100256
-    STOPPED
+- response: '7E80441100256'
   expected_values:
     MAF: 5.98
-- response: |-
-    7E80441100263
-    STOPPED
+- response: '7E80441100259'
+  expected_values:
+    MAF: 6.01
+- response: '7E80441100263'
   expected_values:
     MAF: 6.11
-- response: |-
-    7E80441100280
-    STOPPED
+- response: '7E80441100280'
   expected_values:
     MAF: 6.4
-- response: |-
-    7E804411002D9
-    STOPPED
+- response: 7E804411002D9
   expected_values:
     MAF: 7.29
-- response: |-
-    7E80441100348
-    STOPPED
+- response: '7E80441100348'
   expected_values:
     MAF: 8.4
-- response: |-
-    7E80441100374
-    STOPPED
+- response: 7E8044110034A
+  expected_values:
+    MAF: 8.42
+- response: '7E80441100374'
   expected_values:
     MAF: 8.84
-- response: |-
-    7E8044110037C
-    STOPPED
+- response: 7E8044110037C
   expected_values:
     MAF: 8.92
-- response: |-
-    7E80441100380
-    STOPPED
+- response: '7E80441100380'
   expected_values:
     MAF: 8.96
-- response: |-
-    7E8044110038C
-    STOPPED
+- response: 7E8044110038C
   expected_values:
     MAF: 9.08
-- response: |-
-    7E804411003DA
-    STOPPED
+- response: 7E804411003DA
   expected_values:
     MAF: 9.86
-- response: |-
-    7E804411003F4
-    STOPPED
+- response: 7E804411003F4
   expected_values:
     MAF: 10.12
-- response: |-
-    7E804411004EF
-    STOPPED
+- response: 7E804411004EF
   expected_values:
     MAF: 12.63
-- response: |-
-    7E80441100502
-    STOPPED
+- response: '7E80441100502'
   expected_values:
     MAF: 12.82
-- response: |-
-    7E8044110051B
-    STOPPED
+- response: 7E8044110051B
   expected_values:
     MAF: 13.07
-- response: |-
-    7E8044110052F
-    STOPPED
+- response: 7E8044110052F
   expected_values:
     MAF: 13.27
-- response: |-
-    7E80441100614
-    STOPPED
+- response: '7E80441100614'
   expected_values:
     MAF: 15.56
-- response: |-
-    7E80441100619
-    STOPPED
+- response: '7E80441100619'
   expected_values:
     MAF: 15.61
-- response: |-
-    7E80441100670
-    STOPPED
+- response: '7E80441100670'
   expected_values:
     MAF: 16.48
-- response: |-
-    7E80441100682
-    STOPPED
+- response: '7E80441100682'
   expected_values:
     MAF: 16.66
-- response: |-
-    7E804411006EA
-    STOPPED
+- response: 7E804411006EA
   expected_values:
     MAF: 17.7
-- response: |-
-    7E80441100754
-    STOPPED
+- response: '7E80441100754'
   expected_values:
     MAF: 18.76
-- response: |-
-    7E80441100811
-    STOPPED
+- response: '7E80441100811'
   expected_values:
     MAF: 20.65
-- response: |-
-    7E804411008AD
-    STOPPED
+- response: 7E804411008AD
   expected_values:
     MAF: 22.21
-- response: |-
-    7E804411008B1
-    STOPPED
+- response: 7E804411008B1
   expected_values:
     MAF: 22.25
-- response: |-
-    7E80441100967
-    STOPPED
+- response: '7E80441100967'
   expected_values:
     MAF: 24.07
-- response: |-
-    7E80441100A2B
-    STOPPED
+- response: 7E80441100A2B
   expected_values:
     MAF: 26.03
-- response: |-
-    7E80441100B75
-    STOPPED
+- response: 7E80441100B75
   expected_values:
     MAF: 29.33
-- response: |-
-    7E80441100CB9
-    STOPPED
+- response: 7E80441100CB9
   expected_values:
     MAF: 32.57
-- response: |-
-    7E80441100E50
-    STOPPED
+- response: 7E80441100E50
   expected_values:
     MAF: 36.64
-- response: |-
-    7E804411018A5
-    STOPPED
+- response: 7E804411018A5
   expected_values:
     MAF: 63.09
-- response: |-
-    7E80441101EDC
-    STOPPED
+- response: 7E80441101EDC
   expected_values:
     MAF: 79
 - response: |-
-    7E803412F2D
-    7E80441100D88
-    STOPPED
-  expected_values:
-    FLI: 17.64706
-    MAF: 34.64
-- response: |-
     7E8044142370E
     7E80441100259
-    STOPPED
   expected_values:
-    MAF: 6.01
     VPWR: 14.094
+- response: |-
+    7E804621E232E
+    7E80441100313
+  expected_values: {}

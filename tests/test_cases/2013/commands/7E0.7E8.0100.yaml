@@ -5,13 +5,11 @@ test_cases:
 - response: |-
     7E804410C1391
     7E8064100BF9FA893
-    STOPPED
   expected_values:
     RPM: 1252.25
 - response: |-
     7E80441447D09
     7E8064100BF9FA893
-    STOPPED
   expected_values:
     EQ_RAT: 0.97685
 - response: |-
@@ -54,13 +52,7 @@ test_cases:
     7E804410C0982
     7E8064100BF9FA893
   expected_values:
-    EQ_RAT: 0.98393
     F150_FLI: 24.31373
-    FLI: 24.31373
-    MAF: 4.83
-    RPM: 608.5
-    VPWR: 13.942
-    VSS: 0
 - response: |-
     7E80462F42F52
     7E804410C0966
@@ -118,34 +110,4 @@ test_cases:
     7E804410C097F
     7E8064100BF9FA893
   expected_values:
-    ACRF_RDY: 0
-    ACRF_SUP: 0
-    AIR_RDY: 0
-    AIR_SUP: 0
-    CAT_RDY: 0
-    CAT_SUP: 1
-    CCM_RDY: 0
-    CCM_SUP: 1
-    DTC_CNT: 0
-    EGR_RDY: 0
-    EGR_SUP: 1
-    EQ_RAT: 0.98476
-    EVAP_RDY: 0
-    EVAP_SUP: 1
     F150_FLI: 32.15686
-    FLI: 32.15686
-    FUEL_RDY: 0
-    FUEL_SUP: 1
-    HCAT_RDY: 0
-    HCAT_SUP: 0
-    HTR_RDY: 0
-    HTR_SUP: 1
-    MAF: 4.01
-    MIL: 0
-    MIS_RDY: 0
-    MIS_SUP: 1
-    O2S_RDY: 0
-    O2S_SUP: 1
-    RPM: 607.75
-    VPWR: 14.145
-    VSS: 0

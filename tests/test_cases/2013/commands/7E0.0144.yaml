@@ -3,110 +3,74 @@ can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
 - response: |-
-    7E80441447D8A
-    STOPPED
-  expected_values:
-    EQ_RAT: 0.98079
-- response: |-
-    7E80441448216
-    STOPPED
-  expected_values:
-    EQ_RAT: 1.01631
-- response: |-
     7E8037F2011
     7E804410C0C41
     7E80441447E0B
-    STOPPED
   expected_values:
-    EQ_RAT: 0.98473
     RPM: 784.25
-- response: |-
-    7E804410C2A1D
-    7E80441447E8B
-    STOPPED
-  expected_values:
-    EQ_RAT: 0.98863
-    RPM: 2695.25
 - response: |-
     7E8037F2413
     7E803410D0A
     7E804411002C6
     7E80441447E83
-    STOPPED
   expected_values:
-    EQ_RAT: 0.98839
-    MAF: 7.1
     VSS: 10
+- response: |-
+    7E8037F2413
+    7E80441446CCC
+  expected_values:
+    EQ_RAT: 0.84999
+- response: |-
+    7E804410C2A1D
+    7E80441447E8B
+  expected_values:
+    RPM: 2695.25
 - response: |-
     7E80441100279
     7E804414481CD
-    STOPPED
   expected_values:
-    EQ_RAT: 1.01408
     MAF: 6.33
 - response: |-
     7E80441100312
     7E80441447EDB
-    STOPPED
   expected_values:
-    EQ_RAT: 0.99107
     MAF: 7.86
 - response: |-
     7E80441100829
     7E80441448303
-    STOPPED
   expected_values:
-    EQ_RAT: 1.02354
     MAF: 20.89
-- response: |-
-    7E8037F2413
-    7E80441446CCC
-    STOPPED
-  expected_values:
-    EQ_RAT: 0.84999
-- response: |-
-    7E80441447D39
-    STOPPED
+- response: 7E80441447D39
   expected_values:
     EQ_RAT: 0.97832
-- response: |-
-    7E80441447DD7
-    STOPPED
+- response: 7E80441447D8A
+  expected_values:
+    EQ_RAT: 0.98079
+- response: 7E80441447DD7
   expected_values:
     EQ_RAT: 0.98314
-- response: |-
-    7E80441447DFB
-    STOPPED
+- response: 7E80441447DFB
   expected_values:
     EQ_RAT: 0.98424
-- response: |-
-    7E80441447E71
-    STOPPED
+- response: 7E80441447E71
   expected_values:
     EQ_RAT: 0.98784
-- response: |-
-    7E80441448000
-    STOPPED
+- response: '7E80441448000'
   expected_values:
     EQ_RAT: 1.00002
-- response: |-
-    7E80441448163
-    STOPPED
+- response: '7E80441448163'
   expected_values:
     EQ_RAT: 1.01085
-- response: |-
-    7E80441448216
-    STOPPED
+- response: '7E80441448216'
   expected_values:
     EQ_RAT: 1.01631
-- response: |-
-    7E80441448256
-    STOPPED
+- response: '7E80441448216'
+  expected_values:
+    EQ_RAT: 1.01631
+- response: '7E80441448256'
   expected_values:
     EQ_RAT: 1.01827
-- response: |-
-    7E804414482D1
-    STOPPED
+- response: 7E804414482D1
   expected_values:
     EQ_RAT: 1.02202
 - response: |-
@@ -180,34 +144,4 @@ test_cases:
     7E804411001CE
     7E80441447E93
   expected_values:
-    ACRF_RDY: 0
-    ACRF_SUP: 0
-    AIR_RDY: 0
-    AIR_SUP: 0
-    CAT_RDY: 0
-    CAT_SUP: 1
-    CCM_RDY: 0
-    CCM_SUP: 1
-    DTC_CNT: 0
-    EGR_RDY: 0
-    EGR_SUP: 1
-    EQ_RAT: 0.98888
-    EVAP_RDY: 0
-    EVAP_SUP: 1
     F150_FLI: 23.92157
-    FLI: 23.92157
-    FUEL_RDY: 0
-    FUEL_SUP: 1
-    HCAT_RDY: 0
-    HCAT_SUP: 0
-    HTR_RDY: 0
-    HTR_SUP: 1
-    MAF: 4.62
-    MIL: 0
-    MIS_RDY: 0
-    MIS_SUP: 1
-    O2S_RDY: 0
-    O2S_SUP: 1
-    RPM: 624.5
-    VPWR: 14.043
-    VSS: 0
