@@ -61,5 +61,21 @@ supported_commands_by_ecu:
   - 014D:MIL_TIME
   - 014E:CLR_TIME
 unsupported_commands_by_ecu:
+  764:
+  - 764.22DD01
   7DF:
+  - 7DF.220519
+  - 7DF.221310
+  - 7DF.221E12
+  - 7DF.221E1C
+  - 7DF.221E23
+  - 7DF.22402A
+  - 7DF.22F42F
+  - 7DF.22F45C
   - 7DF.7E8.0100
+  7E0:
+  - 7E0.220519
+  - 7E0.221310
+  - 7E0.22402A
+  - 7E0.22F45C
+  - 7E0.7E8.22F42F
