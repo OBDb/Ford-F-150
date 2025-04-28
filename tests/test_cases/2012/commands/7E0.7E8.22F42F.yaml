@@ -56,9 +56,6 @@ test_cases:
 - response: 7E80462F42F67
   expected_values:
     F150_FLI: 40.39216
-- response: 7E80462F42F67
-  expected_values:
-    F150_FLI: 40.39216
 - response: 7E80462F42F68
   expected_values:
     F150_FLI: 40.78431
@@ -77,15 +74,9 @@ test_cases:
 - response: 7E80462F42F70
   expected_values:
     F150_FLI: 43.92157
-- response: 7E80462F42F70
-  expected_values:
-    F150_FLI: 43.92157
 - response: 7E80462F42F72
   expected_values:
     F150_FLI: 44.70588
-- response: 7E80462F42F74
-  expected_values:
-    F150_FLI: 45.4902
 - response: 7E80462F42F74
   expected_values:
     F150_FLI: 45.4902
@@ -110,18 +101,12 @@ test_cases:
 - response: 7E80462F42F87
   expected_values:
     F150_FLI: 52.94118
-- response: 7E80462F42F87
-  expected_values:
-    F150_FLI: 52.94118
 - response: 7E80462F42F88
   expected_values:
     F150_FLI: 53.33333
 - response: 7E80462F42F89
   expected_values:
     F150_FLI: 53.72549
-- response: 7E80462F42F8A
-  expected_values:
-    F150_FLI: 54.11765
 - response: 7E80462F42F8A
   expected_values:
     F150_FLI: 54.11765
@@ -137,9 +122,6 @@ test_cases:
 - response: 7E80462F42F8F
   expected_values:
     F150_FLI: 56.07843
-- response: 7E80462F42F90
-  expected_values:
-    F150_FLI: 56.47059
 - response: 7E80462F42F90
   expected_values:
     F150_FLI: 56.47059
@@ -242,15 +224,9 @@ test_cases:
 - response: 7E80462F42FB1
   expected_values:
     F150_FLI: 69.41176
-- response: 7E80462F42FB1
-  expected_values:
-    F150_FLI: 69.41176
 - response: 7E80462F42FB2
   expected_values:
     F150_FLI: 69.80392
-- response: 7E80462F42FB3
-  expected_values:
-    F150_FLI: 70.19608
 - response: 7E80462F42FB3
   expected_values:
     F150_FLI: 70.19608
@@ -263,9 +239,6 @@ test_cases:
 - response: 7E80462F42FB6
   expected_values:
     F150_FLI: 71.37255
-- response: 7E80462F42FB7
-  expected_values:
-    F150_FLI: 71.76471
 - response: 7E80462F42FB7
   expected_values:
     F150_FLI: 71.76471
