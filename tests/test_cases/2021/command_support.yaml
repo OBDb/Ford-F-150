@@ -81,8 +81,19 @@ supported_commands_by_ecu:
   - 0142:VPWR
   - 0149:APP_D
 unsupported_commands_by_ecu:
+  760:
+  - 760.768.223201
   764:
-  - 764.76C.22DD01
+  - 764.22DD01
   7DF:
-  - 7DF.7E8.221E12
-  - 7DF.7E8.221E23
+  - 7DF.220519
+  - 7DF.221310
+  - 7DF.221E12
+  - 7DF.221E23
+  - 7DF.22402A
+  - 7DF.22F45C
+  7E0:
+  - 7E0.220519
+  - 7E0.221310
+  - 7E0.22402A
+  - 7E0.22F45C

@@ -83,4 +83,9 @@ supported_commands_by_ecu:
   - 0149:APP_D
 unsupported_commands_by_ecu:
   764:
-  - 764.76C.22DD01
+  - 764.22DD01
+  7E0:
+  - 7E0.220519
+  - 7E0.221310
+  - 7E0.22402A
+  - 7E0.22F45C

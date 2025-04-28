@@ -43,3 +43,11 @@ supported_commands_by_ecu:
   - 014A:APP_E
   - 014C:TAC_PCT
   - 0152:ALCH_PCT
+unsupported_commands_by_ecu:
+  764:
+  - 764.22DD01
+  7E0:
+  - 7E0.220519
+  - 7E0.221310
+  - 7E0.22402A
+  - 7E0.22F45C
