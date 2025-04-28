@@ -3,161 +3,28 @@ can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
 - response: |-
-    7E80441423741
-    STOPPED
-  expected_values:
-    VPWR: 14.145
-- response: |-
-    7E80641010007E500
-    7E80441423610
-    STOPPED
-  expected_values:
-    ACRF_RDY: 0
-    ACRF_SUP: 0
-    AIR_RDY: 0
-    AIR_SUP: 0
-    CAT_RDY: 0
-    CAT_SUP: 1
-    CCM_RDY: 0
-    CCM_SUP: 1
-    DTC_CNT: 0
-    EGR_RDY: 0
-    EGR_SUP: 1
-    EVAP_RDY: 0
-    EVAP_SUP: 1
-    FUEL_RDY: 0
-    FUEL_SUP: 1
-    HCAT_RDY: 0
-    HCAT_SUP: 0
-    HTR_RDY: 0
-    HTR_SUP: 1
-    MIL: 0
-    MIS_RDY: 0
-    MIS_SUP: 1
-    O2S_RDY: 0
-    O2S_SUP: 1
-    VPWR: 13.84
-- response: |-
-    7E80641010007E500
-    7E80441423629
-    STOPPED
-  expected_values:
-    ACRF_RDY: 0
-    ACRF_SUP: 0
-    AIR_RDY: 0
-    AIR_SUP: 0
-    CAT_RDY: 0
-    CAT_SUP: 1
-    CCM_RDY: 0
-    CCM_SUP: 1
-    DTC_CNT: 0
-    EGR_RDY: 0
-    EGR_SUP: 1
-    EVAP_RDY: 0
-    EVAP_SUP: 1
-    FUEL_RDY: 0
-    FUEL_SUP: 1
-    HCAT_RDY: 0
-    HCAT_SUP: 0
-    HTR_RDY: 0
-    HTR_SUP: 1
-    MIL: 0
-    MIS_RDY: 0
-    MIS_SUP: 1
-    O2S_RDY: 0
-    O2S_SUP: 1
-    VPWR: 13.865
-- response: |-
-    7E80641010007E500
-    7E804414236A9
-    STOPPED
-  expected_values:
-    ACRF_RDY: 0
-    ACRF_SUP: 0
-    AIR_RDY: 0
-    AIR_SUP: 0
-    CAT_RDY: 0
-    CAT_SUP: 1
-    CCM_RDY: 0
-    CCM_SUP: 1
-    DTC_CNT: 0
-    EGR_RDY: 0
-    EGR_SUP: 1
-    EVAP_RDY: 0
-    EVAP_SUP: 1
-    FUEL_RDY: 0
-    FUEL_SUP: 1
-    HCAT_RDY: 0
-    HCAT_SUP: 0
-    HTR_RDY: 0
-    HTR_SUP: 1
-    MIL: 0
-    MIS_RDY: 0
-    MIS_SUP: 1
-    O2S_RDY: 0
-    O2S_SUP: 1
-    VPWR: 13.993
-- response: |-
-    7E80641010007E500
-    7E804414236C2
-    STOPPED
-  expected_values:
-    ACRF_RDY: 0
-    ACRF_SUP: 0
-    AIR_RDY: 0
-    AIR_SUP: 0
-    CAT_RDY: 0
-    CAT_SUP: 1
-    CCM_RDY: 0
-    CCM_SUP: 1
-    DTC_CNT: 0
-    EGR_RDY: 0
-    EGR_SUP: 1
-    EVAP_RDY: 0
-    EVAP_SUP: 1
-    FUEL_RDY: 0
-    FUEL_SUP: 1
-    HCAT_RDY: 0
-    HCAT_SUP: 0
-    HTR_RDY: 0
-    HTR_SUP: 1
-    MIL: 0
-    MIS_RDY: 0
-    MIS_SUP: 1
-    O2S_RDY: 0
-    O2S_SUP: 1
-    VPWR: 14.018
-- response: |-
     7E803410D3B
     7E8044110027C
     7E804414236DB
-    STOPPED
   expected_values:
-    MAF: 6.36
-    VPWR: 14.043
     VSS: 59
 - response: |-
     7E80441100262
     7E8044142365C
-    STOPPED
   expected_values:
     MAF: 6.1
-    VPWR: 13.916
-- response: |-
-    7E804414236A9
-    STOPPED
+- response: 7E804414236A9
   expected_values:
     VPWR: 13.993
-- response: |-
-    7E804414236DB
-    STOPPED
+- response: 7E804414236DB
   expected_values:
     VPWR: 14.043
-- response: |-
-    7E8044142370E
-    STOPPED
+- response: 7E8044142370E
   expected_values:
     VPWR: 14.094
+- response: '7E80441423741'
+  expected_values:
+    VPWR: 14.145
 - response: |-
     7E80462F42F31
     7E803412F31
@@ -168,6 +35,11 @@ test_cases:
     7E80641010007E500
     7E80441423643
   expected_values:
+    F150_FLI: 19.21569
+- response: |-
+    7E80641010007E500
+    7E80441423610
+  expected_values:
     ACRF_RDY: 0
     ACRF_SUP: 0
     AIR_RDY: 0
@@ -181,20 +53,98 @@ test_cases:
     EGR_SUP: 1
     EVAP_RDY: 0
     EVAP_SUP: 1
-    F150_FLI: 19.21569
-    FLI: 19.21569
     FUEL_RDY: 0
     FUEL_SUP: 1
     HCAT_RDY: 0
     HCAT_SUP: 0
     HTR_RDY: 0
     HTR_SUP: 1
-    MAF: 4.36
     MIL: 0
     MIS_RDY: 0
     MIS_SUP: 1
     O2S_RDY: 0
     O2S_SUP: 1
-    RPM: 611
-    VPWR: 13.891
-    VSS: 0
+- response: |-
+    7E80641010007E500
+    7E80441423629
+  expected_values:
+    ACRF_RDY: 0
+    ACRF_SUP: 0
+    AIR_RDY: 0
+    AIR_SUP: 0
+    CAT_RDY: 0
+    CAT_SUP: 1
+    CCM_RDY: 0
+    CCM_SUP: 1
+    DTC_CNT: 0
+    EGR_RDY: 0
+    EGR_SUP: 1
+    EVAP_RDY: 0
+    EVAP_SUP: 1
+    FUEL_RDY: 0
+    FUEL_SUP: 1
+    HCAT_RDY: 0
+    HCAT_SUP: 0
+    HTR_RDY: 0
+    HTR_SUP: 1
+    MIL: 0
+    MIS_RDY: 0
+    MIS_SUP: 1
+    O2S_RDY: 0
+    O2S_SUP: 1
+- response: |-
+    7E80641010007E500
+    7E804414236A9
+  expected_values:
+    ACRF_RDY: 0
+    ACRF_SUP: 0
+    AIR_RDY: 0
+    AIR_SUP: 0
+    CAT_RDY: 0
+    CAT_SUP: 1
+    CCM_RDY: 0
+    CCM_SUP: 1
+    DTC_CNT: 0
+    EGR_RDY: 0
+    EGR_SUP: 1
+    EVAP_RDY: 0
+    EVAP_SUP: 1
+    FUEL_RDY: 0
+    FUEL_SUP: 1
+    HCAT_RDY: 0
+    HCAT_SUP: 0
+    HTR_RDY: 0
+    HTR_SUP: 1
+    MIL: 0
+    MIS_RDY: 0
+    MIS_SUP: 1
+    O2S_RDY: 0
+    O2S_SUP: 1
+- response: |-
+    7E80641010007E500
+    7E804414236C2
+  expected_values:
+    ACRF_RDY: 0
+    ACRF_SUP: 0
+    AIR_RDY: 0
+    AIR_SUP: 0
+    CAT_RDY: 0
+    CAT_SUP: 1
+    CCM_RDY: 0
+    CCM_SUP: 1
+    DTC_CNT: 0
+    EGR_RDY: 0
+    EGR_SUP: 1
+    EVAP_RDY: 0
+    EVAP_SUP: 1
+    FUEL_RDY: 0
+    FUEL_SUP: 1
+    HCAT_RDY: 0
+    HCAT_SUP: 0
+    HTR_RDY: 0
+    HTR_SUP: 1
+    MIL: 0
+    MIS_RDY: 0
+    MIS_SUP: 1
+    O2S_RDY: 0
+    O2S_SUP: 1

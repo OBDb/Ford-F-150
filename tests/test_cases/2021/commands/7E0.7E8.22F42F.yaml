@@ -2,45 +2,6 @@ command_id: 7E0.7E8.22F42F
 can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
-- response: 7E80462F42F14
-  expected_values:
-    F150_FLI: 7.84314
-- response: 7E80462F42F1C
-  expected_values:
-    F150_FLI: 10.98039
-- response: 7E80462F42F3F
-  expected_values:
-    F150_FLI: 24.70588
-- response: 7E80462F42F4C
-  expected_values:
-    F150_FLI: 29.80392
-- response: 7E80462F42F52
-  expected_values:
-    F150_FLI: 32.15686
-- response: 7E80462F42F53
-  expected_values:
-    F150_FLI: 32.54902
-- response: 7E80462F42F58
-  expected_values:
-    F150_FLI: 34.5098
-- response: 7E80462F42F5F
-  expected_values:
-    F150_FLI: 37.2549
-- response: 7E80462F42F65
-  expected_values:
-    F150_FLI: 39.60784
-- response: 7E80462F42F66
-  expected_values:
-    F150_FLI: 40
-- response: 7E80462F42F6D
-  expected_values:
-    F150_FLI: 42.7451
-- response: 7E80462F42F74
-  expected_values:
-    F150_FLI: 45.4902
-- response: 7E80462F42F82
-  expected_values:
-    F150_FLI: 50.98039
 - response: 7E80462F42F00
   expected_values:
     F150_FLI: 0
@@ -56,12 +17,18 @@ test_cases:
 - response: 7E80462F42F13
   expected_values:
     F150_FLI: 7.45098
+- response: 7E80462F42F14
+  expected_values:
+    F150_FLI: 7.84314
 - response: 7E80462F42F18
   expected_values:
     F150_FLI: 9.41176
 - response: 7E80462F42F1B
   expected_values:
     F150_FLI: 10.58824
+- response: 7E80462F42F1C
+  expected_values:
+    F150_FLI: 10.98039
 - response: 7E80462F42F1C
   expected_values:
     F150_FLI: 10.98039
@@ -119,6 +86,9 @@ test_cases:
 - response: 7E80462F42F3F
   expected_values:
     F150_FLI: 24.70588
+- response: 7E80462F42F3F
+  expected_values:
+    F150_FLI: 24.70588
 - response: 7E80462F42F41
   expected_values:
     F150_FLI: 25.4902
@@ -137,15 +107,27 @@ test_cases:
 - response: 7E80462F42F4C
   expected_values:
     F150_FLI: 29.80392
+- response: 7E80462F42F4C
+  expected_values:
+    F150_FLI: 29.80392
 - response: 7E80462F42F51
   expected_values:
     F150_FLI: 31.76471
 - response: 7E80462F42F52
   expected_values:
     F150_FLI: 32.15686
+- response: 7E80462F42F52
+  expected_values:
+    F150_FLI: 32.15686
+- response: 7E80462F42F53
+  expected_values:
+    F150_FLI: 32.54902
 - response: 7E80462F42F57
   expected_values:
     F150_FLI: 34.11765
+- response: 7E80462F42F58
+  expected_values:
+    F150_FLI: 34.5098
 - response: 7E80462F42F58
   expected_values:
     F150_FLI: 34.5098
@@ -161,12 +143,30 @@ test_cases:
 - response: 7E80462F42F5F
   expected_values:
     F150_FLI: 37.2549
+- response: 7E80462F42F5F
+  expected_values:
+    F150_FLI: 37.2549
 - response: 7E80462F42F65
   expected_values:
     F150_FLI: 39.60784
+- response: 7E80462F42F65
+  expected_values:
+    F150_FLI: 39.60784
+- response: 7E80462F42F66
+  expected_values:
+    F150_FLI: 40
 - response: 7E80462F42F6D
   expected_values:
     F150_FLI: 42.7451
+- response: 7E80462F42F6D
+  expected_values:
+    F150_FLI: 42.7451
+- response: 7E80462F42F74
+  expected_values:
+    F150_FLI: 45.4902
+- response: 7E80462F42F82
+  expected_values:
+    F150_FLI: 50.98039
 - response: 7E80462F42FD2
   expected_values:
     F150_FLI: 82.35294

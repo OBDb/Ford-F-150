@@ -3,103 +3,70 @@ can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
 - response: |-
+    7E803410D00
+    7E804411001FC
+    7E803412F3B
+  expected_values:
+    VSS: 0
+- response: 7E803412F2D
+  expected_values:
+    FLI: 17.64706
+- response: 7E803412F31
+  expected_values:
+    FLI: 19.21569
+- response: 7E803412F33
+  expected_values:
+    FLI: 20
+- response: 7E803412F34
+  expected_values:
+    FLI: 20.39216
+- response: 7E803412F4C
+  expected_values:
+    FLI: 29.80392
+- response: 7E803412F54
+  expected_values:
+    FLI: 32.94118
+- response: 7E803412F60
+  expected_values:
+    FLI: 37.64706
+- response: |-
     7E804410C1AFE
     7E803412F5A
   expected_values:
-    FLI: 35.29412
     RPM: 1727.5
 - response: |-
     7E8044110019A
     7E803412F51
-    STOPPED
   expected_values:
-    FLI: 31.76471
     MAF: 4.1
-- response: |-
-    7E804411002B6
-    7E803412F52
-    STOPPED
-  expected_values:
-    FLI: 32.15686
-    MAF: 6.94
-- response: |-
-    7E803412F54
-    STOPPED
-  expected_values:
-    FLI: 32.94118
-- response: |-
-    7E803410D00
-    7E804411001FC
-    7E803412F3B
-    STOPPED
-  expected_values:
-    FLI: 23.13725
-    MAF: 5.08
-    VSS: 0
 - response: |-
     7E80441100210
     7E803412F4E
-    STOPPED
   expected_values:
-    FLI: 30.58824
     MAF: 5.28
 - response: |-
     7E8044110029A
     7E803412F41
-    STOPPED
   expected_values:
-    FLI: 25.4902
     MAF: 6.66
+- response: |-
+    7E804411002B6
+    7E803412F52
+  expected_values:
+    MAF: 6.94
 - response: |-
     7E80441100314
     7E804410C0BF5
     7E803412F42
-    STOPPED
   expected_values:
-    FLI: 25.88235
     MAF: 7.88
-    RPM: 765.25
 - response: |-
     7E804411006E1
     7E803412F4C
-    STOPPED
   expected_values:
-    FLI: 29.80392
     MAF: 17.61
-- response: |-
-    7E803412F2D
-    STOPPED
-  expected_values:
-    FLI: 17.64706
-- response: |-
-    7E803412F31
-    STOPPED
-  expected_values:
-    FLI: 19.21569
-- response: |-
-    7E803412F33
-    STOPPED
-  expected_values:
-    FLI: 20
-- response: |-
-    7E803412F34
-    STOPPED
-  expected_values:
-    FLI: 20.39216
-- response: |-
-    7E803412F4C
-    STOPPED
-  expected_values:
-    FLI: 29.80392
-- response: |-
-    7E803412F60
-    STOPPED
-  expected_values:
-    FLI: 37.64706
 - response: |-
     7E80441447D43
     7E803412F4D
-    STOPPED
   expected_values:
     EQ_RAT: 0.97862
-    FLI: 30.19608
