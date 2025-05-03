@@ -1,0 +1,30 @@
+generations:
+  - name: "Ninth Generation"
+    start_year: 1992
+    end_year: 1996
+    description: "The ninth-generation F-150 featured more aerodynamic styling while maintaining its traditional truck capabilities. Available in Regular Cab and SuperCab configurations with various bed lengths, it continued Ford's dominance in the full-size pickup segment. Engine options included a 4.9L inline-six, 5.0L V8, and 5.8L V8, paired with manual or automatic transmissions. This generation introduced more comfort and convenience features as trucks began transitioning from purely work vehicles to daily transportation. The interior offered improved ergonomics and available amenities like power windows and locks, while maintaining a functional, durable design. In 1993, the SVT Lightning was introduced as a high-performance street truck variant."
+
+  - name: "Tenth Generation"
+    start_year: 1997
+    end_year: 2003
+    description: "The tenth-generation F-150 represented a major redesign with a more rounded, aerodynamic styling that proved somewhat controversial with traditional truck buyers. This generation introduced the SuperCrew four-door cab configuration, offering true sedan-like rear doors and passenger space. Engine options evolved to include modular overhead cam designs, with the 4.6L and 5.4L Triton V8s replacing older pushrod engines. The interior was significantly more car-like with improved materials and design. This generation enhanced the F-150's appeal as both a work vehicle and family transportation, though some critics felt it sacrificed some ruggedness in favor of style."
+
+  - name: "Eleventh Generation"
+    start_year: 2004
+    end_year: 2008
+    description: "The eleventh-generation F-150, internally designated P2, returned to a more traditional truck appearance while maintaining modern engineering. The fully boxed frame provided improved rigidity, towing capacity, and payload ratings. Available in Regular Cab, SuperCab, and SuperCrew configurations, it offered various bed lengths and trim levels from basic work truck to the luxury King Ranch. Engine options included 4.2L V6, 4.6L V8, and 5.4L V8 powerplants. The interior offered significantly improved quality and design with materials and features approaching those of luxury vehicles in higher trims. This generation reasserted the F-150's position as the benchmark full-size pickup, balancing capability, comfort, and styling."
+
+  - name: "Twelfth Generation"
+    start_year: 2009
+    end_year: 2014
+    description: "The twelfth-generation F-150 featured evolutionary styling updates while introducing significant engineering innovations. Most notably, this generation received the efficient and powerful EcoBoost V6 engines, marking a shift away from the traditional V8-dominated truck market. The 3.5L EcoBoost V6 offered V8-like performance with improved fuel economy. Additional engine options included a base 3.7L V6, 5.0L V8, and 6.2L V8. The interior continued to advance in quality and features, with the introduction of SYNC technology and advanced driver information displays. Special models included the off-road Raptor, luxury Platinum, and western-themed King Ranch. This generation successfully transitioned the F-150 into the modern era of technology and efficiency while maintaining traditional truck capabilities."
+
+  - name: "Thirteenth Generation"
+    start_year: 2015
+    end_year: 2020
+    description: "The thirteenth-generation F-150 introduced revolutionary aluminum body construction, reducing weight by up to 700 pounds compared to its predecessor. This ambitious change improved fuel efficiency, payload capacity, and towing capabilities. Engine options expanded to include a 2.7L EcoBoost V6 alongside the existing 3.5L EcoBoost, 5.0L V8, and base V6. Later in the generation, a 3.0L Power Stroke diesel was added. The interior featured improved materials, SYNC 3 infotainment, and available luxury features like massaging seats in higher trims. Innovative features included Pro Trailer Backup Assist, 360-degree cameras, and adaptive cruise control. The high-performance Raptor model continued with enhanced off-road capabilities. This generation cemented the F-150's position as a technology leader in the truck segment while delivering on traditional truck virtues."
+
+  - name: "Fourteenth Generation"
+    start_year: 2021
+    end_year: null
+    description: "The current F-150 maintains aluminum body construction while featuring evolutionary styling updates and significant powertrain innovations. Most notably, it introduced the PowerBoost full hybrid system combining a 3.5L EcoBoost V6 with an electric motor for improved efficiency and performance, plus the ability to function as a mobile power generator with Pro Power Onboard. Additional engine options include 3.3L V6, 2.7L and 3.5L EcoBoost V6s, 5.0L V8, and 3.0L Power Stroke diesel. The interior was completely redesigned with an available 12-inch touchscreen, digital instrument cluster, and innovative features like the Interior Work Surface (fold-down gear shifter and center console work table). Technology advanced with SYNC 4, over-the-air updates, and BlueCruise hands-free driving capability. The Raptor continues as the off-road performance flagship, joined by the Tremor as a more moderate off-road package. This generation advances the F-150's capabilities across all metrics while incorporating advanced technology, comfort, and efficiency features to maintain its position as America's best-selling vehicle."
