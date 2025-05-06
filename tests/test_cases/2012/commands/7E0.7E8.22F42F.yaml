@@ -5,6 +5,6 @@ test_cases:
 - response: 7E80462F42F3B
   expected_values:
     F150_FLI: 23.13725
-- response: 7E80462F42FE0
+- response: 7E80462F42FEE
   expected_values:
-    F150_FLI: 87.84314
+    F150_FLI: 93.33333
