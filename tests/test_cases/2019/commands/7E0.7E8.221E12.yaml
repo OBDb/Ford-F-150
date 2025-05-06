@@ -1,0 +1,16 @@
+command_id: 7E0.7E8.221E12
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7E804621E1203
+  expected_values:
+    F150_GEAR: '3'
+- response: 7E804621E1204
+  expected_values:
+    F150_GEAR: '4'
+- response: 7E804621E1205
+  expected_values:
+    F150_GEAR: '5'
+- response: 7E804621E1206
+  expected_values:
+    F150_GEAR: '6'

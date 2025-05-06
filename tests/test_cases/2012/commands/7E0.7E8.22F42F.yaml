@@ -86,15 +86,6 @@ test_cases:
 - response: 7E80462F42F77
   expected_values:
     F150_FLI: 46.66667
-- response: 7E80462F42F79
-  expected_values:
-    F150_FLI: 47.45098
-- response: 7E80462F42F7B
-  expected_values:
-    F150_FLI: 48.23529
-- response: 7E80462F42F7D
-  expected_values:
-    F150_FLI: 49.01961
 - response: 7E80462F42F86
   expected_values:
     F150_FLI: 52.54902
