@@ -12,6 +12,11 @@ test_cases:
     VSS: 0
 - response: |-
     7E803410D00
+    7E804411001A0
+  expected_values:
+    VSS: 0
+- response: |-
+    7E803410D00
     7E804411001FC
     7E803412F3B
   expected_values:
@@ -73,6 +78,12 @@ test_cases:
   expected_values:
     VSS: 0
 - response: |-
+    7E803410D0A
+    7E804411002C6
+    7E80441447E83
+  expected_values:
+    VSS: 10
+- response: |-
     7E803410D14
     7E80441100F4B
   expected_values:
@@ -99,23 +110,6 @@ test_cases:
     7E804414236DB
   expected_values:
     VSS: 59
-- response: 7E803410D43
+- response: 7E803410D4D
   expected_values:
-    VSS: 67
-- response: |-
-    7E8037F2413
-    7E803410D0A
-    7E804411002C6
-    7E80441447E83
-  expected_values:
-    VSS: 10
-- response: |-
-    7E8037F2413
-    7E803410D1D
-  expected_values:
-    VSS: 29
-- response: |-
-    7E8037F2F7F
-    7E803410D0C
-  expected_values:
-    VSS: 12
+    VSS: 77
