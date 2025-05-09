@@ -75,7 +75,7 @@ unsupported_commands_by_ecu:
   - 7DF.220519
   - 7DF.221310
   - 7DF.221E12
-  - 7DF.221E1C
+  - 7DF.221E1C:F150_TOT
   - 7DF.221E23
   - 7DF.22402A
   - 7DF.22F42F
