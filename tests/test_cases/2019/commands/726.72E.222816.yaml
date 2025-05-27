@@ -1,6 +1,4 @@
 command_id: 726.72E.222816
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
 test_cases:
 - response: 72E05622816025F
   expected_values:
@@ -8,3 +6,8 @@ test_cases:
 - response: '72E056228160273'
   expected_values:
     F150_TP_RLO: 31.35
+- response: |-
+    > 726.72E.222816
+    72E05622816026E
+  expected_values:
+    F150_TP_RLO: 31.1

@@ -1,6 +1,4 @@
 model_year: 2005
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
 supported_commands_by_ecu:
   7E0:
   - 0101:ACRF_RDY,ACRF_SUP,AIR_RDY,AIR_SUP,CAT_RDY,CAT_SUP,CCM_RDY,CCM_SUP,CIM_SUP,DTC_CNT,EGR_RDY,EGR_SUP,EVAP_RDY,EVAP_SUP,FUEL_RDY,FUEL_SUP,HCAT_RDY,HCAT_SUP,HTR_RDY,HTR_SUP,MIL,MIS_RDY,MIS_SUP,O2S_RDY,O2S_SUP
@@ -45,14 +43,14 @@ supported_commands_by_ecu:
   - 014C:TAC_PCT
 unsupported_commands_by_ecu:
   760:
-  - 760.768.223201
+  - 760.768.223201:F150_STEER_ANGLE
   764:
   - 764.22DD01
   7DF:
   - 7DF.220519
   - 7DF.221310
   - 7DF.221E12
-  - 7DF.221E1C
+  - 7DF.221E1C:F150_TOT
   - 7DF.221E23
   - 7DF.22402A
   - 7DF.22F42F
@@ -62,4 +60,4 @@ unsupported_commands_by_ecu:
   - 7E0.221310
   - 7E0.22402A
   - 7E0.22F45C
-  - 7E0.7E8.22F42F
+  - 7E0.7E8.22F42F:F150_FLI
