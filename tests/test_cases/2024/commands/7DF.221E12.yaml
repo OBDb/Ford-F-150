@@ -1,0 +1,35 @@
+command_id: 7DF.221E12
+test_cases:
+- response: 7EC04621E1228
+  expected_values:
+    FORD_GEAR_V2: 40
+- response: |-
+    7EC04621E1228
+    7EE04621E1228
+    7E804621E1207
+  expected_values:
+    FORD_GEAR_V2: 40
+- response: |-
+    7EC04621E123C
+    7E804621E123C
+    7EE04621E123C
+  expected_values:
+    FORD_GEAR_V2: 60
+- response: |-
+    7EC04621E123C
+    7EE04621E123C
+    7E804621E123C
+  expected_values:
+    FORD_GEAR_V2: 60
+- response: 7EE04621E1228
+  expected_values:
+    FORD_GEAR_V2: 40
+- response: |-
+    7EE04621E1228
+    7E804621E1204
+    7EC04621E1228
+  expected_values:
+    FORD_GEAR_V2: 40
+- response: 7EE04621E1232
+  expected_values:
+    FORD_GEAR_V2: 50

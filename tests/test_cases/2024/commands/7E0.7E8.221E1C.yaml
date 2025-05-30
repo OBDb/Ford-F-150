@@ -1,24 +1,18 @@
-command_id: 7DF.221E1C
+command_id: 7E0.7E8.221E1C
 test_cases:
 - response: 7E805621E1C0113
   expected_values:
-    F150_TOT: 17.1875
+    FORD_TOT: 17.1875
 - response: 7E805621E1C012A
   expected_values:
-    F150_TOT: 18.625
+    FORD_TOT: 18.625
 - response: |-
     7EE05621E1C00B0
     7E805621E1C00BC
   expected_values:
-    F150_TOT: 11.75
-- response: 7EE05621E1C00D0
-  expected_values:
-    F150_TOT: 13
-- response: 7EE05621E1C00F0
-  expected_values:
-    F150_TOT: 15
+    FORD_TOT: 11.75
 - response: |-
     7EE05621E1C0120
     7E805621E1C0120
   expected_values:
-    F150_TOT: 18
+    FORD_TOT: 18

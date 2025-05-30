@@ -69,16 +69,16 @@ supported_commands_by_ecu:
 unsupported_commands_by_ecu:
   720:
   - 720.728.226180
-  - 720.728.226185
+  - 720.728.226185:FORD_FLI_V2
   760:
   - 760.768.223201:F150_STEER_ANGLE
   764:
   - 764.22DD01
   7DF:
   - 7DF.220519
-  - 7DF.221310
+  - 7DF.221310:FORD_EOT
   - 7DF.22402A
-  - 7DF.22F45C
+  - 7DF.22F45C:FORD_EOP
   7E0:
   - 7E0.220519
   - 7E0.221310
