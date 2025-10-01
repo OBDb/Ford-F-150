@@ -1,5 +1,5 @@
 command_id: 720.728.22404C
 test_cases:
-- response: 7280662404C0A2FCC
-  expected_values:
+- expected_values:
     F150_ODO: 66759.6
+  response: 7280662404C0A2FCC
