@@ -1,0 +1,20 @@
+command_id: 7E0.016B
+test_cases:
+- expected_values:
+    EGRTA: -40
+    EGRTA_SUP: 0
+    EGRTA_WIDE: -40
+    EGRTA_WR_SUP: 0
+    EGRTB: -16
+    EGRTB_SUP: 0
+    EGRTB_WIDE: 56
+    EGRTB_WR_SUP: 1
+    EGRTC: -40
+    EGRTC_SUP: 0
+    EGRTC_WIDE: -40
+    EGRTC_WR_SUP: 0
+    EGRTD: -40
+    EGRTD_SUP: 0
+    EGRTD_WIDE: -40
+    EGRTD_WR_SUP: 0
+  response: 7E807416B4000001800

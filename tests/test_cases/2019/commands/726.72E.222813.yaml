@@ -3,3 +3,27 @@ test_cases:
 - expected_values:
     F150_TP_FL: 30.35
   response: 72E05622813025F
+- expected_values:
+    F150_TP_FL: 31.25
+  response: '72E056228130271'
+- expected_values:
+    F150_TP_FL: 31.5
+  response: '72E056228130276'
+- expected_values:
+    F150_TP_FL: 31.75
+  response: 72E05622813027B
+- expected_values:
+    F150_TP_FL: 32
+  response: '72E056228130280'
+- expected_values:
+    F150_TP_FL: 32.25
+  response: '72E056228130285'
+- expected_values:
+    F150_TP_FL: 32.5
+  response: 72E05622813028A
+- expected_values:
+    F150_TP_FL: 32.75
+  response: 72E05622813028F
+- expected_values:
+    F150_TP_FL: 33
+  response: '72E056228130294'
