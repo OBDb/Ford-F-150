@@ -31,7 +31,7 @@
   "signals": [
     {"id": "F150_STEER_ANGLE", "path": "Control", "fmt": { "len": 16, "max": 1638, "min": -1638, "div": 20, "add": -1638.4, "unit": "degrees" }, "name": "Steering wheel angle (ABS)", "description": "Positive is rotated to the left, negative is rotated to the right."}
   ]},
-{ "hdr": "764", "cmd": {"22": "A224"}, "freq": 0.25, "dbgfilter": { "to": 2020, "years": [2023], "from": 2026 },
+{ "hdr": "764", "cmd": {"22": "A224"}, "freq": 0.25, "dbgfilter": { "to": 2020, "from": 2026 },
   "signals": [
     {"id": "F150_CC_TGT_VSS", "path": "Cruise control", "fmt": { "len": 16, "max": 736, "min": -736, "mul": 3.6, "div": 10, "sign": true, "unit": "kilometersPerHour" }, "name": "Target vehicle speed", "description": "The speed of the vehicle ahead of you."}
   ]},
