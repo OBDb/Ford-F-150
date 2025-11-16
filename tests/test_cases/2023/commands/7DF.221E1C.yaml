@@ -1,8 +1,8 @@
 command_id: 7DF.221E1C
 test_cases:
 - expected_values:
-    F150_TOT: 19.875
-  response: 7E805621E1C013E
+    F150_TOT: 8.6875
+  response: 7E805621E1C008B
 - expected_values:
     F150_TOT: 26
   response: |-
