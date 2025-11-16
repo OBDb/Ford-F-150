@@ -1,0 +1,26 @@
+command_id: 7E0.010E
+test_cases:
+- expected_values:
+    SPARKADV: 10.5
+  response: 7E803410E95
+- expected_values:
+    SPARKADV: 11
+  response: 7E803410E96
+- expected_values:
+    SPARKADV: 14
+  response: 7E803410E9C
+- expected_values:
+    SPARKADV: 16
+  response: 7E803410EA0
+- expected_values:
+    SPARKADV: 17.5
+  response: 7E803410EA3
+- expected_values:
+    SPARKADV: 33
+  response: 7E803410EC2
+- expected_values:
+    SPARKADV: 34.5
+  response: 7E803410EC5
+- expected_values:
+    SPARKADV: 36.5
+  response: 7E803410EC9
