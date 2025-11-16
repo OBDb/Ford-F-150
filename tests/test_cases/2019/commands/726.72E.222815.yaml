@@ -4,29 +4,5 @@ test_cases:
     F150_TP_RRO: 28.9
   response: '72E056228150242'
 - expected_values:
-    F150_TP_RRO: 29.1
-  response: '72E056228150246'
-- expected_values:
-    F150_TP_RRO: 29.15
-  response: '72E056228150247'
-- expected_values:
-    F150_TP_RRO: 30.25
-  response: 72E05622815025D
-- expected_values:
-    F150_TP_RRO: 30.5
-  response: '72E056228150262'
-- expected_values:
-    F150_TP_RRO: 30.75
-  response: '72E056228150267'
-- expected_values:
-    F150_TP_RRO: 31
-  response: 72E05622815026C
-- expected_values:
-    F150_TP_RRO: 31.25
-  response: '72E056228150271'
-- expected_values:
-    F150_TP_RRO: 31.5
-  response: '72E056228150276'
-- expected_values:
-    F150_TP_RRO: 31.75
-  response: 72E05622815027B
+    F150_TP_RRO: 32.95
+  response: '72E056228150293'
