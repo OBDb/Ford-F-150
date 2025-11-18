@@ -1,5 +1,8 @@
 command_id: 7E0.013D
 test_cases:
 - expected_values:
+    CATEMP21: 412.2
+  response: 7E804413D11AA
+- expected_values:
     CATEMP21: 476.1
   response: 7E804413D1429
