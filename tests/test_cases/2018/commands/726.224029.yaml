@@ -1,0 +1,5 @@
+command_id: '726.224029'
+test_cases:
+- expected_values:
+    F150_BATT_TEMP: 43
+  response: '72E0462402953'

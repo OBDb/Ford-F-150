@@ -1,0 +1,32 @@
+command_id: 7E0.7E8.22F462
+test_cases:
+- expected_values:
+    F150_PCM_ACT_ENG_PCT_TRQ: 0
+  response: 7E80462F4627D
+- expected_values:
+    F150_PCM_ACT_ENG_PCT_TRQ: 8
+  response: 7E80462F46285
+- expected_values:
+    F150_PCM_ACT_ENG_PCT_TRQ: 13
+  response: 7E80462F4628A
+- expected_values:
+    F150_PCM_ACT_ENG_PCT_TRQ: 17
+  response: 7E80462F4628E
+- expected_values:
+    F150_PCM_ACT_ENG_PCT_TRQ: 22
+  response: 7E80462F46293
+- expected_values:
+    F150_PCM_ACT_ENG_PCT_TRQ: 23
+  response: 7E80462F46294
+- expected_values:
+    F150_PCM_ACT_ENG_PCT_TRQ: 24
+  response: 7E80462F46295
+- expected_values:
+    F150_PCM_ACT_ENG_PCT_TRQ: 26
+  response: 7E80462F46297
+- expected_values:
+    F150_PCM_ACT_ENG_PCT_TRQ: 29
+  response: 7E80462F4629A
+- expected_values:
+    F150_PCM_ACT_ENG_PCT_TRQ: 38
+  response: 7E80462F462A3

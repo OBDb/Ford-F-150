@@ -1,0 +1,5 @@
+command_id: '726.224027'
+test_cases:
+- expected_values:
+    F150_BATT_AGE: 13
+  response: 72E05624027000D

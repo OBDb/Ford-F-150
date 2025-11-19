@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.221126
+test_cases:
+- expected_values:
+    F150_ERT: 18
+  response: '7E80462112612'
+- expected_values:
+    F150_ERT: 45
+  response: 7E8046211262D
+- expected_values:
+    F150_ERT: 78
+  response: 7E8046211264E
+- expected_values:
+    F150_ERT: 86
+  response: '7E80462112656'
+- expected_values:
+    F150_ERT: 114
+  response: '7E80462112672'

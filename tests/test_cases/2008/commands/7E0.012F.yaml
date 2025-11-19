@@ -1,0 +1,11 @@
+command_id: 7E0.012F
+test_cases:
+- expected_values:
+    FLI: 36.07843
+  response: 7E803412F5C
+- expected_values:
+    FLI: 37.2549
+  response: 7E803412F5F
+- expected_values:
+    FLI: 38.43137
+  response: 7E803412F62

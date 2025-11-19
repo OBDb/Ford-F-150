@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.220403
+test_cases:
+- expected_values:
+    F150_KS1_RAW: 65
+  response: '7E8056204030041'
+- expected_values:
+    F150_KS1_RAW: 141
+  response: 7E805620403008D
