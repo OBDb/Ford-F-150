@@ -81,7 +81,7 @@
   ]},
 { "hdr": "726", "dbg": true, "cmd": {"22": "7151"}, "freq": 1,
   "signals": [
-    {"id": "F150_HBEAM_STAT", "path": "Lights", "fmt": { "len": 16, "max": 2, "unit": "offon" }, "name": "Highbeam, status"}
+    {"id": "F150_HBEAM_STAT", "path": "Lights", "fmt": { "len": 16, "max": 2, "unit": "offon" }, "name": "Highbeam?"}
   ]},
 { "hdr": "726", "dbg": true, "cmd": {"22": "C150"}, "freq": 2,
   "signals": [
@@ -153,7 +153,7 @@
   ]},
 { "hdr": "760", "dbg": true, "cmd": {"22": "2B0D"}, "freq": 0.25,
   "signals": [
-    {"id": "F150_BRK_FL_P", "path": "Control", "fmt": { "len": 8, "max": 7000, "unit": "kpa" }, "name": "Brake hydraulic pressure"}
+    {"id": "F150_BRK_FL_P", "path": "Control", "fmt": { "len": 8, "max": 255, "unit": "kilopascal" }, "name": "Brake hydraulic pressure"}
   ]},
 { "hdr": "760", "dbg": true, "cmd": {"22": "2B11"}, "freq": 0.1,
   "signals": [
