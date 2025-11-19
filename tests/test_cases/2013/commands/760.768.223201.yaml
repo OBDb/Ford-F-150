@@ -1,14 +1,14 @@
 command_id: 760.768.223201
 test_cases:
 - expected_values:
-    F150_STEER_ANGLE: -19.2
+    F150_STEER_ANG: -19.2
   response: '768056232017E80'
 - expected_values:
-    F150_STEER_ANGLE: -0.5
+    F150_STEER_ANG: -0.5
   response: 768056232017FF6
 - expected_values:
-    F150_STEER_ANGLE: 1.5
+    F150_STEER_ANG: 1.5
   response: 76805623201801E
 - expected_values:
-    F150_STEER_ANGLE: 406.5
+    F150_STEER_ANG: 406.5
   response: 768056232019FC2
