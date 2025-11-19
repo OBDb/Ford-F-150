@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.220388
+test_cases:
+- expected_values:
+    F150_PCM_MISF_ACCEL_CYL2_NORM: 0.17188
+  response: 7E8046203880B
+- expected_values:
+    F150_PCM_MISF_ACCEL_CYL2_NORM: -0.04688
+  response: 7E804620388FD
+- expected_values:
+    F150_PCM_MISF_ACCEL_CYL2_NORM: -0.03125
+  response: 7E804620388FE

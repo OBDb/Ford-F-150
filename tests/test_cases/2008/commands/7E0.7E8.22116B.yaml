@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22116B
+test_cases:
+- expected_values:
+    F150_IGN_TIM_CYL1: 13.75
+  response: 7E80562116B0037
+- expected_values:
+    F150_IGN_TIM_CYL1: 14.75
+  response: 7E80562116B003B
+- expected_values:
+    F150_IGN_TIM_CYL1: 15
+  response: 7E80562116B003C
+- expected_values:
+    F150_IGN_TIM_CYL1: -8.25
+  response: 7E80562116BFFDF
