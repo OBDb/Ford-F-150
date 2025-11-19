@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.220301
+test_cases:
+- expected_values:
+    F150_MAP_V: 1.4707
+  response: 7E80562030105E2
+- expected_values:
+    F150_MAP_V: 1.60645
+  response: 7E805620301066D

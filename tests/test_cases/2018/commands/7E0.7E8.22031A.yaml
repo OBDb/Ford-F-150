@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22031A
+test_cases:
+- expected_values:
+    F150_VCT_INT_ERR: 0.3125
+  response: 7E80562031A0005
+- expected_values:
+    F150_VCT_INT_ERR: 15.125
+  response: 7E80562031A00F2
