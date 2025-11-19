@@ -116,7 +116,7 @@ supported_commands_by_ecu:
   - 0149:APP_D
 unsupported_commands_by_ecu:
   "760":
-  - 760.768.223201:F150_STEER_ANGLE
+  - 760.768.223201:F150_STEER_ANG
   "7DF":
   - 7DF.220519
   - 7DF.221310
