@@ -1,8 +1,23 @@
 command_id: 7E0.7E8.22F404
 test_cases:
 - expected_values:
+    F150_ENG_LOAD_PCT: 22.35294
+  response: 7E80462F40439
+- expected_values:
+    F150_ENG_LOAD_PCT: 24.31373
+  response: 7E80462F4043E
+- expected_values:
     F150_ENG_LOAD_PCT: 36.86275
   response: 7E80462F4045E
 - expected_values:
+    F150_ENG_LOAD_PCT: 56.86275
+  response: 7E80462F40491
+- expected_values:
     F150_ENG_LOAD_PCT: 58.82353
   response: 7E80462F40496
+- expected_values:
+    F150_ENG_LOAD_PCT: 67.05882
+  response: 7E80462F404AB
+- expected_values:
+    F150_ENG_LOAD_PCT: 79.60784
+  response: 7E80462F404CB
