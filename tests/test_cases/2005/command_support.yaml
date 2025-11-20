@@ -43,7 +43,7 @@ supported_commands_by_ecu:
   - 014C:TAC_PCT
 unsupported_commands_by_ecu:
   "760":
-  - 760.768.223201:F150_STEER_ANG
+  - 760.768.223201|f=-2015:F150_STEER_ANG
   "764":
   - 764.22DD01
   "7DF":

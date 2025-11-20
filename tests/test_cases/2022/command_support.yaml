@@ -10,8 +10,8 @@ supported_commands_by_ecu:
   - 726.72E.222817:F150_TP_RRI
   - 726.72E.222818:F150_TP_RLI
   "764":
-  - 764.22A224:F150_CC_TGT_VSS
   - 764.22DD01
+  - 764.76C.22A224:F150_CC_TGT_VSS
   "7DF":
   - 7DF.221E12
   - 7DF.221E1C:F150_TOT
@@ -126,7 +126,7 @@ supported_commands_by_ecu:
   - 0149:APP_D
 unsupported_commands_by_ecu:
   "760":
-  - 760.768.223201:F150_STEER_ANG
+  - 760.768.223201
   "7DF":
   - 7DF.220519
   - 7DF.221310
