@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.220460
+test_cases:
+- expected_values:
+    F150_CAT_SENS_V: 1.84082
+  response: 7E805620460075D
+- expected_values:
+    F150_CAT_SENS_V: 2.00195
+  response: '7E8056204600802'
+- expected_values:
+    F150_CAT_SENS_V: 2.48047
+  response: 7E80562046009EC
+- expected_values:
+    F150_CAT_SENS_V: 2.8125
+  response: 7E8056204600B40
