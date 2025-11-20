@@ -1,0 +1,29 @@
+command_id: 7E0.7E8.220461
+test_cases:
+- expected_values:
+    F150_CAT: -14.53125
+  response: 7E805620461065E
+- expected_values:
+    F150_CAT: -14.40625
+  response: '7E8056204610666'
+- expected_values:
+    F150_CAT: -14.28125
+  response: 7E805620461066E
+- expected_values:
+    F150_CAT: -14.15625
+  response: '7E8056204610676'
+- expected_values:
+    F150_CAT: -13.90625
+  response: '7E8056204610686'
+- expected_values:
+    F150_CAT: -13.78125
+  response: 7E805620461068E
+- expected_values:
+    F150_CAT: -13.65625
+  response: '7E8056204610696'
+- expected_values:
+    F150_CAT: -13.53125
+  response: 7E805620461069E
+- expected_values:
+    F150_CAT: -13.40625
+  response: 7E80562046106A6

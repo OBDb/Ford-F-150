@@ -1,0 +1,29 @@
+command_id: 760.768.222B06
+test_cases:
+- expected_values:
+    F150_FR_VSS: 0
+  response: 76804622B0600
+- expected_values:
+    F150_FR_VSS: 1
+  response: 76804622B0601
+- expected_values:
+    F150_FR_VSS: 6
+  response: 76804622B0606
+- expected_values:
+    F150_FR_VSS: 8
+  response: 76804622B0608
+- expected_values:
+    F150_FR_VSS: 9
+  response: 76804622B0609
+- expected_values:
+    F150_FR_VSS: 30
+  response: 76804622B061E
+- expected_values:
+    F150_FR_VSS: 32
+  response: 76804622B0620
+- expected_values:
+    F150_FR_VSS: 38
+  response: 76804622B0626
+- expected_values:
+    F150_FR_VSS: 39
+  response: 76804622B0627

@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2205AD
+test_cases:
+- expected_values:
+    F150_PCM_CYL_2_KNK_COMB_PERF_CNT: 1
+  response: 7E8046205AD01

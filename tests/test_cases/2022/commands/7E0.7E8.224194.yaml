@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.224194
+test_cases:
+- expected_values:
+    F150_DTE: 491.2
+  response: '7E8056241941330'
+- expected_values:
+    F150_DTE: 494.6
+  response: '7E8056241941352'
