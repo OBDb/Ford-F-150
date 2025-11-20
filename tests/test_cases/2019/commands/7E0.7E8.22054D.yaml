@@ -7,5 +7,5 @@ test_cases:
     F150_LPFP_SENS_V: 2.24121
   response: 7E80562054D08F7
 - expected_values:
-    F150_LPFP_SENS_V: 2.25586
-  response: 7E80562054D0906
+    F150_LPFP_SENS_V: 2.5
+  response: 7E80562054D0A00
