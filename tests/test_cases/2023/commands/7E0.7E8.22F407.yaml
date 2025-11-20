@@ -1,5 +1,17 @@
 command_id: 7E0.7E8.22F407
 test_cases:
 - expected_values:
+    F150_LTFT: -2.34375
+  response: 7E80462F4077D
+- expected_values:
+    F150_LTFT: -1.5625
+  response: 7E80462F4077E
+- expected_values:
+    F150_LTFT: -0.78125
+  response: 7E80462F4077F
+- expected_values:
+    F150_LTFT: 0
+  response: 7E80462F40780
+- expected_values:
     F150_LTFT: 0.78125
   response: 7E80462F40781

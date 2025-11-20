@@ -1,0 +1,32 @@
+command_id: 7E0.7E8.22093C
+test_cases:
+- expected_values:
+    F150_ETC_ANG_ACT: 1.54688
+  response: 7E80562093C0318
+- expected_values:
+    F150_ETC_ANG_ACT: 1.58594
+  response: 7E80562093C032C
+- expected_values:
+    F150_ETC_ANG_ACT: 1.75781
+  response: 7E80562093C0384
+- expected_values:
+    F150_ETC_ANG_ACT: 1.94531
+  response: 7E80562093C03E4
+- expected_values:
+    F150_ETC_ANG_ACT: 2.0625
+  response: 7E80562093C0420
+- expected_values:
+    F150_ETC_ANG_ACT: 2.39844
+  response: 7E80562093C04CC
+- expected_values:
+    F150_ETC_ANG_ACT: 2.58594
+  response: 7E80562093C052C
+- expected_values:
+    F150_ETC_ANG_ACT: 8.61719
+  response: 7E80562093C113C
+- expected_values:
+    F150_ETC_ANG_ACT: 11.60938
+  response: 7E80562093C1738
+- expected_values:
+    F150_ETC_ANG_ACT: 11.83594
+  response: 7E80562093C17AC
