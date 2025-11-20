@@ -22,5 +22,8 @@ test_cases:
     EQ_RAT: 1.03746
   response: 7E804414484CB
 - expected_values:
+    EQ_RAT: 1.0435
+  response: '7E80441448591'
+- expected_values:
     EQ_RAT: 1.07228
   response: '7E80441448940'

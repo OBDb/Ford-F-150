@@ -127,7 +127,7 @@
   "signals": [
     {"id": "F150_TP_RLI", "path": "Tires", "fmt": { "len": 16, "max": 3276, "div": 20, "unit": "psi" }, "name": "Tire pressure, rear left inner"}
   ]},
-{ "hdr": "760", "cmd": {"22": "2B00"}, "freq": 2, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "760", "cmd": {"22": "2B00"}, "freq": 2, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "F150_PARK_BRK", "path": "Control", "fmt": { "len": 1, "max": 1, "unit": "offon" }, "name": "Parking brake"}
   ]},
