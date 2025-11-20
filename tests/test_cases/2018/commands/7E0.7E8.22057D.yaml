@@ -1,6 +1,12 @@
 command_id: 7E0.7E8.22057D
 test_cases:
 - expected_values:
+    F150_AAT_ALT: 9
+  response: 7E80462057D62
+- expected_values:
+    F150_AAT_ALT: 10
+  response: 7E80462057D64
+- expected_values:
     F150_AAT_ALT: 30
   response: 7E80462057D8C
 - expected_values:

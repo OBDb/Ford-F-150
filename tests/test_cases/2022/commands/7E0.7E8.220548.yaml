@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     F150_LPFP_ACT: 55.76828
   response: '7E8056205480301'
+- expected_values:
+    F150_LPFP_ACT: 80.06266
+  response: '7E8056205480450'
