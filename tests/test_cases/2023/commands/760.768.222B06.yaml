@@ -3,3 +3,21 @@ test_cases:
 - expected_values:
     F150_FR_VSS: 0
   response: 76804622B0600
+- expected_values:
+    F150_FR_VSS: 18
+  response: 76804622B0612
+- expected_values:
+    F150_FR_VSS: 23
+  response: 76804622B0617
+- expected_values:
+    F150_FR_VSS: 26
+  response: 76804622B061A
+- expected_values:
+    F150_FR_VSS: 57
+  response: 76804622B0639
+- expected_values:
+    F150_FR_VSS: 68
+  response: 76804622B0644
+- expected_values:
+    F150_FR_VSS: 87
+  response: 76804622B0657
