@@ -4,26 +4,8 @@ test_cases:
     F150_CAT: -23.92188
   response: '7E8056204610405'
 - expected_values:
-    F150_CAT: -23.71875
-  response: '7E8056204610412'
+    F150_CAT: -16.03125
+  response: 7E80562046105FE
 - expected_values:
-    F150_CAT: -23.625
-  response: '7E8056204610418'
-- expected_values:
-    F150_CAT: -23.51562
-  response: 7E805620461041F
-- expected_values:
-    F150_CAT: -23.3125
-  response: 7E805620461042C
-- expected_values:
-    F150_CAT: -23.20312
-  response: '7E8056204610433'
-- expected_values:
-    F150_CAT: -22.79688
-  response: 7E805620461044D
-- expected_values:
-    F150_CAT: -22.59375
-  response: 7E805620461045A
-- expected_values:
-    F150_CAT: -22.1875
-  response: '7E8056204610474'
+    F150_CAT: -9.67188
+  response: '7E8056204610795'
