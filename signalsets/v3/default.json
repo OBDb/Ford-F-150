@@ -1,40 +1,4 @@
 { "commands": [
-{ "hdr": "703", "dbg": true, "cmd": {"22": "017C"}, "freq": 1,
-  "signals": [
-    {"id": "F150_AWD_ACT_CAM_POS_CORR", "path": "Drivetrain", "fmt": { "len": 16, "max": 1023.984375, "div": 64, "unit": "degrees" }, "name": "Actuator cam position"}
-  ]},
-{ "hdr": "703", "dbg": true, "cmd": {"22": "017E"}, "freq": 0.25,
-  "signals": [
-    {"id": "F150_AWD_PWR_XFER_INPUT_SHAFT_SPD", "path": "Drivetrain", "fmt": { "len": 16, "max": 16383.5, "min": -16384, "div": 2, "sign": true, "unit": "rpm" }, "name": "Transfer unit input speed"}
-  ]},
-{ "hdr": "703", "dbg": true, "cmd": {"22": "017F"}, "freq": 1,
-  "signals": [
-    {"id": "F150_AWD_ACT_DUTY_CYC_OUTPUT_CMD", "path": "Drivetrain", "fmt": { "len": 16, "max": 100, "mul": 39.06, "div": 10000, "sign": true, "unit": "percent" }, "name": "Actuator duty cycle"}
-  ]},
-{ "hdr": "703", "dbg": true, "cmd": {"22": "0182"}, "freq": 1,
-  "signals": [
-    {"id": "F150_AWD_PWR_XFER_REQ_TRQ", "path": "Drivetrain", "fmt": { "len": 16, "max": 65535, "unit": "newtonMeters" }, "name": "Transfer unit torque"}
-  ]},
-{ "hdr": "703", "dbg": true, "cmd": {"22": "0184"}, "freq": 2,
-  "signals": [
-    {"id": "F150_AWD_PWR_XFER_SUMP_T", "path": "Drivetrain", "fmt": { "len": 16, "max": 2047.9375, "min": -2048, "div": 16, "sign": true, "unit": "celsius" }, "name": "Transfer unit temperature"}
-  ]},
-{ "hdr": "703", "dbg": true, "cmd": {"22": "0185"}, "freq": 1,
-  "signals": [
-    {"id": "F150_AWD_PWR_XFER_REQ_TRQ_CAP_INF", "path": "Drivetrain", "fmt": { "len": 16, "max": 65535, "unit": "newtonMeters" }, "name": "Transfer unit torque capacity"}
-  ]},
-{ "hdr": "703", "dbg": true, "cmd": {"22": "1E9E"}, "freq": 2,
-  "signals": [
-    {"id": "F150_AWD_MEAS_I_OF_CLUTCH_A_ACT", "path": "Drivetrain", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "amps" }, "name": "Clutch A actuator current"}
-  ]},
-{ "hdr": "703", "dbg": true, "cmd": {"22": "3B40"}, "freq": 1,
-  "signals": [
-    {"id": "F150_AWD_FOOT_BRK", "path": "Drivetrain", "fmt": {"bix": 6, "len": 1, "max": 1, "unit": "offon" }, "name": "Foot brake"}
-  ]},
-{ "hdr": "703", "dbg": true, "cmd": {"22": "D00F"}, "freq": 2,
-  "signals": [
-    {"id": "F150_AWD_HYD_PUMP_MOTOR_I", "path": "Drivetrain", "fmt": { "len": 16, "max": 655.35, "div": 100, "unit": "amps" }, "name": "Hydraulic pump current"}
-  ]},
 { "hdr": "720", "rax": "728", "cmd": {"22": "404C"}, "freq": 30, "dbgfilter": { "to": 2020, "from": 2026 },
   "signals": [
     {"id": "F150_ODO", "path": "Trips", "fmt": { "len": 24, "max": 1677721, "div": 10, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
@@ -46,62 +10,6 @@
 { "hdr": "720", "rax": "728", "cmd": {"22": "61A5"}, "freq": 10, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "F150_TPMS_WARN", "path": "Tires", "fmt": {"bix": 2, "len": 1, "max": 1, "unit": "offon" }, "name": "Tire pressure warning"}
-  ]},
-{ "hdr": "720", "rax": "728", "dbg": true, "cmd": {"22": "DD01"}, "freq": 30,
-  "signals": [
-    {"id": "F150_ODO_TRIP", "path": "Trips", "fmt": { "len": 24, "max": 1677721, "div": 10, "unit": "kilometers" }, "name": "Distance, trip"}
-  ]},
-{ "hdr": "726", "dbg": true, "cmd": {"22": "3302"}, "freq": 0.1,
-  "signals": [
-    {"id": "F150_STEER_ANG_ABS", "path": "Control", "fmt": { "len": 16, "max": 720, "min": -720, "div": 10, "add": -780, "sign": true, "unit": "degrees" }, "name": "Steering angle"}
-  ]},
-{ "hdr": "726", "cmd": {"22": "4027"}, "freq": 3600, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022, 2023], "from": 2025 },
-  "signals": [
-    {"id": "F150_BATT_AGE", "path": "Battery", "fmt": { "len": 16, "max": 1825, "unit": "scalar" }, "name": "Battery age"}
-  ]},
-{ "hdr": "726", "cmd": {"22": "4028"}, "freq": 10, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022, 2023], "from": 2025 },
-  "signals": [
-    {"id": "F150_BATT_SOC", "path": "Battery", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 256, "unit": "percent" }, "name": "Battery charge"}
-  ]},
-{ "hdr": "726", "cmd": {"22": "4029"}, "freq": 10, "dbgfilter": { "to": 2017, "from": 2019 },
-  "signals": [
-    {"id": "F150_BATT_TEMP", "path": "Battery", "fmt": { "len": 8, "max": 100, "min": -40, "add": -40, "unit": "celsius" }, "name": "Battery temperature"}
-  ]},
-{ "hdr": "726", "dbg": true, "cmd": {"22": "407E"}, "freq": 1,
-  "signals": [
-    {"id": "F150_EXT_LT_STATE", "path": "Lights", "name": "Exterior lights, state", "fmt": {"bix": 0, "len": 1, "map": {
-          "0":   { "description": "Off", "value": "OFF" },
-          "216": { "description": "On",  "value": "ON" }
-        }}
-    }
-  ]},
-{ "hdr": "726", "dbg": true, "cmd": {"22": "4090"}, "freq": 2,
-  "signals": [
-    {"id": "F150_BATT_I", "path": "Battery", "fmt": { "len": 16, "max": 300, "min": -300, "div": 16, "add": -511.7, "sign": true, "unit": "amps" }, "name": "Battery current"}
-  ]},
-{ "hdr": "726", "dbg": true, "cmd": {"22": "7151"}, "freq": 1,
-  "signals": [
-    {"id": "F150_HBEAM_STAT", "path": "Lights", "fmt": { "len": 16, "max": 2, "unit": "offon" }, "name": "Highbeam?"}
-  ]},
-{ "hdr": "726", "dbg": true, "cmd": {"22": "C150"}, "freq": 2,
-  "signals": [
-    {"id": "F150_TRUNK_OPEN",     "path": "Doors", "fmt": {"bix": 11, "len": 1, "max": 1, "unit": "noyes" }, "name": "Trunk, ajar"},
-    {"id": "F150_RRD_OPEN",       "path": "Doors", "fmt": {"bix": 12, "len": 1, "max": 1, "unit": "noyes" }, "name": "Door, rear right ajar"},
-    {"id": "F150_RLD_OPEN",       "path": "Doors", "fmt": {"bix": 13, "len": 1, "max": 1, "unit": "noyes" }, "name": "Door, rear left ajar"},
-    {"id": "F150_DRV_DOOR_OPEN",  "path": "Doors", "fmt": {"bix": 16, "len": 1, "max": 1, "unit": "noyes" }, "name": "Door, driver ajar"},
-    {"id": "F150_PASS_DOOR_OPEN", "path": "Doors", "fmt": {"bix": 17, "len": 1, "max": 1, "unit": "noyes" }, "name": "Door, passenger ajar"}
-  ]},
-{ "hdr": "726", "dbg": true, "cmd": {"22": "C154"}, "freq": 2,
-  "signals": [
-    {"id": "F150_HOOD_OPEN", "path": "Doors", "fmt": { "len": 1, "max": 1, "unit": "noyes" }, "name": "Hood, ajar"}
-  ]},
-{ "hdr": "726", "dbg": true, "cmd": {"22": "C259"}, "freq": 2,
-  "signals": [
-    {"id": "F150_CENT_LOCK_STAT", "path": "Doors", "name": "Lock, status", "fmt": {"len": 8, "map": {
-          "0": { "description": "Unlocked", "value": "UNLOCKED" },
-          "2": { "description": "Locked",   "value": "LOCKED" }
-        }}
-    }
   ]},
 { "hdr": "726", "rax": "72E", "cmd": {"22": "2813"}, "freq": 5, "dbgfilter": { "to": 2015, "from": 2026 },
   "signals": [
@@ -127,43 +35,55 @@
   "signals": [
     {"id": "F150_TP_RLI", "path": "Tires", "fmt": { "len": 16, "max": 3276, "div": 20, "unit": "psi" }, "name": "Tire pressure, rear left inner"}
   ]},
-{ "hdr": "760", "cmd": {"22": "2B00"}, "freq": 2, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022, 2023], "from": 2025 },
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "4027"}, "freq": 3600, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022, 2023], "from": 2025 },
+  "signals": [
+    {"id": "F150_BATT_AGE", "path": "Battery", "fmt": { "len": 16, "max": 1825, "unit": "scalar" }, "name": "Battery age"}
+  ]},
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "4028"}, "freq": 10, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022, 2023], "from": 2025 },
+  "signals": [
+    {"id": "F150_BATT_SOC", "path": "Battery", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Battery charge"}
+  ]},
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "4029"}, "freq": 10, "dbgfilter": { "to": 2017, "from": 2019 },
+  "signals": [
+    {"id": "F150_BATT_TEMP", "path": "Battery", "fmt": { "len": 8, "max": 100, "min": -40, "add": -40, "unit": "celsius" }, "name": "Battery temperature"}
+  ]},
+{ "hdr": "760", "rax": "768", "cmd": {"22": "2B00"}, "freq": 2, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "F150_PARK_BRK", "path": "Control", "fmt": { "len": 1, "max": 1, "unit": "offon" }, "name": "Parking brake"}
   ]},
-{ "hdr": "760", "cmd": {"22": "2B06"}, "freq": 0.1, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "760", "rax": "768", "cmd": {"22": "2B06"}, "freq": 0.1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "F150_FR_VSS", "path": "Movement", "fmt": { "len": 8, "max": 200, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"}
   ]},
-{ "hdr": "760", "cmd": {"22": "2B07"}, "freq": 0.1, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "760", "rax": "768", "cmd": {"22": "2B07"}, "freq": 0.1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "F150_FL_VSS", "path": "Movement", "fmt": { "len": 8, "max": 200, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"}
   ]},
-{ "hdr": "760", "cmd": {"22": "2B08"}, "freq": 0.1, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "760", "rax": "768", "cmd": {"22": "2B08"}, "freq": 0.1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "F150_RR_VSS", "path": "Movement", "fmt": { "len": 8, "max": 200, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
   ]},
-{ "hdr": "760", "cmd": {"22": "2B09"}, "freq": 0.1, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "760", "rax": "768", "cmd": {"22": "2B09"}, "freq": 0.1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "F150_RL_VSS", "path": "Movement", "fmt": { "len": 8, "max": 200, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"}
   ]},
-{ "hdr": "760", "cmd": {"22": "2B0C"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "760", "rax": "768", "cmd": {"22": "2B0C"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "F150_LAT_ANG", "path": "Movement", "fmt": { "len": 8, "max": 90, "min": -90, "sign": true, "unit": "degrees" }, "name": "Lateral angle"}
   ]},
-{ "hdr": "760", "cmd": {"22": "2B0D"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "760", "rax": "768", "cmd": {"22": "2B0D"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "F150_BRK_FL_P", "path": "Control", "fmt": { "len": 8, "max": 255, "unit": "kilopascal" }, "name": "Brake hydraulic pressure"}
   ]},
-{ "hdr": "760", "cmd": {"22": "2B11"}, "freq": 0.1, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "760", "rax": "768", "cmd": {"22": "2B11"}, "freq": 0.1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "F150_LAT_G", "path": "Movement", "fmt": { "len": 16, "max": 1, "min": -1, "div": 50, "sign": true, "unit": "scalar" }, "name": "Lateral acceleration"}
   ]},
-{ "hdr": "760", "rax": "768", "cmd": {"22": "3201"}, "freq": 0.1, "dbgfilter": { "to": 2012, "from": 2014 },
+{ "hdr": "760", "rax": "768", "cmd": {"22": "3201"}, "freq": 0.1, "filter": { "to": 2015 }, "dbgfilter": { "to": 2012, "from": 2014 },
   "signals": [
     {"id": "F150_STEER_ANG", "path": "Control", "fmt": { "len": 16, "max": 1638, "min": -1638, "div": 20, "add": -1638.4, "unit": "degrees" }, "name": "Steering angle", "description": "Positive is rotated to the left, negative is rotated to the right."}
   ]},
-{ "hdr": "764", "cmd": {"22": "A224"}, "freq": 0.5, "dbgfilter": { "to": 2020, "from": 2026 },
+{ "hdr": "764", "rax": "76C", "cmd": {"22": "A224"}, "freq": 0.5, "dbgfilter": { "to": 2020, "from": 2026 },
   "signals": [
     {"id": "F150_CC_TGT_VSS", "path": "Cruise control", "fmt": { "len": 16, "max": 736, "min": -736, "mul": 3.6, "div": 10, "sign": true, "unit": "kilometersPerHour" }, "name": "Target speed", "description": "The speed of the vehicle ahead of you."}
   ]},
@@ -181,7 +101,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "030F"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
-    {"id": "F150_CL", "path": "Engine", "fmt": { "len": 16, "max": 5, "div": 32768, "unit": "scalar" }, "name": "Lambda, commanded", "description": "The ratio of oxygen in the combustion chamber compared to the amount that should have been present for ideal combustion."}
+    {"id": "F150_CL", "path": "Engine", "fmt": { "len": 16, "max": 1.9999, "div": 32768, "unit": "scalar" }, "name": "Lambda, commanded", "description": "The ratio of oxygen in the combustion chamber compared to the amount that should have been present for ideal combustion."}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0316"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
@@ -221,7 +141,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0338"}, "freq": 5, "dbgfilter": { "to": 2016, "years": [2019, 2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
-    {"id": "F150_ETC_TRIM_LRN", "path": "Engine", "fmt": { "len": 16, "max": 90, "min": -90, "div": 512, "unit": "degrees" }, "name": "Throttle control trim angle, learned"}
+    {"id": "F150_ETC_TRIM_LRN", "path": "Engine", "fmt": { "len": 16, "max": 63.9, "min": -64, "div": 512, "sign": true, "unit": "degrees" }, "name": "Throttle control trim angle, learned"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "033C"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
@@ -283,10 +203,6 @@
   "signals": [
     {"id": "F150_PCM_MISF_ACCEL_CYL6_NORM", "path": "Engine", "fmt": { "len": 8, "max": 1.984375, "min": -2, "div": 64, "sign": true, "unit": "scalar" }, "name": "Misfire acceleration, cylinder 6"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "03A7"}, "freq": 2,
-  "signals": [
-    {"id": "F150_ETC_SENS_ERR", "path": "Engine", "fmt": { "len": 8, "max": 90, "min": -90, "sign": true, "unit": "degrees" }, "name": "Throttle control sensor error"}
-  ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "03AF"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "F150_TRQ_CTRL_REQ", "path": "Engine", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "Torque request"}
@@ -321,7 +237,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "03EC"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
-    {"id": "F150_IGN_CORR_CYL1", "path": "Engine", "fmt": { "len": 16, "max": 64, "min": -63, "div": 512, "sign": true, "unit": "degrees" }, "name": "Ignition correction, cylinder 1"}
+    {"id": "F150_IGN_CORR_CYL1", "path": "Engine", "fmt": { "len": 16, "max": 63.9, "min": -64, "div": 512, "sign": true, "unit": "degrees" }, "name": "Ignition correction, cylinder 1"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0403"}, "freq": 2, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
@@ -341,7 +257,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0427"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
-    {"id": "F150_BPV_OPEN", "path": "Engine", "fmt": { "len": 8, "max": 1, "div": 256, "unit": "scalar" }, "name": "Bypass valve"}
+    {"id": "F150_BPV_OPEN", "path": "Engine", "fmt": { "len": 8, "max": 1, "div": 255, "unit": "scalar" }, "name": "Bypass valve"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0460"}, "freq": 5, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
@@ -413,15 +329,11 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0700"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
-    {"id": "F150_IAT_FAULT", "path": "Engine", "fmt": { "len": 8, "max": 50, "min": -25, "unit": "scalar" }, "name": "Intake temperature fault"}
+    {"id": "F150_IAT_FAULT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Intake temperature fault"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0707"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "F150_GRILL_SHUT_DC", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Grill shutter duty cycle"}
-  ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "070D"}, "freq": 2,
-  "signals": [
-    {"id": "F150_FLUID_T", "path": "Engine", "fmt": { "len": 16, "max": 2047.9375, "min": -2048, "div": 16, "sign": true, "unit": "celsius" }, "name": "Transfer case temperature"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "091A"}, "freq": 0.25, "dbgfilter": { "to": 2007, "years": [2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2019, 2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
@@ -494,18 +406,6 @@
         }}
     }
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1EA0"}, "freq": 2,
-  "signals": [
-    {"id": "F150_CLUTCH_OPEN", "path": "Transmission", "fmt": { "len": 16, "max": 1, "unit": "scalar" }, "name": "Clutch, state"}
-  ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1EBB"}, "freq": 1,
-  "signals": [
-    {"id": "F150_CLUTCH_A_SLIP", "path": "Transmission", "fmt": { "len": 16, "max": 1000, "min": -1000, "div": 4, "sign": true, "unit": "rpm" }, "name": "Clutch slip, A"}
-  ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1EBC"}, "freq": 1,
-  "signals": [
-    {"id": "F150_CLUTCH_B_SLIP", "path": "Transmission", "fmt": { "len": 16, "max": 1000, "min": -1000, "div": 4, "sign": true, "unit": "rpm" }, "name": "Clutch slip, B"}
-  ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "4194"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "F150_DTE", "path": "Trips", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilometers" }, "name": "Distance to empty, calculated", "suggestedMetric": "fuelRange"}
@@ -550,10 +450,6 @@
   "signals": [
     {"id": "F150_MIL_DIST", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Distance with MIL"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F422"}, "freq": 1,
-  "signals": [
-    {"id": "F150_HPFP_ACT", "path": "Engine", "fmt": { "len": 16, "max": 95022, "mul": 145038, "div": 100000, "unit": "psi" }, "name": "Fuel pressure, high actual"}
-  ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F42F"}, "freq": 5, "dbgfilter": { "to": 2010, "years": [2014, 2015], "from": 2026 },
   "signals": [
     {"id": "F150_FLI", "path": "Fuel", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Fuel level", "suggestedMetric": "fuelTankLevel"}
@@ -585,14 +481,6 @@
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F4A6"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "F150_PCM_VEH_ODO", "path": "Trips", "fmt": { "len": 32, "max": 429496729.5, "div": 10, "unit": "kilometers" }, "name": "Vehicle odometer"}
-  ]},
-{ "hdr": "7E2", "rax": "7EA", "dbg": true, "cmd": {"22": "DD04"}, "freq": 2,
-  "signals": [
-    {"id": "F150_IAT", "path": "Climate", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Interior temperature"}
-  ]},
-{ "hdr": "7E2", "rax": "7EA", "dbg": true, "cmd": {"22": "DD05"}, "freq": 2,
-  "signals": [
-    {"id": "F150_AAT", "path": "Climate", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Exterior temperature"}
   ]}
 ]
 }
