@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     F150_IGN_CORR_CYL1: 0
   response: 7E8056203EC0000
+- expected_values:
+    F150_IGN_CORR_CYL1: 1.99219
+  response: 7E8056203EC03FC
+- expected_values:
+    F150_IGN_CORR_CYL1: -0.49219
+  response: 7E8056203ECFF04

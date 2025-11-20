@@ -1,14 +1,14 @@
 command_id: 7E0.7E8.22030F
 test_cases:
 - expected_values:
-    F150_CL: 0.87
-  response: 7E80562030F6F5C
+    F150_CL: 0.76028
+  response: 7E80562030F6151
 - expected_values:
-    F150_CL: 0.99203
-  response: 7E80562030F7EFB
+    F150_CL: 0.97647
+  response: 7E80562030F7CFD
 - expected_values:
-    F150_CL: 1.11771
-  response: 7E80562030F8F11
+    F150_CL: 1
+  response: 7E80562030F8000
 - expected_values:
     F150_CL: 1.18146
   response: 7E80562030F973A

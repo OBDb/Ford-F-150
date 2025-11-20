@@ -1,14 +1,14 @@
 command_id: 7E0.7E8.220334
 test_cases:
 - expected_values:
-    F150_PCM_CYL_HEAD_T_CORR: 72.98438
-  response: 7E805620334123F
+    F150_PCM_CYL_HEAD_T_CORR: 46.57812
+  response: 7E8056203340BA5
 - expected_values:
-    F150_PCM_CYL_HEAD_T_CORR: 79.29688
-  response: 7E80562033413D3
+    F150_PCM_CYL_HEAD_T_CORR: 95.98438
+  response: 7E80562033417FF
 - expected_values:
-    F150_PCM_CYL_HEAD_T_CORR: 80.28125
-  response: '7E8056203341412'
+    F150_PCM_CYL_HEAD_T_CORR: 96.17188
+  response: 7E805620334180B
 - expected_values:
-    F150_PCM_CYL_HEAD_T_CORR: 88.73438
-  response: 7E805620334162F
+    F150_PCM_CYL_HEAD_T_CORR: 104.54688
+  response: 7E8056203341A23
