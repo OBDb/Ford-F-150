@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.22F43C
 test_cases:
 - expected_values:
+    F150_CAT_TEMP: 502
+  response: 7E80562F43C152C
+- expected_values:
     F150_CAT_TEMP: 569.5
   response: 7E80562F43C17CF
 - expected_values:
