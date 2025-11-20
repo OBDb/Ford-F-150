@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.221279
 test_cases:
 - expected_values:
-    F150_IAT_SENS_V: 2.15054
-  response: 7E80562127901B8
+    F150_IAT_SENS_V: 1.3001
+  response: 7E805621279010A
 - expected_values:
     F150_IAT_SENS_V: 2.49756
   response: 7E80562127901FF
