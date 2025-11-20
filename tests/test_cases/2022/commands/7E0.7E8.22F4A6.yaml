@@ -4,23 +4,14 @@ test_cases:
     F150_PCM_VEH_ODO: 104290.3
   response: 7E80762F4A6000FE9D7
 - expected_values:
-    F150_PCM_VEH_ODO: 104290.5
-  response: 7E80762F4A6000FE9D9
+    F150_PCM_VEH_ODO: 137220.7
+  response: 7E80762F4A60014F02F
 - expected_values:
-    F150_PCM_VEH_ODO: 104290.7
-  response: 7E80762F4A6000FE9DB
+    F150_PCM_VEH_ODO: 137241.7
+  response: 7E80762F4A60014F101
 - expected_values:
-    F150_PCM_VEH_ODO: 104291
-  response: 7E80762F4A6000FE9DE
+    F150_PCM_VEH_ODO: 137266.9
+  response: 7E80762F4A60014F1FD
 - expected_values:
-    F150_PCM_VEH_ODO: 104291.1
-  response: 7E80762F4A6000FE9DF
-- expected_values:
-    F150_PCM_VEH_ODO: 104291.4
-  response: 7E80762F4A6000FE9E2
-- expected_values:
-    F150_PCM_VEH_ODO: 104291.6
-  response: 7E80762F4A6000FE9E4
-- expected_values:
-    F150_PCM_VEH_ODO: 104291.8
-  response: 7E80762F4A6000FE9E6
+    F150_PCM_VEH_ODO: 137267.8
+  response: 7E80762F4A60014F206

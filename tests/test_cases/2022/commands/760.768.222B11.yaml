@@ -1,11 +1,11 @@
 command_id: 760.768.222B11
 test_cases:
 - expected_values:
-    F150_LAT_G: 0.3
-  response: 76805622B11000F
+    F150_LAT_G: 0
+  response: 76805622B110000
 - expected_values:
     F150_LAT_G: 1
   response: 76805622B111FFE
 - expected_values:
     F150_LAT_G: -1
-  response: 76805622B11FF4C
+  response: 76805622B11FF49
