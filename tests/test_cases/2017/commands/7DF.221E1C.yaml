@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     F150_TOT: 81.0625
   response: 7E805621E1C0511
+- expected_values:
+    F150_TOT: 81.5
+  response: 7E905621E1C0518
