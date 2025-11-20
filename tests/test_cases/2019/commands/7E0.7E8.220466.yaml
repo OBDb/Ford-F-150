@@ -1,0 +1,32 @@
+command_id: 7E0.7E8.220466
+test_cases:
+- expected_values:
+    F150_TIP_DES_ABS: 13.87459
+  response: 7E80562046630FC
+- expected_values:
+    F150_TIP_DES_ABS: 13.88344
+  response: '7E8056204663104'
+- expected_values:
+    F150_TIP_DES_ABS: 13.89229
+  response: 7E805620466310C
+- expected_values:
+    F150_TIP_DES_ABS: 13.89782
+  response: '7E8056204663111'
+- expected_values:
+    F150_TIP_DES_ABS: 13.90114
+  response: '7E8056204663114'
+- expected_values:
+    F150_TIP_DES_ABS: 14.06157
+  response: 7E80562046631A5
+- expected_values:
+    F150_TIP_DES_ABS: 14.39682
+  response: 7E80562046632D4
+- expected_values:
+    F150_TIP_DES_ABS: 15.30409
+  response: '7E8056204663608'
+- expected_values:
+    F150_TIP_DES_ABS: 15.82411
+  response: 7E80562046637DE
+- expected_values:
+    F150_TIP_DES_ABS: 16.8033
+  response: 7E8056204663B53

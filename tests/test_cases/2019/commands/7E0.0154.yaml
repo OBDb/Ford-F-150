@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     EVAP_VP_WIDE: -0.987
   response: 7E8044154FC25
+- expected_values:
+    EVAP_VP_WIDE: -0.824
+  response: 7E8044154FCC8

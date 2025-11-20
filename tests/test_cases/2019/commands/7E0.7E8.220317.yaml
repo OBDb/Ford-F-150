@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.220317
+test_cases:
+- expected_values:
+    F150_VCT_EXH_DUTY: 0
+  response: '7E8056203170000'
+- expected_values:
+    F150_VCT_EXH_DUTY: 24.95728
+  response: 7E8056203171FF2
+- expected_values:
+    F150_VCT_EXH_DUTY: 35.38818
+  response: 7E8056203172D4C
+- expected_values:
+    F150_VCT_EXH_DUTY: 35.40955
+  response: 7E8056203172D53
+- expected_values:
+    F150_VCT_EXH_DUTY: 36.24573
+  response: 7E8056203172E65
