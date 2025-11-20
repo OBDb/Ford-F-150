@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     SPARKADV: 2
   response: 7E803410E84
+- expected_values:
+    SPARKADV: 6
+  response: 7E803410E8C
