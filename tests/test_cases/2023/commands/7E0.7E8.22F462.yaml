@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.22F462
+test_cases:
+- expected_values:
+    F150_PCM_ACT_ENG_PCT_TRQ: 7
+  response: 7E80462F46284
+- expected_values:
+    F150_PCM_ACT_ENG_PCT_TRQ: 8
+  response: 7E80462F46285
+- expected_values:
+    F150_PCM_ACT_ENG_PCT_TRQ: 9
+  response: 7E80462F46286
+- expected_values:
+    F150_PCM_ACT_ENG_PCT_TRQ: 22
+  response: 7E80462F46293
+- expected_values:
+    F150_PCM_ACT_ENG_PCT_TRQ: 30
+  response: 7E80462F4629B
+- expected_values:
+    F150_PCM_ACT_ENG_PCT_TRQ: 32
+  response: 7E80462F4629D

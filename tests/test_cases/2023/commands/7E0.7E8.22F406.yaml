@@ -1,5 +1,26 @@
 command_id: 7E0.7E8.22F406
 test_cases:
 - expected_values:
+    F150_STFT: -2.34375
+  response: 7E80462F4067D
+- expected_values:
+    F150_STFT: -0.78125
+  response: 7E80462F4067F
+- expected_values:
+    F150_STFT: 0
+  response: 7E80462F40680
+- expected_values:
     F150_STFT: 0.78125
   response: 7E80462F40681
+- expected_values:
+    F150_STFT: 1.5625
+  response: 7E80462F40682
+- expected_values:
+    F150_STFT: 2.34375
+  response: 7E80462F40683
+- expected_values:
+    F150_STFT: 3.125
+  response: 7E80462F40684
+- expected_values:
+    F150_STFT: 3.90625
+  response: 7E80462F40685

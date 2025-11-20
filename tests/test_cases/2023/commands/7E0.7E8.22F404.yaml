@@ -1,5 +1,32 @@
 command_id: 7E0.7E8.22F404
 test_cases:
 - expected_values:
+    F150_ENG_LOAD_PCT: 13.72549
+  response: 7E80462F40423
+- expected_values:
+    F150_ENG_LOAD_PCT: 16.86275
+  response: 7E80462F4042B
+- expected_values:
+    F150_ENG_LOAD_PCT: 18.43137
+  response: 7E80462F4042F
+- expected_values:
+    F150_ENG_LOAD_PCT: 21.17647
+  response: 7E80462F40436
+- expected_values:
+    F150_ENG_LOAD_PCT: 21.56863
+  response: 7E80462F40437
+- expected_values:
+    F150_ENG_LOAD_PCT: 24.70588
+  response: 7E80462F4043F
+- expected_values:
+    F150_ENG_LOAD_PCT: 56.07843
+  response: 7E80462F4048F
+- expected_values:
     F150_ENG_LOAD_PCT: 56.86275
   response: 7E80462F40491
+- expected_values:
+    F150_ENG_LOAD_PCT: 76.47059
+  response: 7E80462F404C3
+- expected_values:
+    F150_ENG_LOAD_PCT: 89.80392
+  response: 7E80462F404E5

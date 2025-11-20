@@ -2,4 +2,10 @@ command_id: 760.768.222B0C
 test_cases:
 - expected_values:
     F150_LAT_ANG: 0
-  response: 76805622B0C0005
+  response: 76805622B0C0001
+- expected_values:
+    F150_LAT_ANG: -1
+  response: 76805622B0CFFF9
+- expected_values:
+    F150_LAT_ANG: -1
+  response: 76805622B0CFFFF
