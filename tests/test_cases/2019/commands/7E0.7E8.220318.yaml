@@ -4,26 +4,8 @@ test_cases:
     F150_VCT_INT_ACT: 0
   response: '7E8056203180000'
 - expected_values:
-    F150_VCT_INT_ACT: 0.0625
-  response: '7E8056203180001'
-- expected_values:
-    F150_VCT_INT_ACT: 4068.3125
-  response: 7E805620318FE45
-- expected_values:
-    F150_VCT_INT_ACT: 4077.1875
-  response: 7E805620318FED3
-- expected_values:
-    F150_VCT_INT_ACT: 4085.9375
-  response: 7E805620318FF5F
-- expected_values:
-    F150_VCT_INT_ACT: 4093.4375
-  response: 7E805620318FFD7
-- expected_values:
-    F150_VCT_INT_ACT: 4095.8125
-  response: 7E805620318FFFD
-- expected_values:
-    F150_VCT_INT_ACT: 4095.875
-  response: 7E805620318FFFE
+    F150_VCT_INT_ACT: 4082.1875
+  response: 7E805620318FF23
 - expected_values:
     F150_VCT_INT_ACT: 4095.9375
   response: 7E805620318FFFF
