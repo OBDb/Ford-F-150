@@ -1,0 +1,5 @@
+command_id: 760.768.222B11
+test_cases:
+- expected_values:
+    F150_LAT_G: -0.04
+  response: 76805622B11FFFE

@@ -1,0 +1,29 @@
+command_id: 7E0.7E8.221166
+test_cases:
+- expected_values:
+    F150_EVAP_PURGE_CMD: 0
+  response: '7E8056211660000'
+- expected_values:
+    F150_EVAP_PURGE_CMD: 0.12512
+  response: '7E8056211660029'
+- expected_values:
+    F150_EVAP_PURGE_CMD: 5.31006
+  response: 7E80562116606CC
+- expected_values:
+    F150_EVAP_PURGE_CMD: 5.58777
+  response: '7E8056211660727'
+- expected_values:
+    F150_EVAP_PURGE_CMD: 6.01501
+  response: 7E80562116607B3
+- expected_values:
+    F150_EVAP_PURGE_CMD: 7.58362
+  response: 7E80562116609B5
+- expected_values:
+    F150_EVAP_PURGE_CMD: 17.74292
+  response: 7E80562116616B6
+- expected_values:
+    F150_EVAP_PURGE_CMD: 56.98853
+  response: 7E80562116648F2
+- expected_values:
+    F150_EVAP_PURGE_CMD: 59.07288
+  response: 7E8056211664B9D
