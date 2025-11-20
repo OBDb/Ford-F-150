@@ -4,26 +4,5 @@ test_cases:
     F150_PCM_ACT_ENG_PCT_TRQ: 5
   response: 7E80462F46282
 - expected_values:
-    F150_PCM_ACT_ENG_PCT_TRQ: 6
-  response: 7E80462F46283
-- expected_values:
-    F150_PCM_ACT_ENG_PCT_TRQ: 9
-  response: 7E80462F46286
-- expected_values:
-    F150_PCM_ACT_ENG_PCT_TRQ: 11
-  response: 7E80462F46288
-- expected_values:
-    F150_PCM_ACT_ENG_PCT_TRQ: 12
-  response: 7E80462F46289
-- expected_values:
-    F150_PCM_ACT_ENG_PCT_TRQ: 14
-  response: 7E80462F4628B
-- expected_values:
-    F150_PCM_ACT_ENG_PCT_TRQ: 15
-  response: 7E80462F4628C
-- expected_values:
-    F150_PCM_ACT_ENG_PCT_TRQ: 18
-  response: 7E80462F4628F
-- expected_values:
-    F150_PCM_ACT_ENG_PCT_TRQ: 20
-  response: 7E80462F46291
+    F150_PCM_ACT_ENG_PCT_TRQ: 54
+  response: 7E80462F462B3
