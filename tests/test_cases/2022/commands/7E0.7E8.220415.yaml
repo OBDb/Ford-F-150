@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.220415
+test_cases:
+- expected_values:
+    F150_PCM_ENG_EOP_RAW: 244
+  response: 7E80562041500F4
+- expected_values:
+    F150_PCM_ENG_EOP_RAW: 247
+  response: 7E80562041500F7
+- expected_values:
+    F150_PCM_ENG_EOP_RAW: 254
+  response: 7E80562041500FE
+- expected_values:
+    F150_PCM_ENG_EOP_RAW: 259
+  response: '7E8056204150103'
+- expected_values:
+    F150_PCM_ENG_EOP_RAW: 260
+  response: '7E8056204150104'
+- expected_values:
+    F150_PCM_ENG_EOP_RAW: 262
+  response: '7E8056204150106'
+- expected_values:
+    F150_PCM_ENG_EOP_RAW: 266
+  response: 7E805620415010A
+- expected_values:
+    F150_PCM_ENG_EOP_RAW: 269
+  response: 7E805620415010D

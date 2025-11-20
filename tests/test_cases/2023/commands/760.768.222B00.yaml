@@ -1,0 +1,5 @@
+command_id: 760.768.222B00
+test_cases:
+- expected_values:
+    F150_PARK_BRK: 0
+  response: 76807622B0010000000

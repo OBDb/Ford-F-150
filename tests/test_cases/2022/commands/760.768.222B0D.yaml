@@ -1,0 +1,23 @@
+command_id: 760.768.222B0D
+test_cases:
+- expected_values:
+    F150_BRK_FL_P: 0
+  response: 76805622B0D0000
+- expected_values:
+    F150_BRK_FL_P: 0
+  response: 76805622B0D0006
+- expected_values:
+    F150_BRK_FL_P: 0
+  response: 76805622B0D001B
+- expected_values:
+    F150_BRK_FL_P: 0
+  response: 76805622B0D001F
+- expected_values:
+    F150_BRK_FL_P: 0
+  response: 76805622B0D0028
+- expected_values:
+    F150_BRK_FL_P: 0
+  response: 76805622B0D002C
+- expected_values:
+    F150_BRK_FL_P: 0
+  response: 76805622B0D002D
