@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     F150_AXLE_GEAR_RATIO_MEAS: 1.52075
   response: 7E805621E161855
+- expected_values:
+    F150_AXLE_GEAR_RATIO_MEAS: 10
+  response: 7E805621E16A000
