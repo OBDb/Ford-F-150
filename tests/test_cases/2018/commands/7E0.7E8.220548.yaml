@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     F150_LPFP_ACT: 72.73808
   response: 7E80562054803EB
+- expected_values:
+    F150_LPFP_ACT: 74.1885
+  response: 7E80562054803FF
