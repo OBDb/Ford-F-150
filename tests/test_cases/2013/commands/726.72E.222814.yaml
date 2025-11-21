@@ -1,0 +1,5 @@
+command_id: 726.72E.222814
+test_cases:
+- expected_values:
+    F150_TP_FR: 34
+  response: 72E0562281402A8

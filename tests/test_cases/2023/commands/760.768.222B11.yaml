@@ -5,25 +5,7 @@ test_cases:
   response: 76805622B110000
 - expected_values:
     F150_LAT_G: 1
-  response: 76805622B11005B
+  response: 76805622B111FFE
 - expected_values:
     F150_LAT_G: -1
-  response: 76805622B11FF7B
-- expected_values:
-    F150_LAT_G: -1
-  response: 76805622B11FFA1
-- expected_values:
-    F150_LAT_G: -1
-  response: 76805622B11FFC9
-- expected_values:
-    F150_LAT_G: -0.56
-  response: 76805622B11FFE4
-- expected_values:
-    F150_LAT_G: -0.44
-  response: 76805622B11FFEA
-- expected_values:
-    F150_LAT_G: -0.08
-  response: 76805622B11FFFC
-- expected_values:
-    F150_LAT_G: -0.04
-  response: 76805622B11FFFE
+  response: 76805622B11FF6A

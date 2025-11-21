@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22038A
+test_cases:
+- expected_values:
+    F150_PCM_MISF_ACCEL_CYL3_NORM: 0
+  response: 7E80462038A00
