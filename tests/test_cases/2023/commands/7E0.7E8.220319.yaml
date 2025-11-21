@@ -5,7 +5,7 @@ test_cases:
   response: '7E8056203190000'
 - expected_values:
     F150_VCT_EXH_ACT: 50
-  response: 7E805620319FFFB
+  response: 7E805620319FFF9
 - expected_values:
     F150_VCT_EXH_ACT: 50
   response: 7E805620319FFFF

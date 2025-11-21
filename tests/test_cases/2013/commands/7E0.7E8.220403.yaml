@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     F150_KS1_RAW: 0
   response: '7E8056204030000'
+- expected_values:
+    F150_KS1_RAW: 495
+  response: 7E80562040301EF
+- expected_values:
+    F150_KS1_RAW: 1954
+  response: 7E80562040307A2

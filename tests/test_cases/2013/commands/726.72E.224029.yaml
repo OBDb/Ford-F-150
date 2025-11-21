@@ -6,3 +6,18 @@ test_cases:
 - expected_values:
     F150_BATT_TEMP: 18
   response: 72E046240293A
+- expected_values:
+    F150_BATT_TEMP: 19
+  response: 72E046240293B
+- expected_values:
+    F150_BATT_TEMP: 20
+  response: 72E046240293C
+- expected_values:
+    F150_BATT_TEMP: 21
+  response: 72E046240293D
+- expected_values:
+    F150_BATT_TEMP: 22
+  response: 72E046240293E
+- expected_values:
+    F150_BATT_TEMP: 23
+  response: 72E046240293F

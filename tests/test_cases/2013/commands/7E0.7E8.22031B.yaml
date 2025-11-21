@@ -3,3 +3,18 @@ test_cases:
 - expected_values:
     F150_VCT_EXH_ERR: 0
   response: 7E80562031B0000
+- expected_values:
+    F150_VCT_EXH_ERR: 0.375
+  response: 7E80562031B0006
+- expected_values:
+    F150_VCT_EXH_ERR: 1.0625
+  response: 7E80562031B0011
+- expected_values:
+    F150_VCT_EXH_ERR: 50
+  response: 7E80562031BFFEE
+- expected_values:
+    F150_VCT_EXH_ERR: 50
+  response: 7E80562031BFFFE
+- expected_values:
+    F150_VCT_EXH_ERR: 50
+  response: 7E80562031BFFFF
