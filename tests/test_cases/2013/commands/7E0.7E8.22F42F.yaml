@@ -212,3 +212,9 @@ test_cases:
     7E80441100191
     7E804410C097F
     7E8064100BF9FA893
+- expected_values:
+    F150_FLI: 42.7451
+  response: 7E80462F42F6D
+- expected_values:
+    F150_FLI: 43.13725
+  response: 7E80462F42F6E

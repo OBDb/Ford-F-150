@@ -10,6 +10,15 @@ test_cases:
     F150_VCT_INT_ERR: 0.25
   response: 7E80562031A0004
 - expected_values:
+    F150_VCT_INT_ERR: 0.5
+  response: 7E80562031A0008
+- expected_values:
+    F150_VCT_INT_ERR: 0.625
+  response: 7E80562031A000A
+- expected_values:
+    F150_VCT_INT_ERR: 0.75
+  response: 7E80562031A000C
+- expected_values:
     F150_VCT_INT_ERR: 1.875
   response: 7E80562031A001E
 - expected_values:

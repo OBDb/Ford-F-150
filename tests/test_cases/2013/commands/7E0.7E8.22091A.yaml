@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22091A
+test_cases:
+- expected_values:
+    F150_ETC_ANG_DES: 8
+  response: 7E80562091A1000

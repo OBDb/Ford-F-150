@@ -1,32 +1,11 @@
 command_id: 7E0.7E8.224195
 test_cases:
 - expected_values:
-    F150_DTE_DISP: 76.2
-  response: 7E80562419502FA
+    F150_DTE_DISP: 29.5
+  response: '7E8056241950127'
 - expected_values:
     F150_DTE_DISP: 76.7
   response: 7E80562419502FF
 - expected_values:
-    F150_DTE_DISP: 77.3
-  response: '7E8056241950305'
-- expected_values:
-    F150_DTE_DISP: 78
-  response: 7E805624195030C
-- expected_values:
-    F150_DTE_DISP: 78.9
-  response: '7E8056241950315'
-- expected_values:
-    F150_DTE_DISP: 79
-  response: '7E8056241950316'
-- expected_values:
-    F150_DTE_DISP: 79.1
-  response: '7E8056241950317'
-- expected_values:
-    F150_DTE_DISP: 79.2
-  response: '7E8056241950318'
-- expected_values:
-    F150_DTE_DISP: 79.4
-  response: 7E805624195031A
-- expected_values:
-    F150_DTE_DISP: 103
-  response: '7E8056241950406'
+    F150_DTE_DISP: 947.3
+  response: '7E8056241952501'
