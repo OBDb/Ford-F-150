@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     F150_EVAP_PURGE_CMD: 0
   response: '7E8056211660000'
+- expected_values:
+    F150_EVAP_PURGE_CMD: 17.18445
+  response: 7E80562116615FF
+- expected_values:
+    F150_EVAP_PURGE_CMD: 98.78845
+  response: 7E8056211667E73
