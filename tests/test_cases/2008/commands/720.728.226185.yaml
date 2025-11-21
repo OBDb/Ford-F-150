@@ -4,5 +4,5 @@ test_cases:
     F150_FLI_ALT: 16.07843
   response: '7280462618529'
 - expected_values:
-    F150_FLI_ALT: 45.4902
-  response: '7280462618574'
+    F150_FLI_ALT: 99.60784
+  response: 72804626185FE
