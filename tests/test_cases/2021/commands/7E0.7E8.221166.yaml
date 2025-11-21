@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221166
+test_cases:
+- expected_values:
+    F150_EVAP_PURGE_CMD: 0
+  response: '7E8056211660000'
+- expected_values:
+    F150_EVAP_PURGE_CMD: 57.02209
+  response: 7E80562116648FD
+- expected_values:
+    F150_EVAP_PURGE_CMD: 98.56262
+  response: 7E8056211667E29
