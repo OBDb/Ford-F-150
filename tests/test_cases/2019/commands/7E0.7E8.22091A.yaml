@@ -4,8 +4,8 @@ test_cases:
     F150_ETC_ANG_DES: 0.78125
   response: 7E80562091A0190
 - expected_values:
-    F150_ETC_ANG_DES: 2.98828
-  response: 7E80562091A05FA
+    F150_ETC_ANG_DES: 2.49414
+  response: 7E80562091A04FD
 - expected_values:
     F150_ETC_ANG_DES: 8
   response: 7E80562091A1000
