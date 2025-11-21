@@ -115,6 +115,8 @@ supported_commands_by_ecu:
   - 0142:VPWR
   - 0149:APP_D
 unsupported_commands_by_ecu:
+  "720":
+  - 720.728.226185:F150_FLI_ALT
   "760":
   - 760.768.223201
   "7DF":
