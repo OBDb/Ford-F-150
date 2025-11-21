@@ -27,3 +27,6 @@ test_cases:
 - expected_values:
     F150_VCT_EXH_DUTY: 41.16516
   response: 7E80562031734B1
+- expected_values:
+    F150_VCT_EXH_DUTY: 43.01453
+  response: 7E805620317370F

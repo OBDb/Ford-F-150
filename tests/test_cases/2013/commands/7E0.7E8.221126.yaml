@@ -3,3 +3,30 @@ test_cases:
 - expected_values:
     F150_ERT: 0
   response: '7E80462112600'
+- expected_values:
+    F150_ERT: 44
+  response: 7E8046211262C
+- expected_values:
+    F150_ERT: 70
+  response: '7E80462112646'
+- expected_values:
+    F150_ERT: 95
+  response: 7E8046211265F
+- expected_values:
+    F150_ERT: 130
+  response: '7E80462112682'
+- expected_values:
+    F150_ERT: 156
+  response: 7E8046211269C
+- expected_values:
+    F150_ERT: 191
+  response: 7E804621126BF
+- expected_values:
+    F150_ERT: 217
+  response: 7E804621126D9
+- expected_values:
+    F150_ERT: 251
+  response: 7E804621126FB
+- expected_values:
+    F150_ERT: 255
+  response: 7E804621126FF

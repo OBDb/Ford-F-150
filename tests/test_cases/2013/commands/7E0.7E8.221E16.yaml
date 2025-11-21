@@ -1,5 +1,11 @@
 command_id: 7E0.7E8.221E16
 test_cases:
 - expected_values:
+    F150_AXLE_GEAR_RATIO_MEAS: 1.14209
+  response: 7E805621E161246
+- expected_values:
+    F150_AXLE_GEAR_RATIO_MEAS: 4.10303
+  response: 7E805621E1641A6
+- expected_values:
     F150_AXLE_GEAR_RATIO_MEAS: 5
   response: 7E805621E165000
