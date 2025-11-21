@@ -4,5 +4,5 @@ test_cases:
     F150_AAT_V: 3.47507
   response: 7E8056203BA02C7
 - expected_values:
-    F150_AAT_V: 3.52884
-  response: 7E8056203BA02D2
+    F150_AAT_V: 3.55327
+  response: 7E8056203BA02D7
