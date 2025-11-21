@@ -1,11 +1,11 @@
 command_id: 7E0.7E8.22F40C
 test_cases:
 - expected_values:
-    F150_RPM: 1016
-  response: 7E80562F40C0FE0
+    F150_RPM: 574.75
+  response: 7E80562F40C08FB
 - expected_values:
-    F150_RPM: 1435.25
-  response: 7E80562F40C166D
+    F150_RPM: 1217
+  response: 7E80562F40C1304
 - expected_values:
     F150_RPM: 1581.25
   response: 7E80562F40C18B5
