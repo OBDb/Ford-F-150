@@ -1,5 +1,17 @@
 command_id: 7E0.7E8.22041F
 test_cases:
 - expected_values:
+    F150_LPFP_DES: 57.855
+  response: 7E80462041F85
+- expected_values:
+    F150_LPFP_DES: 59.16
+  response: 7E80462041F88
+- expected_values:
+    F150_LPFP_DES: 59.595
+  response: 7E80462041F89
+- expected_values:
+    F150_LPFP_DES: 60.465
+  response: 7E80462041F8B
+- expected_values:
     F150_LPFP_DES: 72.645
   response: 7E80462041FA7

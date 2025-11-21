@@ -4,23 +4,8 @@ test_cases:
     F150_IAT_SENS_V: 1.82307
   response: '7E8056212790175'
 - expected_values:
-    F150_IAT_SENS_V: 1.84751
-  response: 7E805621279017A
-- expected_values:
-    F150_IAT_SENS_V: 1.89638
-  response: '7E8056212790184'
-- expected_values:
-    F150_IAT_SENS_V: 1.95015
-  response: 7E805621279018F
-- expected_values:
-    F150_IAT_SENS_V: 1.96481
-  response: '7E8056212790192'
-- expected_values:
-    F150_IAT_SENS_V: 1.97458
-  response: '7E8056212790194'
-- expected_values:
-    F150_IAT_SENS_V: 2.03324
-  response: 7E80562127901A0
-- expected_values:
     F150_IAT_SENS_V: 2.03812
   response: 7E80562127901A1
+- expected_values:
+    F150_IAT_SENS_V: 2.9521
+  response: 7E805621279025C

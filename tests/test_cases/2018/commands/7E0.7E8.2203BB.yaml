@@ -4,8 +4,26 @@ test_cases:
     F150_VCT_EXH_DES: 0
   response: 7E8056203BB0000
 - expected_values:
+    F150_VCT_EXH_DES: 0.1875
+  response: 7E8056203BB0003
+- expected_values:
     F150_VCT_EXH_DES: 10
   response: 7E8056203BB00A0
 - expected_values:
+    F150_VCT_EXH_DES: 13.3125
+  response: 7E8056203BB00D5
+- expected_values:
     F150_VCT_EXH_DES: 14
   response: 7E8056203BB00E0
+- expected_values:
+    F150_VCT_EXH_DES: 17.3125
+  response: 7E8056203BB0115
+- expected_values:
+    F150_VCT_EXH_DES: 20.8125
+  response: 7E8056203BB014D
+- expected_values:
+    F150_VCT_EXH_DES: 22.9375
+  response: 7E8056203BB016F
+- expected_values:
+    F150_VCT_EXH_DES: 23.125
+  response: 7E8056203BB0172
