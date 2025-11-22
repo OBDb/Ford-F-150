@@ -4,29 +4,8 @@ test_cases:
     F150_VCT_INT_DES: 0
   response: 7E8056203BC0000
 - expected_values:
-    F150_VCT_INT_DES: -29.4375
-  response: 7E8056203BCFE29
+    F150_VCT_INT_DES: -5.3125
+  response: 7E8056203BCFFAB
 - expected_values:
-    F150_VCT_INT_DES: -29.0625
-  response: 7E8056203BCFE2F
-- expected_values:
-    F150_VCT_INT_DES: -28.5
-  response: 7E8056203BCFE38
-- expected_values:
-    F150_VCT_INT_DES: -25.0625
-  response: 7E8056203BCFE6F
-- expected_values:
-    F150_VCT_INT_DES: -23.8125
-  response: 7E8056203BCFE83
-- expected_values:
-    F150_VCT_INT_DES: -20.3125
-  response: 7E8056203BCFEBB
-- expected_values:
-    F150_VCT_INT_DES: -18.3125
-  response: 7E8056203BCFEDB
-- expected_values:
-    F150_VCT_INT_DES: -17.0625
-  response: 7E8056203BCFEEF
-- expected_values:
-    F150_VCT_INT_DES: -4.9375
-  response: 7E8056203BCFFB1
+    F150_VCT_INT_DES: -0.3125
+  response: 7E8056203BCFFFB

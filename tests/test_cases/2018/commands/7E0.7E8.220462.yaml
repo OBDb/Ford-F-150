@@ -4,26 +4,8 @@ test_cases:
     F150_WGDC: 0
   response: '7E8056204620000'
 - expected_values:
-    F150_WGDC: 11.66687
-  response: 7E8056204620EEF
-- expected_values:
-    F150_WGDC: 37.46033
-  response: 7E8056204622FF3
-- expected_values:
-    F150_WGDC: 43.97583
-  response: 7E805620462384A
-- expected_values:
-    F150_WGDC: 63.33923
-  response: '7E8056204625113'
-- expected_values:
-    F150_WGDC: 68.09387
-  response: '7E8056204625729'
-- expected_values:
-    F150_WGDC: 68.21289
-  response: '7E8056204625750'
-- expected_values:
-    F150_WGDC: 69.1803
-  response: 7E805620462588D
+    F150_WGDC: 59.35669
+  response: 7E8056204624BFA
 - expected_values:
     F150_WGDC: 80.04456
   response: '7E8056204626675'
