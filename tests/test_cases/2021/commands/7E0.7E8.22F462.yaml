@@ -1,8 +1,0 @@
-command_id: 7E0.7E8.22F462
-test_cases:
-- expected_values:
-    F150_PCM_ACT_ENG_PCT_TRQ: 6
-  response: 7E80462F46283
-- expected_values:
-    F150_PCM_ACT_ENG_PCT_TRQ: 52
-  response: 7E80462F462B1

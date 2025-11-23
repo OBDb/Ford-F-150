@@ -1,8 +1,0 @@
-command_id: 7E0.7E8.2203CA
-test_cases:
-- expected_values:
-    F150_MCT: 56
-  response: 7E8046203CA38
-- expected_values:
-    F150_MCT: 69
-  response: 7E8046203CA45

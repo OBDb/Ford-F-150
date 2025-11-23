@@ -1,5 +1,0 @@
-command_id: 7E0.7E8.2205FC
-test_cases:
-- expected_values:
-    F150_PCM_CYL_HEAD_T_SENS_2_RAW: 15.54688
-  response: 7E8056205FC03E3

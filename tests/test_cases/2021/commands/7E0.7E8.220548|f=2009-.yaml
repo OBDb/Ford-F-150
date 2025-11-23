@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.220548|f=2009-
+test_cases:
+- expected_values:
+    F150_LPFP_ACT: 65.92116
+  response: 7E805620548038D
+- expected_values:
+    F150_LPFP_ACT: 71.7228
+  response: 7E80562054803DD
+- expected_values:
+    F150_LPFP_ACT: 76.14655
+  response: 7E805620548041A

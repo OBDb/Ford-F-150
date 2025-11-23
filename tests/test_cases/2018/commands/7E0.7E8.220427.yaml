@@ -1,8 +1,0 @@
-command_id: 7E0.7E8.220427
-test_cases:
-- expected_values:
-    F150_BPV_OPEN: 0
-  response: '7E8 04 62 04 27 00 '
-- expected_values:
-    F150_BPV_OPEN: 0
-  response: '7E80462042700'

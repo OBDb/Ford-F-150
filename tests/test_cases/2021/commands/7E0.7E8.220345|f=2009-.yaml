@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.220345|f=2009-
+test_cases:
+- expected_values:
+    F150_PCM_MISF_EVENTS_LATEST_CYC: 12
+  response: 7E8076203450000000C
+- expected_values:
+    F150_PCM_MISF_EVENTS_LATEST_CYC: 24
+  response: '7E80762034500000018'

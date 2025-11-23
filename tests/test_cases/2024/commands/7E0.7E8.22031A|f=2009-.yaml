@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.22031A|f=2009-
+test_cases:
+- expected_values:
+    F150_VCT_INT_ERR: 0
+  response: 7E80562031A0000
+- expected_values:
+    F150_VCT_INT_ERR: 0.125
+  response: 7E80562031A0002
+- expected_values:
+    F150_VCT_INT_ERR: 0.1875
+  response: 7E80562031A0003
+- expected_values:
+    F150_VCT_INT_ERR: 0.25
+  response: 7E80562031A0004
+- expected_values:
+    F150_VCT_INT_ERR: 0.625
+  response: 7E80562031A000A
+- expected_values:
+    F150_VCT_INT_ERR: -1.875
+  response: 7E80562031AFFE2
+- expected_values:
+    F150_VCT_INT_ERR: -0.1875
+  response: 7E80562031AFFFD
+- expected_values:
+    F150_VCT_INT_ERR: -0.125
+  response: 7E80562031AFFFE

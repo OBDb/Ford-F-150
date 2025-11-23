@@ -1,0 +1,29 @@
+command_id: 764.76C.22A224|f=2009-
+test_cases:
+- expected_values:
+    F150_CC_TGT_VSS: 0
+  response: 76C0562A2240000
+- expected_values:
+    F150_CC_TGT_VSS: -43.2
+  response: 76C0562A224FF88
+- expected_values:
+    F150_CC_TGT_VSS: -28.8
+  response: 76C0562A224FFB0
+- expected_values:
+    F150_CC_TGT_VSS: -25.2
+  response: 76C0562A224FFBA
+- expected_values:
+    F150_CC_TGT_VSS: -21.6
+  response: 76C0562A224FFC4
+- expected_values:
+    F150_CC_TGT_VSS: -18
+  response: 76C0562A224FFCE
+- expected_values:
+    F150_CC_TGT_VSS: -10.8
+  response: 76C0562A224FFE2
+- expected_values:
+    F150_CC_TGT_VSS: -7.2
+  response: 76C0562A224FFEC
+- expected_values:
+    F150_CC_TGT_VSS: -3.6
+  response: 76C0562A224FFF6

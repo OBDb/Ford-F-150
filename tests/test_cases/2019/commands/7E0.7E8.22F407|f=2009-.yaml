@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.22F407|f=2009-
+test_cases:
+- expected_values:
+    F150_LTFT: -3.125
+  response: 7E80462F4077C
+- expected_values:
+    F150_LTFT: 1.5625
+  response: 7E80462F40782
+- expected_values:
+    F150_LTFT: 2.34375
+  response: 7E80462F40783
+- expected_values:
+    F150_LTFT: 3.125
+  response: 7E80462F40784
+- expected_values:
+    F150_LTFT: 3.90625
+  response: 7E80462F40785
+- expected_values:
+    F150_LTFT: 4.6875
+  response: 7E80462F40786
+- expected_values:
+    F150_LTFT: 5.46875
+  response: 7E80462F40787
+- expected_values:
+    F150_LTFT: 6.25
+  response: 7E80462F40788

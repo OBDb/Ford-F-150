@@ -1,5 +1,0 @@
-command_id: 7E0.7E8.2203E8
-test_cases:
-- expected_values:
-    F150_OAR: 0.02441
-  response: 7E8056203E80190
