@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     F150_MCT: 0
   response: 7E8046203CA00
+- expected_values:
+    F150_MCT: 80
+  response: 7E8046203CA50
