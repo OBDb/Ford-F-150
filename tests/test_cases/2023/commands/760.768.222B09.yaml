@@ -1,8 +1,0 @@
-command_id: 760.768.222B09
-test_cases:
-- expected_values:
-    F150_RL_VSS: 0
-  response: 76804622B0900
-- expected_values:
-    F150_RL_VSS: 86
-  response: 76804622B0956

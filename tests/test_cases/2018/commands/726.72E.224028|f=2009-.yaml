@@ -1,0 +1,17 @@
+command_id: 726.72E.224028|f=2009-
+test_cases:
+- expected_values:
+    F150_BATT_SOC: 26.66667
+  response: '72E0462402844'
+- expected_values:
+    F150_BATT_SOC: 27.05882
+  response: '72E0462402845'
+- expected_values:
+    F150_BATT_SOC: 30.58824
+  response: 72E046240284E
+- expected_values:
+    F150_BATT_SOC: 35.29412
+  response: 72E046240285A
+- expected_values:
+    F150_BATT_SOC: 35.68627
+  response: 72E046240285B

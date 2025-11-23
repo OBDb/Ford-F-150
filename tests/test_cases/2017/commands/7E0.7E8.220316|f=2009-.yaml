@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.220316|f=2009-
+test_cases:
+- expected_values:
+    F150_VCT_INT_DUTY: 0
+  response: '7E8056203160000'
+- expected_values:
+    F150_VCT_INT_DUTY: 31.24084
+  response: 7E80562031627FD
+- expected_values:
+    F150_VCT_INT_DUTY: 36.25488
+  response: 7E8056203162E68

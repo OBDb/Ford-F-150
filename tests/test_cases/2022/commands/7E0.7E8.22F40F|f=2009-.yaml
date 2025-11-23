@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22F40F|f=2009-
+test_cases:
+- expected_values:
+    F150_IAT_ALT2: 20
+  response: 7E80462F40F3C
+- expected_values:
+    F150_IAT_ALT2: 53
+  response: 7E80462F40F5D

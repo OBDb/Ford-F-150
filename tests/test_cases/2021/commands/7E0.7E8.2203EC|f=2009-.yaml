@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2203EC|f=2009-
+test_cases:
+- expected_values:
+    F150_IGN_CORR_CYL1: 0
+  response: 7E8056203EC0000
+- expected_values:
+    F150_IGN_CORR_CYL1: 0.91797
+  response: 7E8056203EC01D6
+- expected_values:
+    F150_IGN_CORR_CYL1: -0.30273
+  response: 7E8056203ECFF65

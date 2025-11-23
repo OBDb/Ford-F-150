@@ -1,0 +1,32 @@
+command_id: 7E0.7E8.22038B|f=2009-
+test_cases:
+- expected_values:
+    F150_PCM_MISF_ACCEL_CYL4_NORM: 0
+  response: 7E80462038B00
+- expected_values:
+    F150_PCM_MISF_ACCEL_CYL4_NORM: 0.04688
+  response: 7E80462038B03
+- expected_values:
+    F150_PCM_MISF_ACCEL_CYL4_NORM: -0.14062
+  response: 7E80462038BF7
+- expected_values:
+    F150_PCM_MISF_ACCEL_CYL4_NORM: -0.10938
+  response: 7E80462038BF9
+- expected_values:
+    F150_PCM_MISF_ACCEL_CYL4_NORM: -0.09375
+  response: 7E80462038BFA
+- expected_values:
+    F150_PCM_MISF_ACCEL_CYL4_NORM: -0.07812
+  response: 7E80462038BFB
+- expected_values:
+    F150_PCM_MISF_ACCEL_CYL4_NORM: -0.0625
+  response: 7E80462038BFC
+- expected_values:
+    F150_PCM_MISF_ACCEL_CYL4_NORM: -0.04688
+  response: 7E80462038BFD
+- expected_values:
+    F150_PCM_MISF_ACCEL_CYL4_NORM: -0.03125
+  response: 7E80462038BFE
+- expected_values:
+    F150_PCM_MISF_ACCEL_CYL4_NORM: -0.01562
+  response: 7E80462038BFF
