@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     F150_TP_RRO: 33.05
   response: '72E056228150295'
+- expected_values:
+    F150_TP_RRO: 38.85
+  response: '72E056228150309'
