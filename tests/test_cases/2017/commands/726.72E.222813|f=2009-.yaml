@@ -4,8 +4,8 @@ test_cases:
     F150_TP_FL: 35.75
   response: 72E0562281302CB
 - expected_values:
-    F150_TP_FL: 38.2
-  response: 72E0562281302FC
+    F150_TP_FL: 38.3
+  response: 72E0562281302FE
 - expected_values:
     F150_TP_FL: 38.45
   response: '72E056228130301'
