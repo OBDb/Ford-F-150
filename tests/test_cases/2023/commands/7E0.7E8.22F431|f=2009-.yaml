@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.22F431|f=2009-
+test_cases:
+- expected_values:
+    F150_DIST_DTC_CLR: 32086
+  response: 7E80562F4317D56
+- expected_values:
+    F150_DIST_DTC_CLR: 32087
+  response: 7E80562F4317D57
+- expected_values:
+    F150_DIST_DTC_CLR: 32088
+  response: 7E80562F4317D58
+- expected_values:
+    F150_DIST_DTC_CLR: 32134
+  response: 7E80562F4317D86
+- expected_values:
+    F150_DIST_DTC_CLR: 32135
+  response: 7E80562F4317D87
+- expected_values:
+    F150_DIST_DTC_CLR: 32148
+  response: 7E80562F4317D94
+- expected_values:
+    F150_DIST_DTC_CLR: 32158
+  response: 7E80562F4317D9E

@@ -1,8 +1,0 @@
-command_id: 726.72E.222815
-test_cases:
-- expected_values:
-    F150_TP_RRO: 28.2
-  response: '72E056228150234'
-- expected_values:
-    F150_TP_RRO: 33.05
-  response: '72E056228150295'

@@ -1,8 +1,0 @@
-command_id: 720.728.226185
-test_cases:
-- expected_values:
-    F150_FLI_ALT: 16.07843
-  response: '7280462618529'
-- expected_values:
-    F150_FLI_ALT: 99.60784
-  response: 72804626185FE

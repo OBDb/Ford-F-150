@@ -1,0 +1,29 @@
+command_id: 7E0.7E8.22F42F|f=2009-
+test_cases:
+- expected_values:
+    F150_FLI: 0
+  response: 7E80462F42F00
+- expected_values:
+    F150_FLI: 8.23529
+  response: 7E80462F42F15
+- expected_values:
+    F150_FLI: 8.62745
+  response: 7E80462F42F16
+- expected_values:
+    F150_FLI: 9.80392
+  response: 7E80462F42F19
+- expected_values:
+    F150_FLI: 10.19608
+  response: 7E80462F42F1A
+- expected_values:
+    F150_FLI: 10.98039
+  response: 7E80462F42F1C
+- expected_values:
+    F150_FLI: 12.54902
+  response: 7E80462F42F20
+- expected_values:
+    F150_FLI: 13.72549
+  response: 7E80462F42F23
+- expected_values:
+    F150_FLI: 14.11765
+  response: 7E80462F42F24

@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.220301|f=2009-
+test_cases:
+- expected_values:
+    F150_MAP_V: 0.29102
+  response: 7E805620301012A
+- expected_values:
+    F150_MAP_V: 0.49902
+  response: 7E80562030101FF
+- expected_values:
+    F150_MAP_V: 0.75195
+  response: '7E8056203010302'
+- expected_values:
+    F150_MAP_V: 2.13477
+  response: 7E805620301088A

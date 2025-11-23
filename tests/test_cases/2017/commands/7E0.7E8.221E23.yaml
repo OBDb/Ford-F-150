@@ -1,5 +1,0 @@
-command_id: 7E0.7E8.221E23
-test_cases:
-- expected_values:
-    F150_GEAR_SHFT: PARK
-  response: 7E804621E2346
