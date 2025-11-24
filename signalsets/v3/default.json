@@ -43,7 +43,7 @@
   "signals": [
     {"id": "F150_BATT_SOC", "path": "Battery", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Battery charge"}
   ]},
-{ "hdr": "726", "rax": "72E", "cmd": {"22": "4029"}, "freq": 10, "filter": { "from": 2009 }, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016], "from": 2020 },
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "4029"}, "freq": 10, "filter": { "from": 2009, "to": 2020 }, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016], "from": 2020 },
   "signals": [
     {"id": "F150_BATT_TEMP", "path": "Battery", "fmt": { "len": 8, "max": 100, "min": -40, "add": -40, "unit": "celsius" }, "name": "Battery temperature"}
   ]},
@@ -89,7 +89,7 @@
   ]},
 { "hdr": "7DF", "cmd": {"22": "1E1C"}, "freq": 5, "filter": { "from": 2009 }, "dbgfilter": { "to": 2012, "years": [2014, 2015], "from": 2026 },
   "signals": [
-    {"id": "F150_TOT", "path": "Transmission", "fmt": { "len": 16, "max": 255, "div": 16, "unit": "celsius" }, "name": "Transmission temperature"}
+    {"id": "F150_TOT", "path": "Transmission", "fmt": { "len": 16, "max": 255, "div": 16, "unit": "celsius" }, "name": "Transmission temperature", "suggestedMetric": "transmissionFluidTemperature"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0301"}, "freq": 0.25, "filter": { "from": 2009 }, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016, 2020], "from": 2025 },
   "signals": [
@@ -101,7 +101,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "030F"}, "freq": 0.25, "filter": { "from": 2009 }, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016, 2020], "from": 2025 },
   "signals": [
-    {"id": "F150_CL", "path": "Engine", "fmt": { "len": 16, "max": 1.9999, "div": 32768, "unit": "scalar" }, "name": "Lambda, commanded", "description": "The ratio of oxygen in the combustion chamber compared to the amount that should have been present for ideal combustion."}
+    {"id": "F150_CL", "path": "Engine", "fmt": { "len": 16, "max": 1.9999, "div": 32768, "unit": "scalar" }, "name": "Lambda, commanded", "suggestedMetric": "commandedLambda", "description": "The ratio of oxygen in the combustion chamber compared to the amount that should have been present for ideal combustion."}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0316"}, "freq": 1, "filter": { "from": 2009 }, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016, 2020], "from": 2025 },
   "signals": [
@@ -193,7 +193,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "038F"}, "freq": 2, "filter": { "from": 2009 }, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016, 2020], "from": 2025 },
   "signals": [
-    {"id": "F150_ECT", "path": "Engine", "fmt": { "len": 16, "max": 511, "min": -512, "div": 64, "sign": true, "unit": "celsius" }, "name": "Coolant temperature"}
+    {"id": "F150_ECT", "path": "Engine", "fmt": { "len": 16, "max": 511, "min": -512, "div": 64, "sign": true, "unit": "celsius" }, "name": "Coolant temperature", "suggestedMetric": "engineCoolantTemperature"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0393"}, "freq": 2, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016], "from": 2020 },
   "signals": [
@@ -418,13 +418,13 @@
   "signals": [
     {"id": "F150_AC_P_SENS_V", "path": "Climate", "fmt": { "len": 16, "max": 5, "div": 1024, "sign": true, "unit": "volts" }, "name": "A/C compressor pressure sensor voltage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F404"}, "freq": 0.5, "filter": { "from": 2009 }, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016, 2020], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F404"}, "freq": 0.25, "filter": { "from": 2009 }, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016, 2020], "from": 2025 },
   "signals": [
-    {"id": "F150_ENG_LOAD_PCT", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Engine load"}
+    {"id": "F150_ENG_LOAD_PCT", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Engine load", "suggestedMetric": "engineLoad"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F406"}, "freq": 0.25, "filter": { "from": 2009 }, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016, 2020], "from": 2025 },
   "signals": [
-    {"id": "F150_STFT", "path": "Engine", "fmt": { "len": 8, "max": 99.2, "min": -100, "mul": 100, "div": 128, "add": -100, "unit": "percent" }, "name": "Fuel trim, short term"}
+    {"id": "F150_STFT", "path": "Engine", "fmt": { "len": 8, "max": 99.2, "min": -100, "mul": 100, "div": 128, "add": -100, "unit": "percent" }, "name": "Fuel trim, short term", "suggestedMetric": "shortTermFuelTrim"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F407"}, "freq": 0.5, "filter": { "from": 2009 }, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016, 2020], "from": 2025 },
   "signals": [
@@ -440,7 +440,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40D"}, "freq": 0.25, "filter": { "from": 2009 }, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016, 2020], "from": 2025 },
   "signals": [
-    {"id": "F150_VSS", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed"}
+    {"id": "F150_VSS", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40F"}, "freq": 2, "filter": { "from": 2009 }, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016, 2020], "from": 2025 },
   "signals": [
@@ -460,7 +460,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F431"}, "freq": 60, "filter": { "from": 2009 }, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016, 2020], "from": 2025 },
   "signals": [
-    {"id": "F150_DIST_DTC_CLR", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Distance since DTC clear"}
+    {"id": "F150_DIST_DTC_CLR", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Distance since DTC clear", "suggestedMetric": "distanceSinceDTCsCleared"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F43C"}, "freq": 5, "filter": { "from": 2009 }, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016, 2020], "from": 2025 },
   "signals": [
@@ -480,7 +480,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F4A6"}, "freq": 5, "filter": { "from": 2009 }, "dbgfilter": { "to": 2020, "from": 2025 },
   "signals": [
-    {"id": "F150_PCM_VEH_ODO", "path": "Trips", "fmt": { "len": 32, "max": 429496729.5, "div": 10, "unit": "kilometers" }, "name": "Vehicle odometer"}
+    {"id": "F150_PCM_VEH_ODO", "path": "Trips", "fmt": { "len": 32, "max": 429496729.5, "div": 10, "unit": "kilometers" }, "name": "Vehicle odometer", "suggestedMetric": "odometer"}
   ]}
 ]
 }
