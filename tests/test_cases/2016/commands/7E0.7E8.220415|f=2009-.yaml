@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.220415|f=2009-
+test_cases:
+- expected_values:
+    F150_PCM_ENG_EOP_RAW: 81
+  response: '7E8056204150051'
+- expected_values:
+    F150_PCM_ENG_EOP_RAW: 254
+  response: 7E80562041500FE
+- expected_values:
+    F150_PCM_ENG_EOP_RAW: 281
+  response: '7E8056204150119'
