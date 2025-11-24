@@ -470,15 +470,15 @@
   "signals": [
     {"id": "F150_ENG_LOAD_ACT", "path": "Engine", "fmt": { "len": 16, "max": 25700, "mul": 100, "div": 255, "unit": "percent" }, "name": "Engine load, actual"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F462"}, "freq": 1, "filter": { "from": 2009 }, "dbgfilter": { "to": 2020, "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F462"}, "freq": 1, "filter": { "from": 2009 }, "dbgfilter": { "to": 2018, "years": [2020], "from": 2025 },
   "signals": [
     {"id": "F150_PCM_ACT_ENG_PCT_TRQ", "path": "Engine", "fmt": { "len": 8, "max": 100, "add": -125, "unit": "percent" }, "name": "Actual engine percent torque"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F463"}, "freq": 1, "filter": { "from": 2009 }, "dbgfilter": { "to": 2020, "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F463"}, "freq": 1, "filter": { "from": 2009 }, "dbgfilter": { "to": 2018, "years": [2020], "from": 2025 },
   "signals": [
     {"id": "F150_PCM_ENG_REFERENCE_TRQ", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "newtonMeters" }, "name": "Engine reference torque"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F4A6"}, "freq": 5, "filter": { "from": 2009 }, "dbgfilter": { "to": 2020, "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F4A6"}, "freq": 5, "filter": { "from": 2009 }, "dbgfilter": { "to": 2018, "years": [2020], "from": 2025 },
   "signals": [
     {"id": "F150_PCM_VEH_ODO", "path": "Trips", "fmt": { "len": 32, "max": 429496729.5, "div": 10, "unit": "kilometers" }, "name": "Vehicle odometer", "suggestedMetric": "odometer"}
   ]}
