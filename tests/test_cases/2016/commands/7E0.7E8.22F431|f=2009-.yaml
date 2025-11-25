@@ -6,3 +6,16 @@ test_cases:
 - expected_values:
     F150_DIST_DTC_CLR: 50098
   response: 7E80562F431C3B2
+- expected_values:
+    F150_DIST_DTC_CLR: 50188
+  response: 7E80562F431C40C
+- expected_values:
+    F150_DIST_DTC_CLR: 50188
+  response: |-
+    7E80562F431C40C
+    7E804410C1C16
+    7E803410F2D
+    7E803410D1C
+    7E803410565
+    7E804410C1C3E
+    7E803410D1D
