@@ -319,7 +319,7 @@
   "signals": [
     {"id": "F150_PCM_CYL_6_KNK_COMB_PERF_CNT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Knock counter, cylinder 6"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "05FC"}, "freq": 2, "filter": { "from": 2009 }, "dbgfilter": { "to": 2015, "years": [2017, 2020, 2021, 2022, 2023], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "05FC"}, "freq": 2, "filter": { "from": 2009 }, "dbgfilter": { "to": 2015, "years": [2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "F150_PCM_CYL_HEAD_T_SENS_2_RAW", "path": "Engine", "fmt": { "len": 16, "max": 511.984375, "min": -512, "div": 64, "sign": true, "unit": "celsius" }, "name": "Cylinder head temperature, sensor 2"}
   ]},
@@ -379,15 +379,15 @@
         }}
     }
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1E16"}, "freq": 5, "filter": { "from": 2009 }, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2017, 2020], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1E16"}, "freq": 5, "filter": { "from": 2009 }, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2020], "from": 2025 },
   "signals": [
     {"id": "F150_AXLE_GEAR_RATIO_MEAS", "path": "Transmission", "fmt": { "len": 16, "max": 10, "div": 4096, "unit": "scalar" }, "name": "Axle gear ratio, measured"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1E19"}, "freq": 1, "filter": { "from": 2009 }, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2017, 2018, 2019, 2020], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1E19"}, "freq": 1, "filter": { "from": 2009 }, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2018, 2019, 2020], "from": 2025 },
   "signals": [
     {"id": "F150_PCM_CMD_TRANS_GEAR_RATIO", "path": "Transmission", "fmt": { "len": 16, "max": 16, "mul": 16, "div": 65535, "unit": "scalar" }, "name": "Gear ratio, commanded"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1E1A"}, "freq": 1, "filter": { "from": 2009 }, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2017, 2020], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1E1A"}, "freq": 1, "filter": { "from": 2009 }, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2020], "from": 2025 },
   "signals": [
     {"id": "F150_PCM_CMD_TRANS_MAIN_LINE_P", "path": "Transmission", "fmt": { "len": 16, "max": 65534, "min": -65536, "mul": 2, "sign": true, "unit": "kilopascal" }, "name": "Transmission pressure, commanded"}
   ]},
