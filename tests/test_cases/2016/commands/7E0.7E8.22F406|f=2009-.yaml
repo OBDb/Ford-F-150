@@ -22,6 +22,18 @@ test_cases:
     7E803410D72
     7E803410583
 - expected_values:
+    F150_STFT: 0
+  response: |-
+    7E80462F40680
+    7E803410D72
+    7E804410C1D87
+    7E804410C1D87
+    7E803410D72
+    7E804410C1D7F
+    7E803410F38
+    7E803410D72
+    7E803410585
+- expected_values:
     F150_STFT: 1.5625
   response: |-
     7E80462F40682
