@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.22F406|f=2009-
 test_cases:
 - expected_values:
-    F150_STFT: -9.375
-  response: 7E80462F40674
+    F150_STFT: -16.40625
+  response: 7E80462F4066B
 - expected_values:
     F150_STFT: -1.5625
   response: |-
@@ -21,6 +21,41 @@ test_cases:
     7E803410F34
     7E803410D72
     7E803410583
+- expected_values:
+    F150_STFT: 1.5625
+  response: |-
+    7E80462F40682
+    7E803410D10
+    7E804410C1ACA
+    7E803410D10
+    7E804410C1AEB
+    7E803410D10
+    7E803410B34
+    7E804410C1AF7
+    7E803410F3B
+    7E803410D10
+    7E803410556
+    7E803410D10
+    7E804410C1B38
+    7E803410D10
+    7E804410C1B26
+    7E804410C1B23
+    7E803410D10
+    7E803410B34
+    7E804410C1B4D
+    7E803410F3B
+    7E803410D10
+    7E803410556
+    7E804410C1B74
+    7E804410C1B72
+- expected_values:
+    F150_STFT: 2.34375
+  response: |-
+    7E80462F40683
+    7E804410C0FA7
+    7E803410D08
+    7E804410C0FEA
+    7E804410C100B
 - expected_values:
     F150_STFT: 3.90625
   response: |-

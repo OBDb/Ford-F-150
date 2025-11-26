@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.22F40B|f=2009-
 test_cases:
 - expected_values:
-    F150_MAP: 10.29776
-  response: 7E80462F40B47
+    F150_MAP: 2.6107
+  response: 7E80462F40B12
 - expected_values:
-    F150_MAP: 17.98483
-  response: 7E80462F40B7C
+    F150_MAP: 27.70244
+  response: 7E80462F40BBF

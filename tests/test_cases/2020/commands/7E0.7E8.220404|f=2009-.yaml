@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.220404|f=2009-
 test_cases:
 - expected_values:
-    F150_KS2_RAW: 56
-  response: '7E8056204040038'
+    F150_KS2_RAW: 32
+  response: '7E8056204040020'
 - expected_values:
-    F150_KS2_RAW: 122
-  response: 7E805620404007A
+    F150_KS2_RAW: 229
+  response: 7E80562040400E5
