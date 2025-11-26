@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     F150_WGDC: 0
   response: '7E8056204620000'
+- expected_values:
+    F150_WGDC: 53.44238
+  response: '7E8056204624468'
+- expected_values:
+    F150_WGDC: 75.38452
+  response: 7E805620462607E
