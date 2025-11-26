@@ -1,0 +1,14 @@
+command_id: 760.768.223201|f=-2015
+test_cases:
+- expected_values:
+    F150_STEER_ANG: -17
+  response: 768056232017EAC
+- expected_values:
+    F150_STEER_ANG: -16.5
+  response: 768056232017EB6
+- expected_values:
+    F150_STEER_ANG: 0
+  response: '768056232018000'
+- expected_values:
+    F150_STEER_ANG: 119
+  response: 76805623201894C

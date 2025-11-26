@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.22F40D|f=2009-
+test_cases:
+- expected_values:
+    F150_VSS: 0
+  response: 7E80462F40D00
+- expected_values:
+    F150_VSS: 2
+  response: 7E80462F40D02
+- expected_values:
+    F150_VSS: 31
+  response: 7E80462F40D1F
+- expected_values:
+    F150_VSS: 33
+  response: 7E80462F40D21
+- expected_values:
+    F150_VSS: 52
+  response: 7E80462F40D34
+- expected_values:
+    F150_VSS: 54
+  response: 7E80462F40D36
+- expected_values:
+    F150_VSS: 56
+  response: 7E80462F40D38
+- expected_values:
+    F150_VSS: 59
+  response: 7E80462F40D3B

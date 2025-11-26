@@ -1,0 +1,29 @@
+command_id: 7E0.7E8.220404|f=2009-
+test_cases:
+- expected_values:
+    F150_KS2_RAW: 125
+  response: 7E805620404007D
+- expected_values:
+    F150_KS2_RAW: 131
+  response: '7E8056204040083'
+- expected_values:
+    F150_KS2_RAW: 156
+  response: 7E805620404009C
+- expected_values:
+    F150_KS2_RAW: 205
+  response: 7E80562040400CD
+- expected_values:
+    F150_KS2_RAW: 225
+  response: 7E80562040400E1
+- expected_values:
+    F150_KS2_RAW: 226
+  response: 7E80562040400E2
+- expected_values:
+    F150_KS2_RAW: 237
+  response: 7E80562040400ED
+- expected_values:
+    F150_KS2_RAW: 270
+  response: 7E805620404010E
+- expected_values:
+    F150_KS2_RAW: 323
+  response: '7E8056204040143'
