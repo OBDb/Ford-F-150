@@ -1,8 +1,11 @@
 command_id: 7E0.7E8.22F443|f=2009-
 test_cases:
 - expected_values:
-    F150_ENG_LOAD_ACT: 47.05882
-  response: 7E80562F4430078
+    F150_ENG_LOAD_ACT: 10.98039
+  response: 7E80562F443001C
 - expected_values:
-    F150_ENG_LOAD_ACT: 70.19608
-  response: 7E80562F44300B3
+    F150_ENG_LOAD_ACT: 98.43137
+  response: 7E80562F44300FB
+- expected_values:
+    F150_ENG_LOAD_ACT: 101.17647
+  response: 7E80562F4430102

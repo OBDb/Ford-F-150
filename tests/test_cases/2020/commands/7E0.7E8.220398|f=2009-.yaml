@@ -4,5 +4,29 @@ test_cases:
     F150_PCM_MISF_ACCEL_CYL6_NORM: 0
   response: '7E80462039800'
 - expected_values:
+    F150_PCM_MISF_ACCEL_CYL6_NORM: 0.01562
+  response: '7E80462039801'
+- expected_values:
+    F150_PCM_MISF_ACCEL_CYL6_NORM: 0.04688
+  response: '7E80462039803'
+- expected_values:
+    F150_PCM_MISF_ACCEL_CYL6_NORM: 0.09375
+  response: '7E80462039806'
+- expected_values:
+    F150_PCM_MISF_ACCEL_CYL6_NORM: 0.10938
+  response: '7E80462039807'
+- expected_values:
+    F150_PCM_MISF_ACCEL_CYL6_NORM: -0.14062
+  response: 7E804620398F7
+- expected_values:
     F150_PCM_MISF_ACCEL_CYL6_NORM: -0.0625
   response: 7E804620398FC
+- expected_values:
+    F150_PCM_MISF_ACCEL_CYL6_NORM: -0.04688
+  response: 7E804620398FD
+- expected_values:
+    F150_PCM_MISF_ACCEL_CYL6_NORM: -0.03125
+  response: 7E804620398FE
+- expected_values:
+    F150_PCM_MISF_ACCEL_CYL6_NORM: -0.01562
+  response: 7E804620398FF
