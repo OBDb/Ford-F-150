@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.229800|f=2009-
 test_cases:
 - expected_values:
-    F150_AC_P_SENS_V: 1.11328
-  response: '7E8056298000474'
+    F150_AC_P_SENS_V: 0.98633
+  response: 7E80562980003F2
 - expected_values:
     F150_AC_P_SENS_V: 1.24512
   response: 7E80562980004FB
