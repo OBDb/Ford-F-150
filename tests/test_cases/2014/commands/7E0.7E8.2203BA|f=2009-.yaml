@@ -4,29 +4,5 @@ test_cases:
     F150_AAT_V: 3.08895
   response: 7E8056203BA0278
 - expected_values:
-    F150_AAT_V: 3.14272
-  response: 7E8056203BA0283
-- expected_values:
-    F150_AAT_V: 3.15249
-  response: 7E8056203BA0285
-- expected_values:
-    F150_AAT_V: 3.20137
-  response: 7E8056203BA028F
-- expected_values:
-    F150_AAT_V: 3.26979
-  response: 7E8056203BA029D
-- expected_values:
-    F150_AAT_V: 3.28935
-  response: 7E8056203BA02A1
-- expected_values:
-    F150_AAT_V: 3.29423
-  response: 7E8056203BA02A2
-- expected_values:
-    F150_AAT_V: 3.30401
-  response: 7E8056203BA02A4
-- expected_values:
-    F150_AAT_V: 3.31378
-  response: 7E8056203BA02A6
-- expected_values:
-    F150_AAT_V: 3.31867
-  response: 7E8056203BA02A7
+    F150_AAT_V: 3.44086
+  response: 7E8056203BA02C0
