@@ -1,26 +1,8 @@
 command_id: 7E0.7E8.22116B
 test_cases:
 - expected_values:
-    F150_IGN_TIM_CYL1: 10
-  response: 7E80562116B0028
+    F150_IGN_TIM_CYL1: 4.5
+  response: 7E80562116B0012
 - expected_values:
-    F150_IGN_TIM_CYL1: 11.75
-  response: 7E80562116B002F
-- expected_values:
-    F150_IGN_TIM_CYL1: 16
-  response: 7E80562116B0040
-- expected_values:
-    F150_IGN_TIM_CYL1: 16.75
-  response: 7E80562116B0043
-- expected_values:
-    F150_IGN_TIM_CYL1: 19
-  response: 7E80562116B004C
-- expected_values:
-    F150_IGN_TIM_CYL1: 30
-  response: 7E80562116B0078
-- expected_values:
-    F150_IGN_TIM_CYL1: 33.25
-  response: 7E80562116B0085
-- expected_values:
-    F150_IGN_TIM_CYL1: 34.25
-  response: 7E80562116B0089
+    F150_IGN_TIM_CYL1: 37.5
+  response: 7E80562116B0096

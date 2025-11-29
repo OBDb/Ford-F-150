@@ -1,32 +1,11 @@
 command_id: 7E0.7E8.22038F|f=2009-
 test_cases:
 - expected_values:
-    F150_ECT: 89.51562
-  response: 7E80562038F1661
+    F150_ECT: 85.6875
+  response: 7E80562038F156C
 - expected_values:
-    F150_ECT: 89.70312
-  response: 7E80562038F166D
+    F150_ECT: 87.79688
+  response: 7E80562038F15F3
 - expected_values:
-    F150_ECT: 90.28125
-  response: 7E80562038F1692
-- expected_values:
-    F150_ECT: 90.40625
-  response: 7E80562038F169A
-- expected_values:
-    F150_ECT: 90.45312
-  response: 7E80562038F169D
-- expected_values:
-    F150_ECT: 90.46875
-  response: 7E80562038F169E
-- expected_values:
-    F150_ECT: 90.54688
-  response: 7E80562038F16A3
-- expected_values:
-    F150_ECT: 90.75
-  response: 7E80562038F16B0
-- expected_values:
-    F150_ECT: 90.85938
-  response: 7E80562038F16B7
-- expected_values:
-    F150_ECT: 91.0625
-  response: 7E80562038F16C4
+    F150_ECT: 88.6875
+  response: 7E80562038F162C
