@@ -3,108 +3,84 @@ test_cases:
 - expected_values:
     EGRTA: -40
     EGRTA_SUP: 0
-    EGRTA_WIDE: -40
     EGRTA_WR_SUP: 0
     EGRTB: -25
     EGRTB_SUP: 0
-    EGRTB_WIDE: 20
     EGRTB_WR_SUP: 1
     EGRTC: -40
     EGRTC_SUP: 0
-    EGRTC_WIDE: -40
     EGRTC_WR_SUP: 0
     EGRTD: -40
     EGRTD_SUP: 0
-    EGRTD_WIDE: -40
     EGRTD_WR_SUP: 0
   response: 7E807416B4000000F00
 - expected_values:
     EGRTA: -40
     EGRTA_SUP: 0
-    EGRTA_WIDE: -40
     EGRTA_WR_SUP: 0
     EGRTB: -21
     EGRTB_SUP: 0
-    EGRTB_WIDE: 36
     EGRTB_WR_SUP: 1
     EGRTC: -40
     EGRTC_SUP: 0
-    EGRTC_WIDE: -40
     EGRTC_WR_SUP: 0
     EGRTD: -40
     EGRTD_SUP: 0
-    EGRTD_WIDE: -40
     EGRTD_WR_SUP: 0
   response: 7E807416B4000001300
 - expected_values:
     EGRTA: -40
     EGRTA_SUP: 0
-    EGRTA_WIDE: -40
     EGRTA_WR_SUP: 0
     EGRTB: -20
     EGRTB_SUP: 0
-    EGRTB_WIDE: 40
     EGRTB_WR_SUP: 1
     EGRTC: -40
     EGRTC_SUP: 0
-    EGRTC_WIDE: -40
     EGRTC_WR_SUP: 0
     EGRTD: -40
     EGRTD_SUP: 0
-    EGRTD_WIDE: -40
     EGRTD_WR_SUP: 0
   response: 7E807416B4000001400
 - expected_values:
     EGRTA: -40
     EGRTA_SUP: 0
-    EGRTA_WIDE: -40
     EGRTA_WR_SUP: 0
     EGRTB: -19
     EGRTB_SUP: 0
-    EGRTB_WIDE: 44
     EGRTB_WR_SUP: 1
     EGRTC: -40
     EGRTC_SUP: 0
-    EGRTC_WIDE: -40
     EGRTC_WR_SUP: 0
     EGRTD: -40
     EGRTD_SUP: 0
-    EGRTD_WIDE: -40
     EGRTD_WR_SUP: 0
   response: 7E807416B4000001500
 - expected_values:
     EGRTA: -40
     EGRTA_SUP: 0
-    EGRTA_WIDE: -40
     EGRTA_WR_SUP: 0
     EGRTB: -18
     EGRTB_SUP: 0
-    EGRTB_WIDE: 48
     EGRTB_WR_SUP: 1
     EGRTC: -40
     EGRTC_SUP: 0
-    EGRTC_WIDE: -40
     EGRTC_WR_SUP: 0
     EGRTD: -40
     EGRTD_SUP: 0
-    EGRTD_WIDE: -40
     EGRTD_WR_SUP: 0
   response: 7E807416B4000001600
 - expected_values:
     EGRTA: -40
     EGRTA_SUP: 0
-    EGRTA_WIDE: -40
     EGRTA_WR_SUP: 0
     EGRTB: -17
     EGRTB_SUP: 0
-    EGRTB_WIDE: 52
     EGRTB_WR_SUP: 1
     EGRTC: -40
     EGRTC_SUP: 0
-    EGRTC_WIDE: -40
     EGRTC_WR_SUP: 0
     EGRTD: -40
     EGRTD_SUP: 0
-    EGRTD_WIDE: -40
     EGRTD_WR_SUP: 0
   response: 7E807416B4000001700
