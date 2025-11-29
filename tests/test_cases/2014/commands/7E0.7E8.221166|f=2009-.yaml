@@ -4,26 +4,8 @@ test_cases:
     F150_EVAP_PURGE_CMD: 0
   response: '7E8056211660000'
 - expected_values:
-    F150_EVAP_PURGE_CMD: 0.31738
-  response: '7E8056211660068'
+    F150_EVAP_PURGE_CMD: 19.50684
+  response: 7E80562116618F8
 - expected_values:
-    F150_EVAP_PURGE_CMD: 0.33264
-  response: 7E805621166006D
-- expected_values:
-    F150_EVAP_PURGE_CMD: 11.65161
-  response: 7E8056211660EEA
-- expected_values:
-    F150_EVAP_PURGE_CMD: 12.88452
-  response: 7E805621166107E
-- expected_values:
-    F150_EVAP_PURGE_CMD: 21.04187
-  response: 7E8056211661AEF
-- expected_values:
-    F150_EVAP_PURGE_CMD: 36.6333
-  response: 7E8056211662EE4
-- expected_values:
-    F150_EVAP_PURGE_CMD: 75.44861
-  response: '7E8056211666093'
-- expected_values:
-    F150_EVAP_PURGE_CMD: 96.19751
-  response: 7E8056211667B22
+    F150_EVAP_PURGE_CMD: 98.99597
+  response: 7E8056211667EB7
