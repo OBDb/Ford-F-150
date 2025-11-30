@@ -12,3 +12,6 @@ test_cases:
 - expected_values:
     F150_BATT_TEMP: 16
   response: '72E0462402938'
+- expected_values:
+    F150_BATT_TEMP: 26
+  response: '72E0462402942'
