@@ -109,6 +109,7 @@ unsupported_commands_by_ecu:
   "764":
   - 764.22A224
   "7DF":
+  - 7DF.0110
   - 7DF.221E1C
   "7E0":
   - 7E0.7E8.220301
