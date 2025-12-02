@@ -46,6 +46,8 @@ supported_commands_by_ecu:
   - 0152:ALCH_PCT
   - 7E0.7E8.22F42F|f=2009-:F150_FLI
 unsupported_commands_by_ecu:
+  "760":
+  - 760.768.222B0D|f=2009-:F150_BRK_FL_P
   "764":
   - 764.22DD01
   "7E0":
