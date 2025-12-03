@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.220466|f=2009-
+test_cases:
+- expected_values:
+    F150_TIP_DES_ABS: 14.34814
+  response: 7E80562046632A8

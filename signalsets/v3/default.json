@@ -143,11 +143,11 @@
   "signals": [
     {"id": "F150_ETC_TRIM_LRN", "path": "Engine", "fmt": { "len": 16, "max": 63.9, "min": -64, "div": 512, "sign": true, "unit": "degrees" }, "name": "Throttle control trim angle, learned"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "033C"}, "freq": 1, "filter": { "from": 2009 }, "dbgfilter": { "to": 2015, "years": [2021], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "033C"}, "freq": 1, "filter": { "from": 2009 }, "dbgfilter": { "to": 2015, "from": 2025 },
   "signals": [
     {"id": "F150_TIP_V", "path": "Engine", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 1024, "unit": "volts" }, "name": "Throttle inlet pressure sensor voltage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "033E"}, "freq": 0.25, "filter": { "from": 2009 }, "dbgfilter": { "to": 2015, "years": [2021], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "033E"}, "freq": 0.25, "filter": { "from": 2009 }, "dbgfilter": { "to": 2015, "from": 2025 },
   "signals": [
     {"id": "F150_TIP_ABS", "path": "Engine", "fmt": { "len": 16, "max": 60, "mul": 37, "div": 33441, "unit": "psi" }, "name": "Throttle inlet pressure"}
   ]},
@@ -255,7 +255,7 @@
   "signals": [
     {"id": "F150_LPFP_DES", "path": "Engine", "fmt": { "len": 8, "max": 110, "mul": 435, "div": 1000, "unit": "psi" }, "name": "Fuel pressure, low desired"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0427"}, "freq": 0.25, "filter": { "from": 2009 }, "dbgfilter": { "to": 2015, "years": [2021], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0427"}, "freq": 0.25, "filter": { "from": 2009 }, "dbgfilter": { "to": 2015, "from": 2025 },
   "signals": [
     {"id": "F150_BPV_OPEN", "path": "Engine", "fmt": { "len": 8, "max": 1, "div": 255, "unit": "scalar" }, "name": "Bypass valve"}
   ]},
@@ -267,11 +267,11 @@
   "signals": [
     {"id": "F150_CAT", "path": "Engine", "fmt": { "len": 16, "max": 189, "min": -40, "div": 64, "add": -40, "sign": true, "unit": "celsius" }, "name": "Charge air temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0462"}, "freq": 0.25, "filter": { "from": 2009 }, "dbgfilter": { "to": 2015, "years": [2021], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0462"}, "freq": 0.25, "filter": { "from": 2009 }, "dbgfilter": { "to": 2015, "from": 2025 },
   "signals": [
     {"id": "F150_WGDC", "path": "Engine", "fmt": { "len": 16, "max": 100, "mul": 100, "div": 32768, "unit": "percent" }, "name": "Wastegate duty cycle"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0466"}, "freq": 0.25, "filter": { "from": 2009 }, "dbgfilter": { "to": 2015, "years": [2021], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0466"}, "freq": 0.25, "filter": { "from": 2009 }, "dbgfilter": { "to": 2015, "from": 2025 },
   "signals": [
     {"id": "F150_TIP_DES_ABS", "path": "Engine", "fmt": { "len": 16, "max": 72.5, "mul": 37, "div": 33441, "unit": "psi" }, "name": "Throttle inlet pressure, desired"}
   ]},
@@ -295,27 +295,27 @@
   "signals": [
     {"id": "F150_AAT_ALT", "path": "Climate", "fmt": { "len": 8, "max": 87.5, "min": -40, "div": 2, "add": -40, "unit": "celsius" }, "name": "Ambient temperature, alternate"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "05AC"}, "freq": 1, "filter": { "from": 2009 }, "dbgfilter": { "to": 2015, "years": [2021], "from": 2024 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "05AC"}, "freq": 1, "filter": { "from": 2009 }, "dbgfilter": { "to": 2015, "from": 2024 },
   "signals": [
     {"id": "F150_PCM_CYL_1_KNK_COMB_PERF_CNT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Knock counter, cylinder 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "05AD"}, "freq": 1, "filter": { "from": 2009 }, "dbgfilter": { "to": 2015, "years": [2021], "from": 2024 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "05AD"}, "freq": 1, "filter": { "from": 2009 }, "dbgfilter": { "to": 2015, "from": 2024 },
   "signals": [
     {"id": "F150_PCM_CYL_2_KNK_COMB_PERF_CNT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Knock counter, cylinder 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "05AE"}, "freq": 1, "filter": { "from": 2009 }, "dbgfilter": { "to": 2015, "years": [2021], "from": 2024 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "05AE"}, "freq": 1, "filter": { "from": 2009 }, "dbgfilter": { "to": 2015, "from": 2024 },
   "signals": [
     {"id": "F150_PCM_CYL_3_KNK_COMB_PERF_CNT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Knock counter, cylinder 3"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "05AF"}, "freq": 1, "filter": { "from": 2009 }, "dbgfilter": { "to": 2015, "years": [2021], "from": 2024 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "05AF"}, "freq": 1, "filter": { "from": 2009 }, "dbgfilter": { "to": 2015, "from": 2024 },
   "signals": [
     {"id": "F150_PCM_CYL_4_KNK_COMB_PERF_CNT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Knock counter, cylinder 4"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "05B0"}, "freq": 1, "filter": { "from": 2009 }, "dbgfilter": { "to": 2015, "years": [2021], "from": 2024 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "05B0"}, "freq": 1, "filter": { "from": 2009 }, "dbgfilter": { "to": 2015, "from": 2024 },
   "signals": [
     {"id": "F150_PCM_CYL_5_KNK_COMB_PERF_CNT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Knock counter, cylinder 5"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "05B1"}, "freq": 1, "filter": { "from": 2009 }, "dbgfilter": { "to": 2015, "years": [2021], "from": 2024 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "05B1"}, "freq": 1, "filter": { "from": 2009 }, "dbgfilter": { "to": 2015, "from": 2024 },
   "signals": [
     {"id": "F150_PCM_CYL_6_KNK_COMB_PERF_CNT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Knock counter, cylinder 6"}
   ]},
