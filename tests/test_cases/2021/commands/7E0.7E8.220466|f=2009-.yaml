@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     F150_TIP_DES_ABS: 14.34814
   response: 7E80562046632A8
+- expected_values:
+    F150_TIP_DES_ABS: 14.46431
+  response: '7E8056204663311'
