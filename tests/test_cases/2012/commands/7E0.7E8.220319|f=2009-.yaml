@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.220319|f=2009-
+test_cases:
+- expected_values:
+    F150_VCT_EXH_ACT: 0.125
+  response: '7E8056203190002'
+- expected_values:
+    F150_VCT_EXH_ACT: 50
+  response: 7E805620319FFFC
+- expected_values:
+    F150_VCT_EXH_ACT: 50
+  response: 7E805620319FFFF

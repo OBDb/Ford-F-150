@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.22F40F|f=2009-
+test_cases:
+- expected_values:
+    F150_IAT_ALT2: -4
+  response: 7E80462F40F24
+- expected_values:
+    F150_IAT_ALT2: -3
+  response: 7E80462F40F25
+- expected_values:
+    F150_IAT_ALT2: -2
+  response: 7E80462F40F26
+- expected_values:
+    F150_IAT_ALT2: -1
+  response: 7E80462F40F27
+- expected_values:
+    F150_IAT_ALT2: 0
+  response: 7E80462F40F28

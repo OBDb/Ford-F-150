@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.220462|f=2009-
+test_cases:
+- expected_values:
+    F150_WGDC: 0
+  response: '7E8056204620000'
+- expected_values:
+    F150_WGDC: 0.01221
+  response: '7E8056204620004'
+- expected_values:
+    F150_WGDC: 0.01831
+  response: '7E8056204620006'
+- expected_values:
+    F150_WGDC: 18.34717
+  response: 7E805620462177C
+- expected_values:
+    F150_WGDC: 18.58826
+  response: 7E80562046217CB
+- expected_values:
+    F150_WGDC: 18.93616
+  response: 7E805620462183D

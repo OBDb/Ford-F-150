@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.2203CA|f=2009-
+test_cases:
+- expected_values:
+    F150_MCT: 39
+  response: 7E8046203CA27
+- expected_values:
+    F150_MCT: 41
+  response: 7E8046203CA29
+- expected_values:
+    F150_MCT: 42
+  response: 7E8046203CA2A
+- expected_values:
+    F150_MCT: 43
+  response: 7E8046203CA2B
+- expected_values:
+    F150_MCT: 44
+  response: 7E8046203CA2C
+- expected_values:
+    F150_MCT: 45
+  response: 7E8046203CA2D
+- expected_values:
+    F150_MCT: 46
+  response: 7E8046203CA2E
+- expected_values:
+    F150_MCT: 47
+  response: 7E8046203CA2F
