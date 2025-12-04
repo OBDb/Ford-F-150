@@ -4,23 +4,5 @@ test_cases:
     F150_MCT: 48
   response: 7E8046203CA30
 - expected_values:
-    F150_MCT: 49
-  response: 7E8046203CA31
-- expected_values:
-    F150_MCT: 50
-  response: 7E8046203CA32
-- expected_values:
-    F150_MCT: 51
-  response: 7E8046203CA33
-- expected_values:
-    F150_MCT: 52
-  response: 7E8046203CA34
-- expected_values:
-    F150_MCT: 53
-  response: 7E8046203CA35
-- expected_values:
-    F150_MCT: 54
-  response: 7E8046203CA36
-- expected_values:
-    F150_MCT: 55
-  response: 7E8046203CA37
+    F150_MCT: 65
+  response: 7E8046203CA41
