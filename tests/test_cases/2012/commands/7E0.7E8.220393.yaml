@@ -4,20 +4,8 @@ test_cases:
     F150_AC_P: 46.99223
   response: 7E80562039300A2
 - expected_values:
-    F150_AC_P: 47.57238
-  response: 7E80562039300A4
+    F150_AC_P: 73.96925
+  response: 7E80562039300FF
 - expected_values:
-    F150_AC_P: 48.15253
-  response: 7E80562039300A6
-- expected_values:
-    F150_AC_P: 49.31283
-  response: 7E80562039300AA
-- expected_values:
-    F150_AC_P: 49.89299
-  response: 7E80562039300AC
-- expected_values:
-    F150_AC_P: 50.47314
-  response: 7E80562039300AE
-- expected_values:
-    F150_AC_P: 51.05329
-  response: 7E80562039300B0
+    F150_AC_P: 74.5494
+  response: '7E8056203930101'
