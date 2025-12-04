@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.220700|f=2009-
+test_cases:
+- expected_values:
+    F150_IAT_FAULT: 0
+  response: '7E80762070000820000'

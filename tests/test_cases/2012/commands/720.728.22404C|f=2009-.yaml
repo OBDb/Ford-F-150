@@ -1,0 +1,11 @@
+command_id: 720.728.22404C|f=2009-
+test_cases:
+- expected_values:
+    F150_ODO: 274300.7
+  response: 7280662404C29DADF
+- expected_values:
+    F150_ODO: 274303.8
+  response: 7280662404C29DAFE
+- expected_values:
+    F150_ODO: 274304.3
+  response: 7280662404C29DB03

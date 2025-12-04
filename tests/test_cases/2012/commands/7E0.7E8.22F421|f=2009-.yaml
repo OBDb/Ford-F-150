@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22F421|f=2009-
+test_cases:
+- expected_values:
+    F150_MIL_DIST: 590
+  response: 7E80562F421024E
