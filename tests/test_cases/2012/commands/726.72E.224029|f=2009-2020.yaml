@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     F150_BATT_TEMP: 1
   response: '72E0462402929'
+- expected_values:
+    F150_BATT_TEMP: 2
+  response: 72E046240292A
+- expected_values:
+    F150_BATT_TEMP: 4
+  response: 72E046240292C

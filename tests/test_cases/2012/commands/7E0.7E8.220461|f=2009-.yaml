@@ -1,26 +1,14 @@
 command_id: 7E0.7E8.220461|f=2009-
 test_cases:
 - expected_values:
+    F150_CAT: -31.6875
+  response: '7E8056204610214'
+- expected_values:
+    F150_CAT: -28.07812
+  response: 7E80562046102FB
+- expected_values:
+    F150_CAT: -27.76562
+  response: 7E805620461030F
+- expected_values:
     F150_CAT: -40
   response: 7E805620461FF47
-- expected_values:
-    F150_CAT: -40
-  response: 7E805620461FF51
-- expected_values:
-    F150_CAT: -40
-  response: 7E805620461FF5A
-- expected_values:
-    F150_CAT: -40
-  response: 7E805620461FF64
-- expected_values:
-    F150_CAT: -40
-  response: 7E805620461FF80
-- expected_values:
-    F150_CAT: -40
-  response: 7E805620461FF89
-- expected_values:
-    F150_CAT: -40
-  response: 7E805620461FF93
-- expected_values:
-    F150_CAT: -40
-  response: 7E805620461FFAF

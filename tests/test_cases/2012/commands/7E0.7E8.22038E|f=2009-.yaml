@@ -5,7 +5,7 @@ test_cases:
   response: 7E80562038E082C
 - expected_values:
     F150_EVAP_V: 5
-  response: 7E80562038E09F8
+  response: 7E80562038E08FE
 - expected_values:
     F150_EVAP_V: 5
   response: 7E80562038E0A02
