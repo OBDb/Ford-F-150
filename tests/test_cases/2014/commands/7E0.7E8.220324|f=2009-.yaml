@@ -1,11 +1,11 @@
 command_id: 7E0.7E8.220324|f=2009-
 test_cases:
 - expected_values:
-    F150_HPFP_V: 0.72336
-  response: '7E8056203240094'
+    F150_HPFP_V: 0.7087
+  response: '7E8056203240091'
 - expected_values:
-    F150_HPFP_V: 1.11437
-  response: 7E80562032400E4
+    F150_HPFP_V: 1.19257
+  response: 7E80562032400F4
 - expected_values:
-    F150_HPFP_V: 1.79374
-  response: 7E805620324016F
+    F150_HPFP_V: 1.75464
+  response: '7E8056203240167'
