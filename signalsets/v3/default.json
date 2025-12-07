@@ -7,7 +7,7 @@
   "signals": [
     {"id": "F150_FLI_ALT", "path": "Fuel", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Fuel level, alternate", "suggestedMetric": "fuelTankLevel"}
   ]},
-{ "hdr": "720", "rax": "728", "cmd": {"22": "61A5"}, "freq": 10, "filter": { "from": 2009 }, "dbgfilter": { "to": 2011, "years": [2015, 2016, 2017, 2018, 2019, 2020], "from": 2025 },
+{ "hdr": "720", "rax": "728", "cmd": {"22": "61A5"}, "freq": 10, "filter": { "from": 2009 }, "dbgfilter": { "to": 2011, "years": [2015, 2016, 2017, 2019, 2020], "from": 2025 },
   "signals": [
     {"id": "F150_TPMS_WARN", "path": "Tires", "fmt": {"bix": 2, "len": 1, "max": 1, "unit": "offon" }, "name": "Tire pressure warning"}
   ]},

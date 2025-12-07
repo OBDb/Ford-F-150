@@ -17,11 +17,11 @@ test_cases:
     7E805621E1C01AB
     7EE05621E1C01A0
 - expected_values:
-    F150_TOT: 64
-  response: 7E805621E1C0400
+    F150_TOT: 32
+  response: 7E805621E1C0200
 - expected_values:
-    F150_TOT: 80
-  response: 7E805621E1C0500
+    F150_TOT: 96.0625
+  response: 7E805621E1C0601
 - expected_values:
     F150_TOT: 26.5625
   response: |-
