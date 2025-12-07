@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.22F4A6|f=2009-
 test_cases:
 - expected_values:
+    F150_PCM_VEH_ODO: 28288.9
+  response: 7E80762F4A600045109
+- expected_values:
     F150_PCM_VEH_ODO: 60799
   response: 7E80762F4A6000946F6
-- expected_values:
-    F150_PCM_VEH_ODO: 60881.8
-  response: 7E80762F4A600094A32

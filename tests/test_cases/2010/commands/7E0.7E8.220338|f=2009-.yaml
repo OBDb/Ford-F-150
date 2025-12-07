@@ -1,0 +1,29 @@
+command_id: 7E0.7E8.220338|f=2009-
+test_cases:
+- expected_values:
+    F150_ETC_TRIM_LRN: 1.27148
+  response: 7E805620338028B
+- expected_values:
+    F150_ETC_TRIM_LRN: 1.40234
+  response: 7E80562033802CE
+- expected_values:
+    F150_ETC_TRIM_LRN: 1.46289
+  response: 7E80562033802ED
+- expected_values:
+    F150_ETC_TRIM_LRN: 1.49219
+  response: 7E80562033802FC
+- expected_values:
+    F150_ETC_TRIM_LRN: 1.50195
+  response: '7E8056203380301'
+- expected_values:
+    F150_ETC_TRIM_LRN: 1.51172
+  response: '7E8056203380306'
+- expected_values:
+    F150_ETC_TRIM_LRN: 1.62305
+  response: 7E805620338033F
+- expected_values:
+    F150_ETC_TRIM_LRN: 1.64648
+  response: 7E805620338034B
+- expected_values:
+    F150_ETC_TRIM_LRN: 1.65234
+  response: 7E805620338034E

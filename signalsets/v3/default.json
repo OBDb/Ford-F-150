@@ -3,7 +3,7 @@
   "signals": [
     {"id": "F150_ODO", "path": "Trips", "fmt": { "len": 24, "max": 1677721, "div": 10, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "720", "rax": "728", "cmd": {"22": "6185"}, "freq": 5, "filter": { "to": 2015 }, "dbgfilter": { "to": 2007, "from": 2009 },
+{ "hdr": "720", "rax": "728", "cmd": {"22": "6185"}, "freq": 5, "filter": { "to": 2015 }, "dbgfilter": { "to": 2007, "years": [2009], "from": 2011 },
   "signals": [
     {"id": "F150_FLI_ALT", "path": "Fuel", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Fuel level, alternate", "suggestedMetric": "fuelTankLevel"}
   ]},
@@ -79,7 +79,7 @@
   "signals": [
     {"id": "F150_LAT_G", "path": "Movement", "fmt": { "len": 16, "max": 1, "min": -1, "div": 50, "sign": true, "unit": "scalar" }, "name": "Lateral acceleration"}
   ]},
-{ "hdr": "760", "rax": "768", "cmd": {"22": "3201"}, "freq": 0.1, "filter": { "to": 2015 }, "dbgfilter": { "to": 2011, "from": 2015 },
+{ "hdr": "760", "rax": "768", "cmd": {"22": "3201"}, "freq": 0.1, "filter": { "to": 2015 }, "dbgfilter": { "to": 2009, "years": [2011], "from": 2015 },
   "signals": [
     {"id": "F150_STEER_ANG", "path": "Control", "fmt": { "len": 16, "max": 1638, "min": -1638, "div": 20, "add": -1638.4, "unit": "degrees" }, "name": "Steering angle", "description": "Positive is rotated to the left, negative is rotated to the right."}
   ]},
@@ -87,7 +87,7 @@
   "signals": [
     {"id": "F150_CC_TGT_VSS", "path": "Cruise control", "fmt": { "len": 16, "max": 736, "min": -736, "mul": 3.6, "div": 10, "sign": true, "unit": "kilometersPerHour" }, "name": "Target speed", "description": "The speed of the vehicle ahead of you."}
   ]},
-{ "hdr": "7DF", "cmd": {"22": "1E1C"}, "freq": 5, "filter": { "from": 2009 }, "dbgfilter": { "to": 2011, "years": [2015], "from": 2026 },
+{ "hdr": "7DF", "cmd": {"22": "1E1C"}, "freq": 5, "filter": { "from": 2009 }, "dbgfilter": { "to": 2009, "years": [2011, 2015], "from": 2026 },
   "signals": [
     {"id": "F150_TOT", "path": "Transmission", "fmt": { "len": 16, "max": 255, "div": 16, "unit": "celsius" }, "name": "Transmission temperature", "suggestedMetric": "transmissionFluidTemperature"}
   ]},
@@ -95,15 +95,15 @@
   "signals": [
     {"id": "F150_MAP_V", "path": "Engine", "fmt": { "len": 16, "max": 5, "div": 1024, "unit": "volts" }, "name": "Manifold pressure sensor voltage", "description": "Typically varies from 1 volt at idle to 5 volts during wide open throttle."}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0307"}, "freq": 1, "filter": { "from": 2009 }, "dbgfilter": { "to": 2011, "years": [2015], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0307"}, "freq": 1, "filter": { "from": 2009 }, "dbgfilter": { "to": 2009, "years": [2011, 2015], "from": 2025 },
   "signals": [
     {"id": "F150_LPFP_DUTY", "path": "Engine", "fmt": { "len": 16, "max": 100, "mul": 25, "div": 8192, "unit": "percent" }, "name": "Fuel pump duty cycle, low pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "030F"}, "freq": 0.25, "filter": { "from": 2009 }, "dbgfilter": { "to": 2011, "years": [2015], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "030F"}, "freq": 0.25, "filter": { "from": 2009 }, "dbgfilter": { "to": 2009, "years": [2011, 2015], "from": 2025 },
   "signals": [
     {"id": "F150_CL", "path": "Engine", "fmt": { "len": 16, "max": 1.9999, "div": 32768, "unit": "scalar" }, "name": "Lambda, commanded", "suggestedMetric": "commandedLambda", "description": "The ratio of oxygen in the combustion chamber compared to the amount that should have been present for ideal combustion."}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0316"}, "freq": 1, "filter": { "from": 2009 }, "dbgfilter": { "to": 2011, "years": [2015], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0316"}, "freq": 1, "filter": { "from": 2009 }, "dbgfilter": { "to": 2009, "years": [2011, 2015], "from": 2025 },
   "signals": [
     {"id": "F150_VCT_INT_DUTY", "path": "Engine", "fmt": { "len": 16, "max": 100, "mul": 25, "div": 8192, "unit": "percent" }, "name": "Camshaft solenoid duty cycle, intake"}
   ]},
@@ -111,7 +111,7 @@
   "signals": [
     {"id": "F150_VCT_EXH_DUTY", "path": "Engine", "fmt": { "len": 16, "max": 100, "mul": 25, "div": 8192, "unit": "percent" }, "name": "Camshaft solenoid duty cycle, exhaust"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0318"}, "freq": 1, "filter": { "from": 2009 }, "dbgfilter": { "to": 2011, "years": [2015], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0318"}, "freq": 1, "filter": { "from": 2009 }, "dbgfilter": { "to": 2009, "years": [2011, 2015], "from": 2025 },
   "signals": [
     {"id": "F150_VCT_INT_ACT", "path": "Engine", "fmt": { "len": 16, "max": 0, "div": 16, "unit": "degrees" }, "name": "Camshaft position, intake actual"}
   ]},
@@ -119,7 +119,7 @@
   "signals": [
     {"id": "F150_VCT_EXH_ACT", "path": "Engine", "fmt": { "len": 16, "max": 50, "div": 16, "unit": "degrees" }, "name": "Camshaft position, exhaust actual"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "031A"}, "freq": 1, "filter": { "from": 2009 }, "dbgfilter": { "to": 2011, "years": [2015], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "031A"}, "freq": 1, "filter": { "from": 2009 }, "dbgfilter": { "to": 2009, "years": [2011, 2015], "from": 2025 },
   "signals": [
     {"id": "F150_VCT_INT_ERR", "path": "Engine", "fmt": { "len": 16, "max": 50, "min": -50, "div": 16, "sign": true, "unit": "degrees" }, "name": "Camshaft position error, intake"}
   ]},
@@ -131,15 +131,15 @@
   "signals": [
     {"id": "F150_HPFP_V", "path": "Engine", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 1023, "unit": "volts" }, "name": "Fuel rail sensor voltage, high pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "032B"}, "freq": 0.25, "filter": { "from": 2009 }, "dbgfilter": { "to": 2011, "years": [2015], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "032B"}, "freq": 0.25, "filter": { "from": 2009 }, "dbgfilter": { "to": 2009, "years": [2011, 2015], "from": 2025 },
   "signals": [
     {"id": "F150_ACC_POS", "path": "Engine", "fmt": { "len": 8, "max": 100, "div": 2, "unit": "percent" }, "name": "Accelerator position"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0334"}, "freq": 2, "filter": { "from": 2009 }, "dbgfilter": { "to": 2011, "years": [2015], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0334"}, "freq": 2, "filter": { "from": 2009 }, "dbgfilter": { "to": 2009, "years": [2011, 2015], "from": 2025 },
   "signals": [
     {"id": "F150_PCM_CYL_HEAD_T_CORR", "path": "Engine", "fmt": { "len": 16, "max": 511.984375, "min": -512, "div": 64, "sign": true, "unit": "celsius" }, "name": "Cylinder head temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0338"}, "freq": 5, "filter": { "from": 2009 }, "dbgfilter": { "to": 2011, "years": [2015], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0338"}, "freq": 5, "filter": { "from": 2009 }, "dbgfilter": { "to": 2009, "years": [2011, 2015], "from": 2025 },
   "signals": [
     {"id": "F150_ETC_TRIM_LRN", "path": "Engine", "fmt": { "len": 16, "max": 63.9, "min": -64, "div": 512, "sign": true, "unit": "degrees" }, "name": "Throttle control trim angle, learned"}
   ]},
@@ -151,11 +151,11 @@
   "signals": [
     {"id": "F150_TIP_ABS", "path": "Engine", "fmt": { "len": 16, "max": 60, "mul": 37, "div": 33441, "unit": "psi" }, "name": "Throttle inlet pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0345"}, "freq": 1, "filter": { "from": 2009 }, "dbgfilter": { "to": 2011, "years": [2015], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0345"}, "freq": 1, "filter": { "from": 2009 }, "dbgfilter": { "to": 2009, "years": [2011, 2015], "from": 2025 },
   "signals": [
     {"id": "F150_PCM_MISF_EVENTS_LATEST_CYC", "path": "Engine", "fmt": { "len": 32, "max": 4294967295, "unit": "scalar" }, "name": "Misfire events, latest cycle"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0353"}, "freq": 5, "filter": { "from": 2009 }, "dbgfilter": { "to": 2011, "years": [2015], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0353"}, "freq": 5, "filter": { "from": 2009 }, "dbgfilter": { "to": 2009, "years": [2011, 2015], "from": 2025 },
   "signals": [
     {"id": "F150_BARO", "path": "Engine", "fmt": { "len": 16, "max": 20, "min": 8, "mul": 615, "div": 16963, "unit": "psi" }, "name": "Barometric pressure"}
   ]},
@@ -163,47 +163,47 @@
   "signals": [
     {"id": "F150_BARO_V", "path": "Engine", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 1023, "unit": "volts" }, "name": "Barometric pressure sensor voltage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "035F"}, "freq": 2, "filter": { "from": 2009 }, "dbgfilter": { "to": 2011, "years": [2015], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "035F"}, "freq": 2, "filter": { "from": 2009 }, "dbgfilter": { "to": 2009, "years": [2011, 2015], "from": 2025 },
   "signals": [
     {"id": "F150_RO2_V", "path": "Engine", "fmt": { "len": 16, "max": 1, "div": 1024, "unit": "volts" }, "name": "O2 sensor voltage, rear"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0382"}, "freq": 1, "filter": { "from": 2009 }, "dbgfilter": { "to": 2011, "years": [2015], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0382"}, "freq": 1, "filter": { "from": 2009 }, "dbgfilter": { "to": 2009, "years": [2011, 2015], "from": 2025 },
   "signals": [
     {"id": "F150_PCM_MISF_ACCEL_CYL1_NORM", "path": "Engine", "fmt": { "len": 8, "max": 1.984375, "min": -2, "div": 64, "sign": true, "unit": "scalar" }, "name": "Misfire acceleration, cylinder 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0388"}, "freq": 1, "filter": { "from": 2009 }, "dbgfilter": { "to": 2011, "years": [2015], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0388"}, "freq": 1, "filter": { "from": 2009 }, "dbgfilter": { "to": 2009, "years": [2011, 2015], "from": 2025 },
   "signals": [
     {"id": "F150_PCM_MISF_ACCEL_CYL2_NORM", "path": "Engine", "fmt": { "len": 8, "max": 1.984375, "min": -2, "div": 64, "sign": true, "unit": "scalar" }, "name": "Misfire acceleration, cylinder 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "038A"}, "freq": 1, "filter": { "from": 2009 }, "dbgfilter": { "to": 2011, "years": [2015], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "038A"}, "freq": 1, "filter": { "from": 2009 }, "dbgfilter": { "to": 2009, "years": [2011, 2015], "from": 2025 },
   "signals": [
     {"id": "F150_PCM_MISF_ACCEL_CYL3_NORM", "path": "Engine", "fmt": { "len": 8, "max": 1.984375, "min": -2, "div": 64, "sign": true, "unit": "scalar" }, "name": "Misfire acceleration, cylinder 3"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "038B"}, "freq": 1, "filter": { "from": 2009 }, "dbgfilter": { "to": 2011, "years": [2015], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "038B"}, "freq": 1, "filter": { "from": 2009 }, "dbgfilter": { "to": 2009, "years": [2011, 2015], "from": 2025 },
   "signals": [
     {"id": "F150_PCM_MISF_ACCEL_CYL4_NORM", "path": "Engine", "fmt": { "len": 8, "max": 1.984375, "min": -2, "div": 64, "sign": true, "unit": "scalar" }, "name": "Misfire acceleration, cylinder 4"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "038C"}, "freq": 1, "filter": { "from": 2009 }, "dbgfilter": { "to": 2011, "years": [2015], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "038C"}, "freq": 1, "filter": { "from": 2009 }, "dbgfilter": { "to": 2009, "years": [2011, 2015], "from": 2025 },
   "signals": [
     {"id": "F150_PCM_MISF_ACCEL_CYL5_NORM", "path": "Engine", "fmt": { "len": 8, "max": 1.984375, "min": -2, "div": 64, "sign": true, "unit": "scalar" }, "name": "Misfire acceleration, cylinder 5"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "038E"}, "freq": 5, "filter": { "from": 2009 }, "dbgfilter": { "to": 2011, "years": [2015], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "038E"}, "freq": 5, "filter": { "from": 2009 }, "dbgfilter": { "to": 2009, "years": [2011, 2015], "from": 2025 },
   "signals": [
     {"id": "F150_EVAP_V", "path": "Engine", "fmt": { "len": 16, "max": 5, "mul": 195597, "div": 978941, "unit": "volts" }, "name": "Evaporative pressure sensor voltage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "038F"}, "freq": 2, "filter": { "from": 2009 }, "dbgfilter": { "to": 2011, "years": [2015], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "038F"}, "freq": 2, "filter": { "from": 2009 }, "dbgfilter": { "to": 2009, "years": [2011, 2015], "from": 2025 },
   "signals": [
     {"id": "F150_ECT", "path": "Engine", "fmt": { "len": 16, "max": 511, "min": -512, "div": 64, "sign": true, "unit": "celsius" }, "name": "Coolant temperature", "suggestedMetric": "engineCoolantTemperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0393"}, "freq": 2, "dbgfilter": { "to": 2011, "years": [2015], "from": 2021 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0393"}, "freq": 2, "dbgfilter": { "to": 2009, "years": [2011, 2015], "from": 2021 },
   "signals": [
     {"id": "F150_AC_P", "path": "Climate", "fmt": { "len": 16, "max": 1000, "mul": 245251, "div": 845473, "unit": "psi" }, "name": "A/C compressor pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0398"}, "freq": 1, "filter": { "from": 2009 }, "dbgfilter": { "to": 2011, "years": [2015], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0398"}, "freq": 1, "filter": { "from": 2009 }, "dbgfilter": { "to": 2009, "years": [2011, 2015], "from": 2025 },
   "signals": [
     {"id": "F150_PCM_MISF_ACCEL_CYL6_NORM", "path": "Engine", "fmt": { "len": 8, "max": 1.984375, "min": -2, "div": 64, "sign": true, "unit": "scalar" }, "name": "Misfire acceleration, cylinder 6"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "03AF"}, "freq": 0.25, "filter": { "from": 2009 }, "dbgfilter": { "to": 2011, "years": [2015], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "03AF"}, "freq": 0.25, "filter": { "from": 2009 }, "dbgfilter": { "to": 2009, "years": [2011, 2015], "from": 2025 },
   "signals": [
     {"id": "F150_TRQ_CTRL_REQ", "path": "Engine", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "Torque request"}
   ]},
@@ -215,11 +215,11 @@
   "signals": [
     {"id": "F150_VCT_EXH_DES", "path": "Engine", "fmt": { "len": 16, "max": 2047, "min": -2047, "div": 16, "sign": true, "unit": "degrees" }, "name": "Camshaft position, exhaust desired"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "03BC"}, "freq": 1, "filter": { "from": 2009 }, "dbgfilter": { "to": 2011, "years": [2015], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "03BC"}, "freq": 1, "filter": { "from": 2009 }, "dbgfilter": { "to": 2009, "years": [2011, 2015], "from": 2025 },
   "signals": [
     {"id": "F150_VCT_INT_DES", "path": "Engine", "fmt": { "len": 16, "max": 2047, "min": -2047, "div": 16, "sign": true, "unit": "degrees" }, "name": "Camshaft position, intake desired"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "03BD"}, "freq": 0.25, "filter": { "from": 2009 }, "dbgfilter": { "to": 2011, "years": [2015], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "03BD"}, "freq": 0.25, "filter": { "from": 2009 }, "dbgfilter": { "to": 2009, "years": [2011, 2015], "from": 2025 },
   "signals": [
     {"id": "F150_CL_LC", "path": "Engine", "fmt": { "len": 16, "max": 3.9, "min": -4, "div": 8192, "sign": true, "unit": "scalar" }, "name": "Lambda correction"}
   ]},
@@ -231,19 +231,19 @@
   "signals": [
     {"id": "F150_HPFP_DES", "path": "Engine", "fmt": { "len": 16, "max": 3500, "mul": 1.4503773969, "unit": "psi" }, "name": "Fuel pressure, high desired"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "03E8"}, "freq": 5, "filter": { "from": 2009 }, "dbgfilter": { "to": 2011, "years": [2015], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "03E8"}, "freq": 5, "filter": { "from": 2009 }, "dbgfilter": { "to": 2009, "years": [2011, 2015], "from": 2025 },
   "signals": [
     {"id": "F150_OAR", "path": "Engine", "fmt": { "len": 16, "max": 1, "div": 16384, "sign": true, "unit": "scalar" }, "name": "Octane adjustment"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "03EC"}, "freq": 0.25, "filter": { "from": 2009 }, "dbgfilter": { "to": 2011, "years": [2015], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "03EC"}, "freq": 0.25, "filter": { "from": 2009 }, "dbgfilter": { "to": 2009, "years": [2011, 2015], "from": 2025 },
   "signals": [
     {"id": "F150_IGN_CORR_CYL1", "path": "Engine", "fmt": { "len": 16, "max": 63.9, "min": -64, "div": 512, "sign": true, "unit": "degrees" }, "name": "Ignition correction, cylinder 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0403"}, "freq": 2, "filter": { "from": 2009 }, "dbgfilter": { "to": 2011, "years": [2015], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0403"}, "freq": 2, "filter": { "from": 2009 }, "dbgfilter": { "to": 2009, "years": [2011, 2015], "from": 2025 },
   "signals": [
     {"id": "F150_KS1_RAW", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Knock sensor, 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0404"}, "freq": 2, "filter": { "from": 2009 }, "dbgfilter": { "to": 2011, "years": [2015], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0404"}, "freq": 2, "filter": { "from": 2009 }, "dbgfilter": { "to": 2009, "years": [2011, 2015], "from": 2025 },
   "signals": [
     {"id": "F150_KS2_RAW", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Knock sensor, 2"}
   ]},
@@ -327,7 +327,7 @@
   "signals": [
     {"id": "F150_PCM_A_C_REFRIG_P", "path": "Climate", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "kilopascal" }, "name": "A/C refrigerant pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0700"}, "freq": 5, "filter": { "from": 2009 }, "dbgfilter": { "to": 2011, "years": [2015], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0700"}, "freq": 5, "filter": { "from": 2009 }, "dbgfilter": { "to": 2009, "years": [2011, 2015], "from": 2025 },
   "signals": [
     {"id": "F150_IAT_FAULT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Intake temperature fault"}
   ]},
@@ -335,35 +335,35 @@
   "signals": [
     {"id": "F150_GRILL_SHUT_DC", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Grill shutter duty cycle"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "091A"}, "freq": 0.25, "dbgfilter": { "to": 2007, "years": [2009, 2010, 2011, 2015], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "091A"}, "freq": 0.25, "dbgfilter": { "to": 2007, "years": [2009, 2011, 2015], "from": 2025 },
   "signals": [
     {"id": "F150_ETC_ANG_DES", "path": "Engine", "fmt": { "len": 16, "max": 127.99, "div": 512, "unit": "degrees" }, "name": "Throttle angle, desired"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "093C"}, "freq": 0.25, "dbgfilter": { "to": 2007, "years": [2009, 2010, 2011, 2015], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "093C"}, "freq": 0.25, "dbgfilter": { "to": 2007, "years": [2009, 2011, 2015], "from": 2025 },
   "signals": [
     {"id": "F150_ETC_ANG_ACT", "path": "Engine", "fmt": { "len": 16, "max": 127.99, "div": 512, "unit": "degrees" }, "name": "Throttle angle, actual"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "099B"}, "freq": 5, "filter": { "from": 2009 }, "dbgfilter": { "to": 2011, "years": [2015], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "099B"}, "freq": 5, "filter": { "from": 2009 }, "dbgfilter": { "to": 2009, "years": [2011, 2015], "from": 2025 },
   "signals": [
     {"id": "F150_AC_STATE", "path": "Climate", "fmt": { "len": 8, "max": 1, "unit": "offon" }, "name": "A/C compressor, state"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1126"}, "freq": 30, "dbgfilter": { "to": 2007, "years": [2009, 2010, 2011, 2015, 2021, 2022, 2023], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1126"}, "freq": 30, "dbgfilter": { "to": 2007, "years": [2009, 2011, 2015, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "F150_ERT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "seconds" }, "name": "Engine run time"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1166"}, "freq": 0.5, "filter": { "from": 2009 }, "dbgfilter": { "to": 2011, "years": [2015], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1166"}, "freq": 0.5, "filter": { "from": 2009 }, "dbgfilter": { "to": 2009, "years": [2011, 2015], "from": 2025 },
   "signals": [
     {"id": "F150_EVAP_PURGE_CMD", "path": "Engine", "fmt": { "len": 16, "max": 100, "mul": 100, "div": 32768, "unit": "percent" }, "name": "Evaporative purge"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "116B"}, "freq": 0.25, "dbgfilter": { "to": 2007, "years": [2009, 2010, 2011, 2015], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "116B"}, "freq": 0.25, "dbgfilter": { "to": 2007, "years": [2009, 2011, 2015], "from": 2025 },
   "signals": [
     {"id": "F150_IGN_TIM_CYL1", "path": "Engine", "fmt": { "len": 16, "max": 80, "min": -80, "div": 4, "sign": true, "unit": "degrees" }, "name": "Ignition timing, cylinder 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1279"}, "freq": 5, "filter": { "from": 2009 }, "dbgfilter": { "to": 2011, "years": [2015], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1279"}, "freq": 5, "filter": { "from": 2009 }, "dbgfilter": { "to": 2009, "years": [2011, 2015], "from": 2025 },
   "signals": [
     {"id": "F150_IAT_SENS_V", "path": "Engine", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 1023, "unit": "volts" }, "name": "Intake temperature sensor voltage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1E12"}, "freq": 1, "filter": { "from": 2009 }, "dbgfilter": { "to": 2011, "years": [2015], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1E12"}, "freq": 1, "filter": { "from": 2009 }, "dbgfilter": { "to": 2009, "years": [2011, 2015], "from": 2026 },
   "signals": [
     {"id": "F150_GEAR", "path": "Transmission", "name": "Gear, current", "description": "The automatic transmission gear.", "fmt": {"len": 8, "map": {
           "1":  { "description": "First gear",   "value": "1" },
@@ -379,11 +379,11 @@
         }}
     }
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1E16"}, "freq": 5, "filter": { "from": 2009 }, "dbgfilter": { "to": 2011, "years": [2015], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1E16"}, "freq": 5, "filter": { "from": 2009 }, "dbgfilter": { "to": 2009, "years": [2011, 2015], "from": 2025 },
   "signals": [
     {"id": "F150_AXLE_GEAR_RATIO_MEAS", "path": "Transmission", "fmt": { "len": 16, "max": 10, "div": 4096, "unit": "scalar" }, "name": "Axle gear ratio, measured"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1E19"}, "freq": 1, "filter": { "from": 2009 }, "dbgfilter": { "to": 2011, "years": [2015, 2018, 2019, 2020], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1E19"}, "freq": 1, "filter": { "from": 2009 }, "dbgfilter": { "to": 2009, "years": [2011, 2015, 2018, 2019, 2020], "from": 2025 },
   "signals": [
     {"id": "F150_PCM_CMD_TRANS_GEAR_RATIO", "path": "Transmission", "fmt": { "len": 16, "max": 16, "mul": 16, "div": 65535, "unit": "scalar" }, "name": "Gear ratio, commanded"}
   ]},
@@ -414,19 +414,19 @@
   "signals": [
     {"id": "F150_DTE_DISP", "path": "Trips", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilometers" }, "name": "Distance to empty, displayed", "suggestedMetric": "fuelRange"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "9800"}, "freq": 2, "filter": { "from": 2009 }, "dbgfilter": { "to": 2011, "years": [2015], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "9800"}, "freq": 2, "filter": { "from": 2009 }, "dbgfilter": { "to": 2009, "years": [2011, 2015], "from": 2025 },
   "signals": [
     {"id": "F150_AC_P_SENS_V", "path": "Climate", "fmt": { "len": 16, "max": 5, "div": 1024, "sign": true, "unit": "volts" }, "name": "A/C compressor pressure sensor voltage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F404"}, "freq": 0.25, "filter": { "from": 2009 }, "dbgfilter": { "to": 2011, "years": [2015], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F404"}, "freq": 0.25, "filter": { "from": 2009 }, "dbgfilter": { "to": 2009, "years": [2011, 2015], "from": 2025 },
   "signals": [
     {"id": "F150_ENG_LOAD_PCT", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Engine load", "suggestedMetric": "engineLoad"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F406"}, "freq": 0.25, "filter": { "from": 2009 }, "dbgfilter": { "to": 2011, "years": [2015], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F406"}, "freq": 0.25, "filter": { "from": 2009 }, "dbgfilter": { "to": 2009, "years": [2011, 2015], "from": 2025 },
   "signals": [
     {"id": "F150_STFT", "path": "Engine", "fmt": { "len": 8, "max": 99.2, "min": -100, "mul": 100, "div": 128, "add": -100, "unit": "percent" }, "name": "Fuel trim, short term", "suggestedMetric": "shortTermFuelTrim"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F407"}, "freq": 0.5, "filter": { "from": 2009 }, "dbgfilter": { "to": 2011, "years": [2015], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F407"}, "freq": 0.5, "filter": { "from": 2009 }, "dbgfilter": { "to": 2009, "years": [2011, 2015], "from": 2025 },
   "signals": [
     {"id": "F150_LTFT", "path": "Engine", "fmt": { "len": 8, "max": 99.2, "min": -100, "mul": 100, "div": 128, "add": -100, "unit": "percent" }, "name": "Fuel trim, long term"}
   ]},
@@ -434,39 +434,39 @@
   "signals": [
     {"id": "F150_MAP", "path": "Engine", "fmt": { "len": 8, "max": 36, "mul": 10000, "div": 68947, "unit": "psi" }, "name": "Manifold pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40C"}, "freq": 0.1, "filter": { "from": 2009 }, "dbgfilter": { "to": 2011, "years": [2015], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40C"}, "freq": 0.1, "filter": { "from": 2009 }, "dbgfilter": { "to": 2009, "years": [2011, 2015], "from": 2025 },
   "signals": [
     {"id": "F150_RPM", "path": "Engine", "fmt": { "len": 16, "max": 16383.75, "div": 4, "unit": "rpm" }, "name": "Engine speed"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40D"}, "freq": 0.25, "filter": { "from": 2009 }, "dbgfilter": { "to": 2011, "years": [2015], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40D"}, "freq": 0.25, "filter": { "from": 2009 }, "dbgfilter": { "to": 2009, "years": [2011, 2015], "from": 2025 },
   "signals": [
     {"id": "F150_VSS", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40F"}, "freq": 2, "filter": { "from": 2009 }, "dbgfilter": { "to": 2011, "years": [2015], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40F"}, "freq": 2, "filter": { "from": 2009 }, "dbgfilter": { "to": 2009, "years": [2011, 2015], "from": 2025 },
   "signals": [
     {"id": "F150_IAT_ALT2", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Intake temperature, alternate"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F421"}, "freq": 60, "filter": { "from": 2009 }, "dbgfilter": { "to": 2011, "years": [2015], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F421"}, "freq": 60, "filter": { "from": 2009 }, "dbgfilter": { "to": 2009, "years": [2011, 2015], "from": 2025 },
   "signals": [
     {"id": "F150_MIL_DIST", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Distance with MIL"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F42F"}, "freq": 5, "filter": { "from": 2009 }, "dbgfilter": { "to": 2010, "years": [2015], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F42F"}, "freq": 5, "filter": { "from": 2009 }, "dbgfilter": { "to": 2009, "years": [2015], "from": 2026 },
   "signals": [
     {"id": "F150_FLI", "path": "Fuel", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Fuel level", "suggestedMetric": "fuelTankLevel"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F430"}, "freq": 60, "filter": { "from": 2009 }, "dbgfilter": { "to": 2011, "years": [2015], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F430"}, "freq": 60, "filter": { "from": 2009 }, "dbgfilter": { "to": 2009, "years": [2011, 2015], "from": 2025 },
   "signals": [
     {"id": "F150_WARMUP_CLR", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Warm-ups since DTC clear"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F431"}, "freq": 60, "filter": { "from": 2009 }, "dbgfilter": { "to": 2011, "years": [2015], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F431"}, "freq": 60, "filter": { "from": 2009 }, "dbgfilter": { "to": 2009, "years": [2011, 2015], "from": 2025 },
   "signals": [
     {"id": "F150_DIST_DTC_CLR", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Distance since DTC clear", "suggestedMetric": "distanceSinceDTCsCleared"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F43C"}, "freq": 5, "filter": { "from": 2009 }, "dbgfilter": { "to": 2011, "years": [2015], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F43C"}, "freq": 5, "filter": { "from": 2009 }, "dbgfilter": { "to": 2009, "years": [2011, 2015], "from": 2025 },
   "signals": [
     {"id": "F150_CAT_TEMP", "path": "Engine", "fmt": { "len": 16, "max": 6513.5, "min": -40, "div": 10, "add": -40, "unit": "celsius" }, "name": "Catalyst temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F443"}, "freq": 0.5, "filter": { "from": 2009 }, "dbgfilter": { "to": 2011, "years": [2015], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F443"}, "freq": 0.5, "filter": { "from": 2009 }, "dbgfilter": { "to": 2009, "years": [2011, 2015], "from": 2025 },
   "signals": [
     {"id": "F150_ENG_LOAD_ACT", "path": "Engine", "fmt": { "len": 16, "max": 25700, "mul": 100, "div": 255, "unit": "percent" }, "name": "Engine load, actual"}
   ]},

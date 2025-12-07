@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.220316|f=2009-
+test_cases:
+- expected_values:
+    F150_VCT_INT_DUTY: 0
+  response: '7E8056203160000'
+- expected_values:
+    F150_VCT_INT_DUTY: 37.27112
+  response: 7E8056203162FB5
+- expected_values:
+    F150_VCT_INT_DUTY: 38.3728
+  response: 7E805620316311E
+- expected_values:
+    F150_VCT_INT_DUTY: 38.92212
+  response: 7E80562031631D2
+- expected_values:
+    F150_VCT_INT_DUTY: 40.00549
+  response: '7E8056203163335'
+- expected_values:
+    F150_VCT_INT_DUTY: 41.04004
+  response: '7E8056203163488'
+- expected_values:
+    F150_VCT_INT_DUTY: 41.17432
+  response: 7E80562031634B4
+- expected_values:
+    F150_VCT_INT_DUTY: 45.56885
+  response: 7E8056203163A54
