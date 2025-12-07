@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.220353|f=2009-
+test_cases:
+- expected_values:
+    F150_BARO: 14.10334
+  response: '7E8056203530185'
+- expected_values:
+    F150_BARO: 14.71968
+  response: '7E8056203530196'
+- expected_values:
+    F150_BARO: 15.15475
+  response: 7E80562035301A2
+- expected_values:
+    F150_BARO: 15.44479
+  response: 7E80562035301AA
+- expected_values:
+    F150_BARO: 15.48105
+  response: 7E80562035301AB

@@ -2,10 +2,7 @@ command_id: 7E0.7E8.22038E|f=2009-
 test_cases:
 - expected_values:
     F150_EVAP_V: 5
-  response: 7E80562038E064B
-- expected_values:
-    F150_EVAP_V: 5
-  response: 7E80562038E06C8
+  response: 7E80562038E04CF
 - expected_values:
     F150_EVAP_V: 5
   response: 7E80562038E0903
