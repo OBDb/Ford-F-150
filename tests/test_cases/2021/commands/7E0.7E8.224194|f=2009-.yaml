@@ -10,5 +10,5 @@ test_cases:
     F150_DTE: 332.9
   response: 7E8056241940D01
 - expected_values:
-    F150_DTE: 509.3
-  response: 7E80562419413E5
+    F150_DTE: 487.4
+  response: 7E805624194130A
