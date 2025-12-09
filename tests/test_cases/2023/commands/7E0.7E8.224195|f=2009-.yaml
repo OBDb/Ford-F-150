@@ -7,8 +7,8 @@ test_cases:
     F150_DTE_DISP: 76.7
   response: 7E80562419502FF
 - expected_values:
-    F150_DTE_DISP: 281.6
-  response: 7E8056241950B00
+    F150_DTE_DISP: 153.6
+  response: '7E8056241950600'
 - expected_values:
     F150_DTE_DISP: 947.3
   response: '7E8056241952501'

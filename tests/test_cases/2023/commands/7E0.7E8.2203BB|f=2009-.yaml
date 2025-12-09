@@ -24,3 +24,6 @@ test_cases:
 - expected_values:
     F150_VCT_EXH_DES: 47.5
   response: 7E8056203BB02F8
+- expected_values:
+    F150_VCT_EXH_DES: 47.9375
+  response: 7E8056203BB02FF

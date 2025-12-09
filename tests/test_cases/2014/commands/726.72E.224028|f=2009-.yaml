@@ -24,3 +24,6 @@ test_cases:
 - expected_values:
     F150_BATT_SOC: 9.80392
   response: '72E0462402819'
+- expected_values:
+    F150_BATT_SOC: 11.76471
+  response: 72E046240281E

@@ -4,5 +4,5 @@ test_cases:
     F150_TIP_DES_ABS: 13.06026
   response: 7E8056204662E1C
 - expected_values:
-    F150_TIP_DES_ABS: 13.22622
-  response: 7E8056204662EB2
+    F150_TIP_DES_ABS: 13.25388
+  response: 7E8056204662ECB
