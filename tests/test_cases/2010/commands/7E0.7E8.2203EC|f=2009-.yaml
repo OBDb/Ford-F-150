@@ -13,5 +13,14 @@ test_cases:
     F150_IGN_CORR_CYL1: -2.5
   response: 7E8056203ECFB00
 - expected_values:
+    F150_IGN_CORR_CYL1: -1.82812
+  response: 7E8056203ECFC58
+- expected_values:
     F150_IGN_CORR_CYL1: -1
   response: 7E8056203ECFE00
+- expected_values:
+    F150_IGN_CORR_CYL1: -0.51172
+  response: 7E8056203ECFEFA
+- expected_values:
+    F150_IGN_CORR_CYL1: -0.21094
+  response: 7E8056203ECFF94
