@@ -11,6 +11,9 @@ test_cases:
   response: 76805622B0D0002
 - expected_values:
     F150_BRK_FL_P: 0
+  response: 76805622B0D0008
+- expected_values:
+    F150_BRK_FL_P: 0
   response: 76805622B0D0009
 - expected_values:
     F150_BRK_FL_P: 0
