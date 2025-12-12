@@ -2,6 +2,9 @@ command_id: 7E0.7E8.22F42F|f=2009-
 test_cases:
 - expected_values:
     F150_FLI: 0
+  response: 7E80462F42F00
+- expected_values:
+    F150_FLI: 0
   response: |-
     7E80462F42F00
     7E8064100BF9FA893
@@ -154,9 +157,6 @@ test_cases:
     7E804411001E3
     7E804410C0982
     7E8064100BF9FA893
-- expected_values:
-    F150_FLI: 26.66667
-  response: 7E80462F42F44
 - expected_values:
     F150_FLI: 32.15686
   response: |-
