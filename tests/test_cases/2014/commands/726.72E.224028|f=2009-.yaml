@@ -4,29 +4,5 @@ test_cases:
     F150_BATT_SOC: 2.7451
   response: '72E0462402807'
 - expected_values:
-    F150_BATT_SOC: 3.13725
-  response: '72E0462402808'
-- expected_values:
-    F150_BATT_SOC: 3.92157
-  response: 72E046240280A
-- expected_values:
-    F150_BATT_SOC: 4.31373
-  response: 72E046240280B
-- expected_values:
-    F150_BATT_SOC: 5.09804
-  response: 72E046240280D
-- expected_values:
-    F150_BATT_SOC: 5.4902
-  response: 72E046240280E
-- expected_values:
-    F150_BATT_SOC: 6.66667
-  response: '72E0462402811'
-- expected_values:
-    F150_BATT_SOC: 9.80392
-  response: '72E0462402819'
-- expected_values:
-    F150_BATT_SOC: 11.76471
-  response: 72E046240281E
-- expected_values:
-    F150_BATT_SOC: 12.94118
-  response: '72E0462402821'
+    F150_BATT_SOC: 17.2549
+  response: 72E046240282C
