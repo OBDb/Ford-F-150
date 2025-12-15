@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.22035F|f=2009-
 test_cases:
 - expected_values:
-    F150_RO2_V: 0.7334
-  response: 7E80562035F02EF
+    F150_RO2_V: 0.45215
+  response: 7E80562035F01CF
 - expected_values:
     F150_RO2_V: 0.74414
   response: 7E80562035F02FA

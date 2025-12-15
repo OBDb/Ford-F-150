@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     F150_PCM_ENG_OIL_LIFE_REM: 30
   response: 7E80462054B1E
+- expected_values:
+    F150_PCM_ENG_OIL_LIFE_REM: 47
+  response: 7E80462054B2F
