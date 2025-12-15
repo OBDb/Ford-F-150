@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     F150_ODO: 248169.6
   response: 7280662404C25DE20
+- expected_values:
+    F150_ODO: 248230.7
+  response: 7280662404C25E083
