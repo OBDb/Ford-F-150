@@ -1,5 +1,8 @@
 command_id: 7E0.7E8.22F463|f=2009-
 test_cases:
 - expected_values:
+    F150_PCM_ENG_REFERENCE_TRQ: 623
+  response: 7E80562F463026F
+- expected_values:
     F150_PCM_ENG_REFERENCE_TRQ: 643
   response: 7E80562F4630283

@@ -1,14 +1,11 @@
 command_id: 7E0.7E8.220316|f=2009-
 test_cases:
 - expected_values:
-    F150_VCT_INT_DUTY: 15.04517
-  response: '7E8056203161342'
+    F150_VCT_INT_DUTY: 0
+  response: '7E8056203160000'
 - expected_values:
     F150_VCT_INT_DUTY: 35.92834
   response: 7E8056203162DFD
-- expected_values:
-    F150_VCT_INT_DUTY: 37.52747
-  response: '7E8056203163009'
 - expected_values:
     F150_VCT_INT_DUTY: 43.58521
   response: 7E80562031637CA
