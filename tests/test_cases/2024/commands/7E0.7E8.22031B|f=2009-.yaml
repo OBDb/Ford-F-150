@@ -8,6 +8,9 @@ test_cases:
   response: 7E80562031B000B
 - expected_values:
     F150_VCT_EXH_ERR: 50
+  response: 7E80562031BFFC7
+- expected_values:
+    F150_VCT_EXH_ERR: 50
   response: 7E80562031BFFEC
 - expected_values:
     F150_VCT_EXH_ERR: 50
