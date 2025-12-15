@@ -1,6 +1,9 @@
 command_id: 726.72E.224029|f=2009-2020
 test_cases:
 - expected_values:
+    F150_BATT_TEMP: 0
+  response: '72E0462402928'
+- expected_values:
     F150_BATT_TEMP: 5
   response: 72E046240292D
 - expected_values:
