@@ -1,8 +1,8 @@
 command_id: 726.72E.222815|f=2009-
 test_cases:
 - expected_values:
-    F150_TP_RRO: 16
-  response: '72E056228150140'
+    F150_TP_RRO: 10.75
+  response: 72E0562281500D7
 - expected_values:
     F150_TP_RRO: 25.55
   response: 72E0562281501FF
