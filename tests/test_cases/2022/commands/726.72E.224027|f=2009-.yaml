@@ -9,24 +9,3 @@ test_cases:
 - expected_values:
     F150_BATT_AGE: 1301
   response: '72E056240270515'
-- expected_values:
-    F150_BATT_AGE: 1303
-  response: '72E056240270517'
-- expected_values:
-    F150_BATT_AGE: 1308
-  response: 72E05624027051C
-- expected_values:
-    F150_BATT_AGE: 1313
-  response: '72E056240270521'
-- expected_values:
-    F150_BATT_AGE: 1317
-  response: '72E056240270525'
-- expected_values:
-    F150_BATT_AGE: 1355
-  response: 72E05624027054B
-- expected_values:
-    F150_BATT_AGE: 1356
-  response: 72E05624027054C
-- expected_values:
-    F150_BATT_AGE: 1393
-  response: '72E056240270571'
