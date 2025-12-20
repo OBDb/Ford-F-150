@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     F150_DTE: 486.4
   response: '7E8056241941300'
+- expected_values:
+    F150_DTE: 820.8
+  response: '7E8056241942010'
