@@ -3,7 +3,7 @@
   "signals": [
     {"id": "F150_ODO", "path": "Trips", "fmt": { "len": 24, "max": 1677721, "div": 10, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "720", "rax": "728", "cmd": {"22": "6185"}, "freq": 5, "filter": { "to": 2015 }, "dbgfilter": { "to": 2007, "years": [2009], "from": 2011 },
+{ "hdr": "720", "rax": "728", "cmd": {"22": "6185"}, "freq": 5, "filter": { "to": 2015 }, "dbgfilter": { "to": 2003, "years": [2005, 2006, 2007, 2009], "from": 2011 },
   "signals": [
     {"id": "F150_FLI_ALT", "path": "Fuel", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Fuel level, alternate", "suggestedMetric": "fuelTankLevel"}
   ]},
@@ -335,11 +335,11 @@
   "signals": [
     {"id": "F150_GRILL_SHUT_DC", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Grill shutter duty cycle"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "091A"}, "freq": 0.25, "dbgfilter": { "to": 2007, "years": [2009, 2011, 2015], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "091A"}, "freq": 0.25, "dbgfilter": { "to": 2003, "years": [2005, 2006, 2007, 2009, 2011, 2015], "from": 2025 },
   "signals": [
     {"id": "F150_ETC_ANG_DES", "path": "Engine", "fmt": { "len": 16, "max": 127.99, "div": 512, "unit": "degrees" }, "name": "Throttle angle, desired"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "093C"}, "freq": 0.25, "dbgfilter": { "to": 2007, "years": [2009, 2011, 2015], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "093C"}, "freq": 0.25, "dbgfilter": { "to": 2003, "years": [2005, 2006, 2007, 2009, 2011, 2015], "from": 2025 },
   "signals": [
     {"id": "F150_ETC_ANG_ACT", "path": "Engine", "fmt": { "len": 16, "max": 127.99, "div": 512, "unit": "degrees" }, "name": "Throttle angle, actual"}
   ]},
@@ -347,7 +347,7 @@
   "signals": [
     {"id": "F150_AC_STATE", "path": "Climate", "fmt": { "len": 8, "max": 1, "unit": "offon" }, "name": "A/C compressor, state"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1126"}, "freq": 30, "dbgfilter": { "to": 2007, "years": [2009, 2011, 2015, 2021, 2022, 2023], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1126"}, "freq": 30, "dbgfilter": { "to": 2003, "years": [2005, 2006, 2007, 2009, 2011, 2015, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "F150_ERT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "seconds" }, "name": "Engine run time"}
   ]},
@@ -355,7 +355,7 @@
   "signals": [
     {"id": "F150_EVAP_PURGE_CMD", "path": "Engine", "fmt": { "len": 16, "max": 100, "mul": 100, "div": 32768, "unit": "percent" }, "name": "Evaporative purge"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "116B"}, "freq": 0.25, "dbgfilter": { "to": 2007, "years": [2009, 2011, 2015], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "116B"}, "freq": 0.25, "dbgfilter": { "to": 2003, "years": [2005, 2006, 2007, 2009, 2011, 2015], "from": 2025 },
   "signals": [
     {"id": "F150_IGN_TIM_CYL1", "path": "Engine", "fmt": { "len": 16, "max": 80, "min": -80, "div": 4, "sign": true, "unit": "degrees" }, "name": "Ignition timing, cylinder 1"}
   ]},
