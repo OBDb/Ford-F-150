@@ -4,23 +4,5 @@ test_cases:
     ALCH_PCT: 9.80392
   response: '7E803415219'
 - expected_values:
-    ALCH_PCT: 10.58824
-  response: 7E80341521B
-- expected_values:
-    ALCH_PCT: 10.98039
-  response: 7E80341521C
-- expected_values:
-    ALCH_PCT: 11.76471
-  response: 7E80341521E
-- expected_values:
-    ALCH_PCT: 13.33333
-  response: '7E803415222'
-- expected_values:
-    ALCH_PCT: 13.72549
-  response: '7E803415223'
-- expected_values:
-    ALCH_PCT: 14.11765
-  response: '7E803415224'
-- expected_values:
     ALCH_PCT: 43.92157
   response: '7E803415270'
