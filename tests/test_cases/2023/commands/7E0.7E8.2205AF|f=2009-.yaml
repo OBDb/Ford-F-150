@@ -1,5 +1,8 @@
 command_id: 7E0.7E8.2205AF|f=2009-
 test_cases:
 - expected_values:
+    F150_PCM_CYL_4_KNK_COMB_PERF_CNT: 0
+  response: 7E8046205AF00
+- expected_values:
     F150_PCM_CYL_4_KNK_COMB_PERF_CNT: 1
   response: 7E8046205AF01
