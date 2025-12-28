@@ -1,14 +1,14 @@
 command_id: 7E0.7E8.22F43C|f=2009-
 test_cases:
 - expected_values:
-    F150_CAT_TEMP: 394.5
-  response: 7E80562F43C10F9
+    F150_CAT_TEMP: 239.2
+  response: 7E80562F43C0AE8
 - expected_values:
-    F150_CAT_TEMP: 471.8
-  response: 7E80562F43C13FE
+    F150_CAT_TEMP: 292.9
+  response: 7E80562F43C0D01
 - expected_values:
-    F150_CAT_TEMP: 549
-  response: 7E80562F43C1702
+    F150_CAT_TEMP: 548.7
+  response: 7E80562F43C16FF
 - expected_values:
     F150_CAT_TEMP: 800
   response: 7E80562F43C20D0
