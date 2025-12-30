@@ -4,8 +4,8 @@ test_cases:
     F150_HPFP_DES: 65.26698
   response: 7E8056203DC002D
 - expected_values:
+    F150_HPFP_DES: 311.83114
+  response: 7E8056203DC00D7
+- expected_values:
     F150_HPFP_DES: 759.99776
   response: 7E8056203DC020C
-- expected_values:
-    F150_HPFP_DES: 971.75286
-  response: 7E8056203DC029E
