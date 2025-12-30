@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.2203E8|f=2009-
 test_cases:
 - expected_values:
+    F150_OAR: 0.00983
+  response: 7E8056203E800A1
+- expected_values:
     F150_OAR: 0
   response: 7E8056203E8C48D
 - expected_values:
