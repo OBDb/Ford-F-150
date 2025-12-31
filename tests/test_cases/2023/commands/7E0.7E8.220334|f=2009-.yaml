@@ -7,8 +7,8 @@ test_cases:
     F150_PCM_CYL_HEAD_T_CORR: 59.98438
   response: 7E8056203340EFF
 - expected_values:
-    F150_PCM_CYL_HEAD_T_CORR: 96.01562
-  response: '7E8056203341801'
+    F150_PCM_CYL_HEAD_T_CORR: 80
+  response: '7E8056203341400'
 - expected_values:
     F150_PCM_CYL_HEAD_T_CORR: 100.01562
   response: '7E8056203341901'
