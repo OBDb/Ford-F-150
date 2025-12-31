@@ -4,5 +4,17 @@ test_cases:
     F150_STFT: -11.71875
   response: 7E80462F40671
 - expected_values:
+    F150_STFT: -3.125
+  response: |-
+    7E80462F4067C
+    7E80441447E14
+    7E8064100BF9FA893
+    7E804410C0966
+    7E803410D00
+    7E804411001B3
+    7E80641010007E500
+    7E804410C0970
+    7E803410D00
+- expected_values:
     F150_STFT: 4.6875
   response: 7E80462F40686
