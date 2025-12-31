@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.22038F|f=2009-
 test_cases:
 - expected_values:
-    F150_ECT: 8.20312
-  response: 7E80562038F020D
+    F150_ECT: 0.10938
+  response: 7E80562038F0007
 - expected_values:
     F150_ECT: 40
   response: 7E80562038F0A00
