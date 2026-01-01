@@ -10,5 +10,5 @@ test_cases:
     F150_CL: 1.03876
   response: 7E80562030F84F6
 - expected_values:
-    F150_CL: 1.04391
-  response: 7E80562030F859F
+    F150_CL: 1.07141
+  response: 7E80562030F8924
