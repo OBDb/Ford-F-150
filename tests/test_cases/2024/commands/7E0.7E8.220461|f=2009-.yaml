@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     F150_CAT: -19.90625
   response: '7E8056204610506'
+- expected_values:
+    F150_CAT: -40
+  response: 7E805620461FD6F

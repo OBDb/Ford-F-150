@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.220604|f=2009-
 test_cases:
 - expected_values:
-    F150_PCM_A_C_REFRIG_P: 307
-  response: '7E8056206040133'
+    F150_PCM_A_C_REFRIG_P: 187
+  response: 7E80562060400BB
 - expected_values:
     F150_PCM_A_C_REFRIG_P: 511
   response: 7E80562060401FF
