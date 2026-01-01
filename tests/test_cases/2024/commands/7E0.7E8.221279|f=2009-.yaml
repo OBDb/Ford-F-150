@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     F150_IAT_SENS_V: 2.55132
   response: 7E805621279020A
+- expected_values:
+    F150_IAT_SENS_V: 4.08602
+  response: '7E8056212790344'
