@@ -24,3 +24,9 @@ test_cases:
 - expected_values:
     F150_AAT_ALT: 18
   response: 7E80462057D74
+- expected_values:
+    F150_AAT_ALT: 20
+  response: 7E80462057D78
+- expected_values:
+    F150_AAT_ALT: 21
+  response: 7E80462057D7A
