@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     F150_TPMS_WARN: 0
   response: 728076261A500000000
+- expected_values:
+    F150_TPMS_WARN: 0
+  response: 728076261A500000002
