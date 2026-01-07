@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.224194|f=2009-
 test_cases:
 - expected_values:
-    F150_DTE: 62.7
-  response: '7E8056241940273'
+    F150_DTE: 57
+  response: 7E805624194023A
 - expected_values:
     F150_DTE: 204.7
   response: 7E80562419407FF
