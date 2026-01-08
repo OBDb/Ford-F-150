@@ -159,7 +159,7 @@
   "signals": [
     {"id": "F150_BARO", "path": "Engine", "fmt": { "len": 16, "max": 20, "min": 8, "mul": 615, "div": 16963, "unit": "psi" }, "name": "Barometric pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "035A"}, "freq": 5, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "035A"}, "freq": 5, "dbgfilter": { "to": 2011, "years": [2013, 2015], "from": 2026 },
   "signals": [
     {"id": "F150_BARO_V", "path": "Engine", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 1023, "unit": "volts" }, "name": "Barometric pressure sensor voltage"}
   ]},
@@ -251,7 +251,7 @@
   "signals": [
     {"id": "F150_PCM_ENG_EOP_RAW", "path": "Engine", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "kilopascal" }, "name": "Oil pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "041F"}, "freq": 1, "filter": { "from": 2009 }, "dbgfilter": { "to": 2015, "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "041F"}, "freq": 1, "filter": { "from": 2009 }, "dbgfilter": { "to": 2013, "years": [2015], "from": 2026 },
   "signals": [
     {"id": "F150_LPFP_DES", "path": "Engine", "fmt": { "len": 8, "max": 110, "mul": 435, "div": 1000, "unit": "psi" }, "name": "Fuel pressure, low desired"}
   ]},
@@ -279,15 +279,15 @@
   "signals": [
     {"id": "F150_INJ_MODE", "path": "Engine", "fmt": { "len": 8, "max": 7, "unit": "scalar" }, "name": "Injection mode"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0548"}, "freq": 1, "filter": { "from": 2009 }, "dbgfilter": { "to": 2015, "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0548"}, "freq": 1, "filter": { "from": 2009 }, "dbgfilter": { "to": 2013, "years": [2015], "from": 2026 },
   "signals": [
     {"id": "F150_LPFP_ACT", "path": "Engine", "fmt": { "len": 16, "max": 200, "mul": 10000, "div": 137892, "sign": true, "unit": "psi" }, "name": "Fuel pressure, low actual"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "054B"}, "freq": 5, "filter": { "from": 2009 }, "dbgfilter": { "to": 2015, "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "054B"}, "freq": 5, "filter": { "from": 2009 }, "dbgfilter": { "to": 2013, "years": [2015], "from": 2026 },
   "signals": [
     {"id": "F150_PCM_ENG_OIL_LIFE_REM", "path": "Engine", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "Oil life remaining"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "054D"}, "freq": 1, "filter": { "from": 2009 }, "dbgfilter": { "to": 2015, "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "054D"}, "freq": 1, "filter": { "from": 2009 }, "dbgfilter": { "to": 2013, "years": [2015], "from": 2026 },
   "signals": [
     {"id": "F150_LPFP_SENS_V", "path": "Engine", "fmt": { "len": 16, "max": 5, "div": 1024, "sign": true, "unit": "volts" }, "name": "Fuel pressure sensor voltage, low"}
   ]},
