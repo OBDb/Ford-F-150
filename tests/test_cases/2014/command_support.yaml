@@ -37,6 +37,7 @@ supported_commands_by_ecu:
   - 0115:O2S12,SHRTFT11
   - 0119:O2S22,SHRTFT22
   - 011C:OBDSUP
+  - 011E:PTO_STAT
   - 011F:RUNTM
   - 0121:MIL_DIST
   - 0123:FRP
