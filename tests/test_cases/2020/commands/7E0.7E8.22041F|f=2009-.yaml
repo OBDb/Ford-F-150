@@ -7,5 +7,8 @@ test_cases:
     F150_LPFP_DES: 64.815
   response: 7E80462041F95
 - expected_values:
+    F150_LPFP_DES: 67.425
+  response: 7E80462041F9B
+- expected_values:
     F150_LPFP_DES: 71.775
   response: 7E80462041FA5

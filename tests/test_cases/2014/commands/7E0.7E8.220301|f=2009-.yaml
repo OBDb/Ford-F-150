@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     F150_MAP_V: 0
   response: '7E8056203010000'
+- expected_values:
+    F150_MAP_V: 1.04492
+  response: 7E805620301042E
