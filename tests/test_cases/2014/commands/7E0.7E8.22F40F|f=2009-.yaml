@@ -21,3 +21,6 @@ test_cases:
 - expected_values:
     F150_IAT_ALT2: 19
   response: 7E80462F40F3B
+- expected_values:
+    F150_IAT_ALT2: 21
+  response: 7E80462F40F3D
