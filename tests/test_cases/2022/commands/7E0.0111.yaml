@@ -6,8 +6,8 @@ test_cases:
     01111
     7E80341112C
 - expected_values:
-    TP: 10.19608
-  response: 7E80341111A
+    TP: 9.80392
+  response: '7E803411119'
 - expected_values:
     TP: 89.80392
   response: 7E8034111E5
