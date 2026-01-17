@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     F150_BARO: 14.28462
   response: 7E805620353018A
+- expected_values:
+    F150_BARO: 14.4659
+  response: 7E805620353018F
