@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     F150_TRQ_CTRL_REQ: 16
   response: 7E8046203AF10
+- expected_values:
+    F150_TRQ_CTRL_REQ: 22
+  response: 7E8046203AF16
