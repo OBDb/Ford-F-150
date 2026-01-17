@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     F150_PCM_CYL_HEAD_T_CORR: 0
   response: '7E8056203340000'
+- expected_values:
+    F150_PCM_CYL_HEAD_T_CORR: 96.79688
+  response: '7E8056203341833'
