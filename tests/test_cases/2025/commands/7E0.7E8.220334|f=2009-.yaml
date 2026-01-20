@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.220334|f=2009-
 test_cases:
 - expected_values:
+    F150_PCM_CYL_HEAD_T_CORR: 66.04688
+  response: '7E8056203341083'
+- expected_values:
     F150_PCM_CYL_HEAD_T_CORR: 91.78125
   response: 7E80562033416F2
 - expected_values:

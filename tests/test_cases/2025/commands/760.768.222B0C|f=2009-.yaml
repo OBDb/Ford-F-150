@@ -5,6 +5,9 @@ test_cases:
   response: 76805622B0C0000
 - expected_values:
     F150_LAT_ANG: -1
+  response: 76805622B0CFFFD
+- expected_values:
+    F150_LAT_ANG: -1
   response: 76805622B0CFFFE
 - expected_values:
     F150_LAT_ANG: -1

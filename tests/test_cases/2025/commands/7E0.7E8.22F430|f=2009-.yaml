@@ -1,5 +1,8 @@
 command_id: 7E0.7E8.22F430|f=2009-
 test_cases:
 - expected_values:
+    F150_WARMUP_CLR: 52
+  response: 7E80462F43034
+- expected_values:
     F150_WARMUP_CLR: 72
   response: 7E80462F43048

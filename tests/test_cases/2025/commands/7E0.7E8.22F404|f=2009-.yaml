@@ -15,3 +15,9 @@ test_cases:
 - expected_values:
     F150_ENG_LOAD_PCT: 33.72549
   response: 7E80462F40456
+- expected_values:
+    F150_ENG_LOAD_PCT: 36.07843
+  response: 7E80462F4045C
+- expected_values:
+    F150_ENG_LOAD_PCT: 37.2549
+  response: 7E80462F4045F

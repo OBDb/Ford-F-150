@@ -1,5 +1,8 @@
 command_id: 7E0.7E8.220707|f=2009-
 test_cases:
 - expected_values:
+    F150_GRILL_SHUT_DC: 6.27451
+  response: '7E80462070710'
+- expected_values:
     F150_GRILL_SHUT_DC: 100
   response: 7E804620707FF

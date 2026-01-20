@@ -7,6 +7,9 @@ test_cases:
     F150_EVAP_PURGE_CMD: 23.03162
   response: 7E8056211661D7B
 - expected_values:
+    F150_EVAP_PURGE_CMD: 45.10803
+  response: 7E80562116639BD
+- expected_values:
     F150_EVAP_PURGE_CMD: 66.46118
   response: '7E8056211665512'
 - expected_values:
