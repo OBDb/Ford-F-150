@@ -4,5 +4,20 @@ test_cases:
     F150_DIST_DTC_CLR: 1145
   response: 7E80562F4310479
 - expected_values:
+    F150_DIST_DTC_CLR: 1147
+  response: 7E80562F431047B
+- expected_values:
+    F150_DIST_DTC_CLR: 1155
+  response: 7E80562F4310483
+- expected_values:
+    F150_DIST_DTC_CLR: 1157
+  response: 7E80562F4310485
+- expected_values:
+    F150_DIST_DTC_CLR: 1159
+  response: 7E80562F4310487
+- expected_values:
+    F150_DIST_DTC_CLR: 1160
+  response: 7E80562F4310488
+- expected_values:
     F150_DIST_DTC_CLR: 3914
   response: 7E80562F4310F4A
