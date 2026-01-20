@@ -24,3 +24,6 @@ test_cases:
 - expected_values:
     F150_LPFP_DUTY: 18.80188
   response: '7E8056203071811'
+- expected_values:
+    F150_LPFP_DUTY: 20.33691
+  response: 7E8056203071A08
