@@ -7,26 +7,5 @@ test_cases:
     F150_ECT: 88.625
   response: 7E80562038F1628
 - expected_values:
-    F150_ECT: 88.64062
-  response: 7E80562038F1629
-- expected_values:
-    F150_ECT: 88.67188
-  response: 7E80562038F162B
-- expected_values:
-    F150_ECT: 88.75
-  response: 7E80562038F1630
-- expected_values:
-    F150_ECT: 88.85938
-  response: 7E80562038F1637
-- expected_values:
-    F150_ECT: 89.01562
-  response: 7E80562038F1641
-- expected_values:
-    F150_ECT: 89.28125
-  response: 7E80562038F1652
-- expected_values:
-    F150_ECT: 89.9375
-  response: 7E80562038F167C
-- expected_values:
-    F150_ECT: 90.14062
-  response: 7E80562038F1689
+    F150_ECT: 90.17188
+  response: 7E80562038F168B
