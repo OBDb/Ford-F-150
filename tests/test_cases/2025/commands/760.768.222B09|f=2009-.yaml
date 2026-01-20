@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     F150_RL_VSS: 0
   response: 76804622B0900
+- expected_values:
+    F150_RL_VSS: 1
+  response: 76804622B0901
