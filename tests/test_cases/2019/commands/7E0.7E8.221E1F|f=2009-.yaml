@@ -26,4 +26,7 @@ test_cases:
   response: 7E804621E1F46
 - expected_values:
     F150_GEAR_ENG: 6
+  response: 7E804621E1F80
+- expected_values:
+    F150_GEAR_ENG: 6
   response: 7E804621E1F82
