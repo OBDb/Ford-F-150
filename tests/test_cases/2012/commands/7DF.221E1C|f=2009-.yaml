@@ -11,4 +11,4 @@ test_cases:
   response: 7E805621E1C04FF
 - expected_values:
     F150_TOT: 255
-  response: 7E805621E1CFFA0
+  response: 7E805621E1CFF20
