@@ -25,6 +25,11 @@ test_cases:
 - expected_values:
     F150_TOT: 255
   response: |-
+    7E805621E1CFFC9
+    7EE05621E1CFFC0
+- expected_values:
+    F150_TOT: 255
+  response: |-
     7E805621E1CFFEA
     7EE05621E1CFFE0
 - expected_values:
