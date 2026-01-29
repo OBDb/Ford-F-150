@@ -12,3 +12,6 @@ test_cases:
 - expected_values:
     F150_PCM_VEH_ODO: 65439.4
   response: 7E80762F4A60009FC3A
+- expected_values:
+    F150_PCM_VEH_ODO: 75858.2
+  response: 7E80762F4A6000B9336
