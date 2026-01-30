@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     F150_PCM_A_C_REFRIG_P: 490
   response: 7E80562060401EA
+- expected_values:
+    F150_PCM_A_C_REFRIG_P: 611
+  response: '7E8056206040263'
