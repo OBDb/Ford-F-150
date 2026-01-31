@@ -48,3 +48,19 @@ test_cases:
   response: |-
     7E810094169072D2B7B
     7E821000000CCCCCCCC
+- expected_values:
+    EGR_A_ACT: 20.78431
+    EGR_A_ACT_SUP: 1
+    EGR_A_CMD: 21.56863
+    EGR_A_CMD_SUP: 1
+    EGR_A_ERR: -2.34375
+    EGR_A_ERR_SUP: 1
+    EGR_B_ACT: 0
+    EGR_B_ACT_SUP: 0
+    EGR_B_CMD: 0
+    EGR_B_CMD_SUP: 0
+    EGR_B_ERR: -100
+    EGR_B_ERR_SUP: 0
+  response: |-
+    7E8100941690737357D
+    7E821000000CCCCCCCC
