@@ -259,7 +259,7 @@
   "signals": [
     {"id": "F150_BPV_OPEN", "path": "Engine", "fmt": { "len": 8, "max": 1, "div": 255, "unit": "scalar" }, "name": "Bypass valve"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0460"}, "freq": 5, "filter": { "from": 2009 }, "dbgfilter": { "to": 2011, "years": [2013, 2015, 2021, 2022, 2023], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0460"}, "freq": 5, "filter": { "from": 2009 }, "dbgfilter": { "to": 2011, "years": [2013, 2015, 2021, 2022, 2023], "from": 2026 },
   "signals": [
     {"id": "F150_CAT_SENS_V", "path": "Engine", "fmt": { "len": 16, "max": 5, "div": 1024, "sign": true, "unit": "volts" }, "name": "Charge air temperature sensor voltage"}
   ]},
