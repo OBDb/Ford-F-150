@@ -27,3 +27,6 @@ test_cases:
 - expected_values:
     F150_ETC_ANG_ACT: 2.91602
   response: 7E80562093C05D5
+- expected_values:
+    F150_ETC_ANG_ACT: 8.17969
+  response: 7E80562093C105C

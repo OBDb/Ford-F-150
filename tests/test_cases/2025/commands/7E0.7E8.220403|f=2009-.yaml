@@ -12,3 +12,6 @@ test_cases:
 - expected_values:
     F150_KS1_RAW: 33
   response: '7E8056204030021'
+- expected_values:
+    F150_KS1_RAW: 92
+  response: 7E805620403005C
