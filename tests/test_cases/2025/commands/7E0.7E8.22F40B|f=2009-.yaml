@@ -12,3 +12,6 @@ test_cases:
 - expected_values:
     F150_MAP: 6.09164
   response: 7E80462F40B2A
+- expected_values:
+    F150_MAP: 8.70234
+  response: 7E80462F40B3C
