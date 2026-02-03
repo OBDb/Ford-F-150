@@ -12,3 +12,6 @@ test_cases:
 - expected_values:
     F150_ETC_TRIM_LRN: -0.10352
   response: 7E805620338FFCB
+- expected_values:
+    F150_ETC_TRIM_LRN: -0.05469
+  response: 7E805620338FFE4
