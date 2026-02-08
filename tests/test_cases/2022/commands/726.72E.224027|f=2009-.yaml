@@ -1,8 +1,8 @@
 command_id: 726.72E.224027|f=2009-
 test_cases:
 - expected_values:
-    F150_BATT_AGE: 181
-  response: 72E0562402700B5
+    F150_BATT_AGE: 0
+  response: '72E056240270000'
 - expected_values:
     F150_BATT_AGE: 1247
   response: 72E0562402704DF
