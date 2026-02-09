@@ -4,29 +4,8 @@ test_cases:
     F150_ETC_ANG_DES: 2.11914
   response: 7E80562091A043D
 - expected_values:
-    F150_ETC_ANG_DES: 2.19531
-  response: 7E80562091A0464
-- expected_values:
-    F150_ETC_ANG_DES: 2.27734
-  response: 7E80562091A048E
-- expected_values:
-    F150_ETC_ANG_DES: 2.63086
-  response: 7E80562091A0543
-- expected_values:
-    F150_ETC_ANG_DES: 2.68359
-  response: 7E80562091A055E
-- expected_values:
-    F150_ETC_ANG_DES: 2.75
-  response: 7E80562091A0580
-- expected_values:
-    F150_ETC_ANG_DES: 2.76953
-  response: 7E80562091A058A
-- expected_values:
-    F150_ETC_ANG_DES: 2.78125
-  response: 7E80562091A0590
-- expected_values:
-    F150_ETC_ANG_DES: 2.80078
-  response: 7E80562091A059A
-- expected_values:
     F150_ETC_ANG_DES: 9.97266
   response: 7E80562091A13F2
+- expected_values:
+    F150_ETC_ANG_DES: 12.00586
+  response: 7E80562091A1803

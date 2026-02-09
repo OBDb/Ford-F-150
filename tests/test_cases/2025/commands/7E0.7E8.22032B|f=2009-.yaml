@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     F150_ACC_POS: 5
   response: 7E80462032B0A
+- expected_values:
+    F150_ACC_POS: 9
+  response: 7E80462032B12
