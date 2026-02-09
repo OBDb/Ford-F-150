@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     F150_FL_VSS: 1
   response: 76804622B0701
+- expected_values:
+    F150_FL_VSS: 30
+  response: 76804622B071E
