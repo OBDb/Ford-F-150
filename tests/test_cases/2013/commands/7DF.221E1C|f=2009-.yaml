@@ -341,6 +341,12 @@ test_cases:
     7E803412F59
     7E8064100BF9FA893
 - expected_values:
+    F150_TOT: 59.8125
+  response: |-
+    7E805621E1C03BD
+    7E803410F49
+    7E8064100BF9FA893
+- expected_values:
     F150_TOT: 61.125
   response: |-
     7E805621E1C03D2
