@@ -11,6 +11,7 @@ supported_commands_by_ecu:
   - 726.72E.224028|f=2009-:F150_BATT_SOC
   - 726.72E.224029|f=2009-2020:F150_BATT_TEMP
   "7DF":
+  - 7DF.012F
   - 7DF.0134
   - 7DF.0144
   - 7DF.221E12
