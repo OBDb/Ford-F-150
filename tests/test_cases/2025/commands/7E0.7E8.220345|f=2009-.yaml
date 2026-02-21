@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     F150_PCM_MISF_EVENTS_LATEST_CYC: 8
   response: '7E80762034500000008'
+- expected_values:
+    F150_PCM_MISF_EVENTS_LATEST_CYC: 14
+  response: 7E8076203450000000E
