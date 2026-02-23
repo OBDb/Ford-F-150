@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.22033C|f=2009-
+test_cases:
+- expected_values:
+    F150_TIP_V: 1.54785
+  response: 7E80562033C013D
+- expected_values:
+    F150_TIP_V: 1.55273
+  response: 7E80562033C013E
+- expected_values:
+    F150_TIP_V: 1.57715
+  response: 7E80562033C0143
+- expected_values:
+    F150_TIP_V: 1.7041
+  response: 7E80562033C015D
+- expected_values:
+    F150_TIP_V: 1.70898
+  response: 7E80562033C015E
+- expected_values:
+    F150_TIP_V: 2.2168
+  response: 7E80562033C01C6
