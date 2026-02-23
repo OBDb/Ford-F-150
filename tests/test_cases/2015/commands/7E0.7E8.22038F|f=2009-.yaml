@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22038F|f=2009-
+test_cases:
+- expected_values:
+    F150_ECT: 86.73438
+  response: 7E80562038F15AF
+- expected_values:
+    F150_ECT: 95.84375
+  response: 7E80562038F17F6
+- expected_values:
+    F150_ECT: 96.59375
+  response: 7E80562038F1826
