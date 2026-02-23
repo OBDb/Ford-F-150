@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.220403|f=2009-
+test_cases:
+- expected_values:
+    F150_KS1_RAW: 32
+  response: '7E8056204030020'
+- expected_values:
+    F150_KS1_RAW: 34
+  response: '7E8056204030022'
+- expected_values:
+    F150_KS1_RAW: 35
+  response: '7E8056204030023'
+- expected_values:
+    F150_KS1_RAW: 36
+  response: '7E8056204030024'
+- expected_values:
+    F150_KS1_RAW: 50
+  response: '7E8056204030032'
+- expected_values:
+    F150_KS1_RAW: 61
+  response: 7E805620403003D
+- expected_values:
+    F150_KS1_RAW: 64
+  response: '7E8056204030040'

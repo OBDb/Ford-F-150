@@ -1,0 +1,14 @@
+command_id: 726.72E.222814|f=2009-
+test_cases:
+- expected_values:
+    F150_TP_FR: 43.65
+  response: '72E056228140369'
+- expected_values:
+    F150_TP_FR: 43.75
+  response: 72E05622814036B
+- expected_values:
+    F150_TP_FR: 43.9
+  response: 72E05622814036E
+- expected_values:
+    F150_TP_FR: 44
+  response: '72E056228140370'
