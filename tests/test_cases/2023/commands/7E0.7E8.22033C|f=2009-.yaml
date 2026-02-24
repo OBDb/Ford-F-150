@@ -10,6 +10,9 @@ test_cases:
     F150_TIP_V: 1.32812
   response: 7E80562033C0110
 - expected_values:
+    F150_TIP_V: 1.33789
+  response: 7E80562033C0112
+- expected_values:
     F150_TIP_V: 1.3916
   response: 7E80562033C011D
 - expected_values:
