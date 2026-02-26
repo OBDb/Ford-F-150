@@ -10,5 +10,5 @@ test_cases:
     F150_ECT: 92.03125
   response: 7E80562038F1702
 - expected_values:
-    F150_ECT: 96.3125
-  response: 7E80562038F1814
+    F150_ECT: 103.42188
+  response: 7E80562038F19DB
