@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.2203DC
+test_cases:
+- expected_values:
+    F150_HPFP_DES: 198.7017
+  response: 7E8056203DC0089
+- expected_values:
+    F150_HPFP_DES: 227.70925
+  response: 7E8056203DC009D
+- expected_values:
+    F150_HPFP_DES: 246.56416
+  response: 7E8056203DC00AA
+- expected_values:
+    F150_HPFP_DES: 374.19737
+  response: 7E8056203DC0102
+- expected_values:
+    F150_HPFP_DES: 401.75454
+  response: 7E8056203DC0115
+- expected_values:
+    F150_HPFP_DES: 504.73133
+  response: 7E8056203DC015C
+- expected_values:
+    F150_HPFP_DES: 1138.54626
+  response: 7E8056203DC0311
