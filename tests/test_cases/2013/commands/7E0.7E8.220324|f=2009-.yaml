@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.220324|f=2009-
+test_cases:
+- expected_values:
+    F150_HPFP_V: 0.73803
+  response: '7E8056203240097'
+- expected_values:
+    F150_HPFP_V: 0.7478
+  response: '7E8056203240099'
+- expected_values:
+    F150_HPFP_V: 0.78201
+  response: 7E80562032400A0
+- expected_values:
+    F150_HPFP_V: 0.91887
+  response: 7E80562032400BC
+- expected_values:
+    F150_HPFP_V: 1.12903
+  response: 7E80562032400E7
+- expected_values:
+    F150_HPFP_V: 1.29032
+  response: '7E8056203240108'
+- expected_values:
+    F150_HPFP_V: 1.51026
+  response: '7E8056203240135'
