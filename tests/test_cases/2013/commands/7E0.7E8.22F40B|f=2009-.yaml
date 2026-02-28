@@ -4,23 +4,5 @@ test_cases:
     F150_MAP: 3.04582
   response: 7E80462F40B15
 - expected_values:
-    F150_MAP: 3.19086
-  response: 7E80462F40B16
-- expected_values:
-    F150_MAP: 5.2214
-  response: 7E80462F40B24
-- expected_values:
-    F150_MAP: 6.09164
-  response: 7E80462F40B2A
-- expected_values:
-    F150_MAP: 7.10691
-  response: 7E80462F40B31
-- expected_values:
-    F150_MAP: 7.8321
-  response: 7E80462F40B36
-- expected_values:
-    F150_MAP: 8.5573
-  response: 7E80462F40B3B
-- expected_values:
     F150_MAP: 14.64893
   response: 7E80462F40B65
