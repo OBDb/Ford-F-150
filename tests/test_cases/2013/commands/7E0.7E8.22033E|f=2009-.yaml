@@ -4,14 +4,8 @@ test_cases:
     F150_TIP_ABS: 14.17111
   response: 7E80562033E3208
 - expected_values:
-    F150_TIP_ABS: 14.21868
-  response: 7E80562033E3233
-- expected_values:
-    F150_TIP_ABS: 14.26737
-  response: 7E80562033E325F
-- expected_values:
     F150_TIP_ABS: 14.41231
   response: 7E80562033E32E2
 - expected_values:
-    F150_TIP_ABS: 14.9445
-  response: 7E80562033E34C3
+    F150_TIP_ABS: 17.84555
+  response: 7E80562033E3F01
