@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.220707|f=2009-
+test_cases:
+- expected_values:
+    F150_GRILL_SHUT_DC: 59.21569
+  response: '7E80462070797'
+- expected_values:
+    F150_GRILL_SHUT_DC: 59.60784
+  response: '7E80462070798'
+- expected_values:
+    F150_GRILL_SHUT_DC: 61.96078
+  response: 7E8046207079E
+- expected_values:
+    F150_GRILL_SHUT_DC: 63.52941
+  response: 7E804620707A2
+- expected_values:
+    F150_GRILL_SHUT_DC: 64.70588
+  response: 7E804620707A5
+- expected_values:
+    F150_GRILL_SHUT_DC: 67.05882
+  response: 7E804620707AB

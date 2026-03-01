@@ -1,0 +1,32 @@
+command_id: 7E0.7E8.220548|f=2009-
+test_cases:
+- expected_values:
+    F150_LPFP_ACT: 64.97839
+  response: '7E8056205480380'
+- expected_values:
+    F150_LPFP_ACT: 66.7914
+  response: '7E8056205480399'
+- expected_values:
+    F150_LPFP_ACT: 68.16929
+  response: 7E80562054803AC
+- expected_values:
+    F150_LPFP_ACT: 69.9823
+  response: 7E80562054803C5
+- expected_values:
+    F150_LPFP_ACT: 71.21515
+  response: 7E80562054803D6
+- expected_values:
+    F150_LPFP_ACT: 72.81061
+  response: 7E80562054803EC
+- expected_values:
+    F150_LPFP_ACT: 74.40606
+  response: '7E8056205480402'
+- expected_values:
+    F150_LPFP_ACT: 76.00151
+  response: '7E8056205480418'
+- expected_values:
+    F150_LPFP_ACT: 77.0168
+  response: '7E8056205480426'
+- expected_values:
+    F150_LPFP_ACT: 78.1046
+  response: '7E8056205480435'
