@@ -1,0 +1,32 @@
+command_id: 7E0.7E8.221279|f=2009-
+test_cases:
+- expected_values:
+    F150_IAT_SENS_V: 1.34409
+  response: '7E8056212790113'
+- expected_values:
+    F150_IAT_SENS_V: 1.36364
+  response: '7E8056212790117'
+- expected_values:
+    F150_IAT_SENS_V: 1.38807
+  response: 7E805621279011C
+- expected_values:
+    F150_IAT_SENS_V: 1.4174
+  response: '7E8056212790122'
+- expected_values:
+    F150_IAT_SENS_V: 1.45161
+  response: '7E8056212790129'
+- expected_values:
+    F150_IAT_SENS_V: 1.48583
+  response: '7E8056212790130'
+- expected_values:
+    F150_IAT_SENS_V: 1.52004
+  response: '7E8056212790137'
+- expected_values:
+    F150_IAT_SENS_V: 1.55425
+  response: 7E805621279013E
+- expected_values:
+    F150_IAT_SENS_V: 1.58847
+  response: '7E8056212790145'
+- expected_values:
+    F150_IAT_SENS_V: 1.62757
+  response: 7E805621279014D
