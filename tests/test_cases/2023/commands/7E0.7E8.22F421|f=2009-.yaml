@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     F150_MIL_DIST: 130
   response: 7E80562F4210082
+- expected_values:
+    F150_MIL_DIST: 137
+  response: 7E80562F4210089
