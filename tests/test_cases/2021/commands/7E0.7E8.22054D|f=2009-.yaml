@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     F150_LPFP_SENS_V: 2.00195
   response: 7E80562054D0802
+- expected_values:
+    F150_LPFP_SENS_V: 2.68066
+  response: 7E80562054D0AB9
