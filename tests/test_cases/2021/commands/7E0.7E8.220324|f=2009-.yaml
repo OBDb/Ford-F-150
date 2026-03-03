@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     F150_HPFP_V: 1.27077
   response: '7E8056203240104'
+- expected_values:
+    F150_HPFP_V: 2.72239
+  response: 7E805620324022D
