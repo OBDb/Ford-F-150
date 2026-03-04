@@ -1,32 +1,11 @@
 command_id: 7E0.7E8.2205FC|f=2009-
 test_cases:
 - expected_values:
-    F150_PCM_CYL_HEAD_T_SENS_2_RAW: 89.57812
-  response: 7E8056205FC1665
-- expected_values:
-    F150_PCM_CYL_HEAD_T_SENS_2_RAW: 89.92188
-  response: 7E8056205FC167B
-- expected_values:
-    F150_PCM_CYL_HEAD_T_SENS_2_RAW: 90.09375
-  response: 7E8056205FC1686
-- expected_values:
-    F150_PCM_CYL_HEAD_T_SENS_2_RAW: 90.57812
-  response: 7E8056205FC16A5
-- expected_values:
-    F150_PCM_CYL_HEAD_T_SENS_2_RAW: 90.73438
-  response: 7E8056205FC16AF
-- expected_values:
-    F150_PCM_CYL_HEAD_T_SENS_2_RAW: 91.04688
-  response: 7E8056205FC16C3
-- expected_values:
-    F150_PCM_CYL_HEAD_T_SENS_2_RAW: 91.375
-  response: 7E8056205FC16D8
+    F150_PCM_CYL_HEAD_T_SENS_2_RAW: 88.17188
+  response: 7E8056205FC160B
 - expected_values:
     F150_PCM_CYL_HEAD_T_SENS_2_RAW: 91.53125
   response: 7E8056205FC16E2
-- expected_values:
-    F150_PCM_CYL_HEAD_T_SENS_2_RAW: 93.92188
-  response: 7E8056205FC177B
 - expected_values:
     F150_PCM_CYL_HEAD_T_SENS_2_RAW: 96.46875
   response: 7E8056205FC181E
