@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     F150_PCM_ENG_EOP_RAW: 256
   response: '7E8056204150100'
+- expected_values:
+    F150_PCM_ENG_EOP_RAW: 519
+  response: '7E8056204150207'
