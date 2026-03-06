@@ -28,6 +28,7 @@ supported_commands_by_ecu:
   - 0107:LONGFT1
   - 0108:SHRTFT2,SHRTFT4
   - 0109:LONGFT2,LONGFT4
+  - 010A:FP
   - 010B:MAP
   - 010C:RPM
   - 010D:VSS
