@@ -247,7 +247,7 @@
   "signals": [
     {"id": "F150_KS2_RAW", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Knock sensor, 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0415"}, "freq": 1, "filter": { "from": 2009 }, "dbgfilter": { "to": 2015, "from": 2027 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0415"}, "freq": 1, "filter": { "from": 2009 }, "dbgfilter": { "to": 2014, "from": 2027 },
   "signals": [
     {"id": "F150_PCM_ENG_EOP_RAW", "path": "Engine", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "kilopascal" }, "name": "Oil pressure"}
   ]},
