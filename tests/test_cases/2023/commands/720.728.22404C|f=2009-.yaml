@@ -7,8 +7,8 @@ test_cases:
     F150_ODO: 39142.3
   response: 7280662404C05F8FF
 - expected_values:
-    F150_ODO: 50304
-  response: 7280662404C07AD00
+    F150_ODO: 39168
+  response: 7280662404C05FA00
 - expected_values:
     F150_ODO: 52403.3
   response: 7280662404C07FF01

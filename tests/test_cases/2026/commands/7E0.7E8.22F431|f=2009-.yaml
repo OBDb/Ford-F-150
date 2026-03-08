@@ -3,3 +3,24 @@ test_cases:
 - expected_values:
     F150_DIST_DTC_CLR: 258
   response: 7E80562F4310102
+- expected_values:
+    F150_DIST_DTC_CLR: 636
+  response: 7E80562F431027C
+- expected_values:
+    F150_DIST_DTC_CLR: 637
+  response: 7E80562F431027D
+- expected_values:
+    F150_DIST_DTC_CLR: 638
+  response: 7E80562F431027E
+- expected_values:
+    F150_DIST_DTC_CLR: 642
+  response: 7E80562F4310282
+- expected_values:
+    F150_DIST_DTC_CLR: 643
+  response: 7E80562F4310283
+- expected_values:
+    F150_DIST_DTC_CLR: 644
+  response: 7E80562F4310284
+- expected_values:
+    F150_DIST_DTC_CLR: 645
+  response: 7E80562F4310285
