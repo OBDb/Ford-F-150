@@ -1,26 +1,11 @@
 command_id: 7E0.7E8.220415|f=2009-
 test_cases:
 - expected_values:
-    F150_PCM_ENG_EOP_RAW: 300
-  response: 7E805620415012C
+    F150_PCM_ENG_EOP_RAW: 244
+  response: 7E80562041500F4
 - expected_values:
-    F150_PCM_ENG_EOP_RAW: 313
-  response: '7E8056204150139'
+    F150_PCM_ENG_EOP_RAW: 255
+  response: 7E80562041500FF
 - expected_values:
-    F150_PCM_ENG_EOP_RAW: 318
-  response: 7E805620415013E
-- expected_values:
-    F150_PCM_ENG_EOP_RAW: 319
-  response: 7E805620415013F
-- expected_values:
-    F150_PCM_ENG_EOP_RAW: 320
-  response: '7E8056204150140'
-- expected_values:
-    F150_PCM_ENG_EOP_RAW: 324
-  response: '7E8056204150144'
-- expected_values:
-    F150_PCM_ENG_EOP_RAW: 325
-  response: '7E8056204150145'
-- expected_values:
-    F150_PCM_ENG_EOP_RAW: 334
-  response: 7E805620415014E
+    F150_PCM_ENG_EOP_RAW: 268
+  response: 7E805620415010C

@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     F150_AC_P: 76.57993
   response: '7E8056203930108'
+- expected_values:
+    F150_AC_P: 175.49568
+  response: 7E805620393025D
