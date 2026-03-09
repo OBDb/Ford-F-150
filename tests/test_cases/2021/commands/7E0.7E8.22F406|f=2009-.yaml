@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.22F406|f=2009-
 test_cases:
 - expected_values:
-    F150_STFT: -11.71875
-  response: 7E80462F40671
+    F150_STFT: -14.84375
+  response: 7E80462F4066D
 - expected_values:
-    F150_STFT: 9.375
-  response: 7E80462F4068C
+    F150_STFT: 14.0625
+  response: 7E80462F40692
