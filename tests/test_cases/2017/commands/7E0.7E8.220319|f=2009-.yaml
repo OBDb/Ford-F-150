@@ -13,6 +13,9 @@ test_cases:
     F150_VCT_EXH_ACT: 8.625
   response: 7E805620319008A
 - expected_values:
+    F150_VCT_EXH_ACT: 40.3125
+  response: '7E8056203190285'
+- expected_values:
     F150_VCT_EXH_ACT: 47.75
   response: 7E80562031902FC
 - expected_values:
