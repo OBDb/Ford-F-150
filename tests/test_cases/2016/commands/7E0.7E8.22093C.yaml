@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.22093C
 test_cases:
 - expected_values:
-    F150_ETC_ANG_ACT: 2.0918
-  response: 7E80562093C042F
+    F150_ETC_ANG_ACT: 1.95508
+  response: 7E80562093C03E9
 - expected_values:
     F150_ETC_ANG_ACT: 6
   response: 7E80562093C0C00
