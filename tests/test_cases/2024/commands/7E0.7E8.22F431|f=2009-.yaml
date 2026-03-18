@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.22F431|f=2009-
 test_cases:
 - expected_values:
-    F150_DIST_DTC_CLR: 305
-  response: 7E80562F4310131
+    F150_DIST_DTC_CLR: 103
+  response: 7E80562F4310067
 - expected_values:
     F150_DIST_DTC_CLR: 8958
   response: 7E80562F43122FE
