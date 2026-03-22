@@ -195,7 +195,7 @@
   "signals": [
     {"id": "F150_ECT", "path": "Engine", "fmt": { "len": 16, "max": 511, "min": -512, "div": 64, "sign": true, "unit": "celsius" }, "name": "Coolant temperature", "suggestedMetric": "engineCoolantTemperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0393"}, "freq": 2, "dbgfilter": { "to": 2009, "years": [2011], "from": 2021 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0393"}, "freq": 2, "dbgfilter": { "to": 2009, "years": [2011, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "F150_AC_P", "path": "Climate", "fmt": { "len": 16, "max": 1000, "mul": 245251, "div": 845473, "unit": "psi" }, "name": "A/C compressor pressure"}
   ]},
@@ -347,7 +347,7 @@
   "signals": [
     {"id": "F150_AC_STATE", "path": "Climate", "fmt": { "len": 8, "max": 1, "unit": "offon" }, "name": "A/C compressor, state"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1126"}, "freq": 30, "dbgfilter": { "to": 2003, "years": [2005, 2006, 2007, 2009, 2011, 2021, 2022, 2023], "from": 2027 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1126"}, "freq": 30, "dbgfilter": { "to": 2003, "years": [2005, 2006, 2007, 2009, 2011, 2021, 2022], "from": 2027 },
   "signals": [
     {"id": "F150_ERT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "seconds" }, "name": "Engine run time"}
   ]},
