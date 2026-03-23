@@ -1,6 +1,12 @@
 command_id: 7E0.012E
 test_cases:
 - expected_values:
+    EVAP_PCT: 4.31373
+  response: 7E803412E0B
+- expected_values:
+    EVAP_PCT: 21.96078
+  response: 7E803412E38
+- expected_values:
     EVAP_PCT: 78.82353
   response: 7E803412EC9
 - expected_values:
