@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.22057D|f=2009-
 test_cases:
 - expected_values:
-    F150_AAT_ALT: 10
-  response: 7E80462057D64
+    F150_AAT_ALT: 9
+  response: 7E80462057D62
 - expected_values:
     F150_AAT_ALT: 44
   response: 7E80462057DA8
