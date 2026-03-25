@@ -15,6 +15,18 @@ test_cases:
 - expected_values:
     IAT_11: 15
     IAT_11_SUP: 1
+    IAT_12: 19
+    IAT_12_SUP: 1
+    IAT_13_SUP: 0
+    IAT_21_SUP: 0
+    IAT_22_SUP: 0
+    IAT_23_SUP: 0
+  response: |-
+    7E81009416803373B00
+    7E821000000CCCCCCCC
+- expected_values:
+    IAT_11: 15
+    IAT_11_SUP: 1
     IAT_12: 27
     IAT_12_SUP: 1
     IAT_13_SUP: 0
