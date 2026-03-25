@@ -15,6 +15,8 @@ supported_commands_by_ecu:
   - 726.72E.224029|f=2009-2020:F150_BATT_TEMP
   "760":
   - 760.768.223201|f=-2015:F150_STEER_ANG
+  "764":
+  - 764.76C.22A224|f=2009-:F150_CC_TGT_VSS
   "7DF":
   - 7DF.0104
   - 7DF.0134
@@ -175,7 +177,6 @@ unsupported_commands_by_ecu:
   - 760.768.222B11|f=2009-:F150_LAT_G
   "764":
   - 764.22DD01
-  - 764.76C.22A224|f=2009-:F150_CC_TGT_VSS
   "7E0":
   - 7E0.220519
   - 7E0.221310
