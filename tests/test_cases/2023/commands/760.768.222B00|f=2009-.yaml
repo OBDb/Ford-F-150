@@ -5,6 +5,9 @@ test_cases:
   response: 76807622B0010000000
 - expected_values:
     F150_PARK_BRK: 0
+  response: 76807622B0010800000
+- expected_values:
+    F150_PARK_BRK: 0
   response: 76807622B0018000000
 - expected_values:
     F150_PARK_BRK: 1
