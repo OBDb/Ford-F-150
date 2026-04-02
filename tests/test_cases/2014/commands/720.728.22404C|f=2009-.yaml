@@ -10,11 +10,11 @@ test_cases:
     F150_ODO: 248230.7
   response: 7280662404C25E083
 - expected_values:
-    F150_ODO: 251197.9
-  response: 7280662404C26546B
-- expected_values:
     F150_ODO: 253467.7
   response: 7280662404C26AD15
+- expected_values:
+    F150_ODO: 275376.3
+  response: 7280662404C2A04E3
 - expected_values:
     F150_ODO: 343942.7
   response: 7280662404C347B43
