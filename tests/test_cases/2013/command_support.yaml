@@ -215,6 +215,7 @@ unsupported_commands_by_ecu:
   - 7DF.22F42F
   - 7DF.22F45C
   "7E0":
+  - 7E0.0145:TP_R
   - 7E0.220519
   - 7E0.221310
   - 7E0.22402A
