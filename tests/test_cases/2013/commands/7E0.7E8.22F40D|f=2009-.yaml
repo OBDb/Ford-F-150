@@ -28,5 +28,5 @@ test_cases:
 
     ELM327 v1.5
 - expected_values:
-    F150_VSS: 149
-  response: 7E80462F40D95
+    F150_VSS: 158
+  response: 7E80462F40D9E
