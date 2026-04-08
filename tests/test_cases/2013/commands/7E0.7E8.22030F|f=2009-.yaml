@@ -151,5 +151,5 @@ test_cases:
     7E8044110017C
     7E804410C0938
 - expected_values:
-    F150_CL: 1.02353
-  response: 7E80562030F8303
+    F150_CL: 1.0235
+  response: 7E80562030F8302
