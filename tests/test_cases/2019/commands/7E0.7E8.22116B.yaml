@@ -9,3 +9,11 @@ test_cases:
 - expected_values:
     F150_IGN_TIM_CYL1: -1
   response: 7E80562116BFFFC
+- expected_values:
+    F150_IGN_TIM_CYL1: -1
+  response: |-
+    7E80562116BFFFC0000
+    > 7E0.7E8.220318|f=2009-
+    7E80562031801E00000
+    > 720.728.22404C|f=2009-
+    CAN ERROR

@@ -4,5 +4,11 @@ test_cases:
     OBDSUP: OBD & OBD II
   response: 7E803411C03
 - expected_values:
+    OBDSUP: OBD & OBD II
+  response: |-
+    7E803411C0300000000
+    > 760.768.222B08|f=2009-
+    CAN ERROR
+- expected_values:
     OBDSUP: EOBD
   response: 7E803411C06
