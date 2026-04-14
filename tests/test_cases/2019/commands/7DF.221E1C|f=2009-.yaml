@@ -15,6 +15,12 @@ test_cases:
     7E805621E1C0304
     7E8035902FF
 - expected_values:
+    F150_TOT: 88.9375
+  response: |-
+    7E805621E1C058F0000
+    > 760.768.222B0D|f=2009-
+    CAN ERROR
+- expected_values:
     F150_TOT: 255
   response: 7E805621E1CFFB1
 - expected_values:
