@@ -1,6 +1,12 @@
 command_id: 7E0.0131
 test_cases:
 - expected_values:
+    CLR_DIST: 1316
+  response: |-
+    7E80441310524000000
+    > 760.768.222B11|f=2009-
+    CAN ERROR
+- expected_values:
     CLR_DIST: 13320
   response: '7E80441313408'
 - expected_values:
