@@ -1,6 +1,15 @@
 command_id: 7E0.7E8.22035A
 test_cases:
 - expected_values:
+    F150_BARO_V: 3.29423
+  response: |-
+    7E80562035A02A20000
+    > 7E0.7E8.0134
+    7E80641347C977FF000
+    7E80641347FD87FF700
+    > 760.768.222B06|f=2009-
+    CAN ERROR
+- expected_values:
     F150_BARO_V: 3.75367
   response: 7E80562035A0300
 - expected_values:

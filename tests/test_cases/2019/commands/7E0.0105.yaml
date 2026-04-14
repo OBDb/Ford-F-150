@@ -4,5 +4,13 @@ test_cases:
     ECT: 24
   response: '7E803410540'
 - expected_values:
+    ECT: 95
+  response: |-
+    7E80341058700000000
+    > 7E0.7E8.22F431|f=2009-
+    7E80562F43105240000
+    > 726.72E.222816|f=2009-
+    CAN ERROR
+- expected_values:
     ECT: 99
   response: 7E80341058B
