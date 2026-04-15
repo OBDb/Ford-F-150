@@ -1,0 +1,10 @@
+command_id: 7E0.0149
+test_cases:
+- expected_values:
+    APP_D: 15.29412
+  response: |-
+    7E80341492700000000
+    > 7E0.7E8.22F406|f=2009-
+    7E80462F4067B000000
+    > 760.768.222B0C|f=2009-
+    CAN ERROR
