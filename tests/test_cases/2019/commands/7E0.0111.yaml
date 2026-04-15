@@ -10,5 +10,10 @@ test_cases:
     > 760.768.222B09|f=2009-
     CAN ERROR
 - expected_values:
+    TP: 8.62745
+  response: |-
+    7E80341111600000000
+    CAN ERROR
+- expected_values:
     TP: 73.33333
   response: 7E8034111BB

@@ -7,6 +7,13 @@ test_cases:
     > 760.768.222B11|f=2009-
     CAN ERROR
 - expected_values:
+    CLR_DIST: 1316
+  response: |-
+    7E80441310524000000
+    > 7E0.7E8.224194|f=2009-
+    > 764.76C.22A224|f=2009-
+    CAN ERROR
+- expected_values:
     CLR_DIST: 13320
   response: '7E80441313408'
 - expected_values:
