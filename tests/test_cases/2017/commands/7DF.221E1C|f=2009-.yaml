@@ -16,6 +16,13 @@ test_cases:
     F150_TOT: 9
   response: 7E905621E1C0090
 - expected_values:
+    F150_TOT: 40.1875
+  response: |-
+    7E905621E1C0283
+    7E8100B5902FF045500
+    7E821ED144C00ED0000
+    7E9035902FF
+- expected_values:
     F150_TOT: 85.4375
   response: |-
     7E905621E1C0557
