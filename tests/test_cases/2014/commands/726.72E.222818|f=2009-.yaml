@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     F150_TP_RLI: 0
   response: '72E056228180000'
+- expected_values:
+    F150_TP_RLI: 150
+  response: 72E056228180BB8
