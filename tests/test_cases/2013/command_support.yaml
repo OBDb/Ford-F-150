@@ -16,6 +16,7 @@ supported_commands_by_ecu:
   "760":
   - 760.768.223201|f=-2015:F150_STEER_ANG
   "7DF":
+  - 7DF.0105
   - 7DF.0134
   - 7DF.0142
   - 7DF.221E1C|f=2009-:F150_TOT
