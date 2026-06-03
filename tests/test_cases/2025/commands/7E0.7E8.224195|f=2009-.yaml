@@ -1,14 +1,14 @@
 command_id: 7E0.7E8.224195|f=2009-
 test_cases:
 - expected_values:
-    F150_DTE_DISP: 353.2
-  response: 7E8056241950DCC
+    F150_DTE_DISP: 164.6
+  response: 7E805624195066E
 - expected_values:
-    F150_DTE_DISP: 358.4
-  response: 7E8056241950E00
+    F150_DTE_DISP: 179.1
+  response: 7E80562419506FF
 - expected_values:
-    F150_DTE_DISP: 588.7
-  response: 7E80562419516FF
+    F150_DTE_DISP: 179.2
+  response: '7E8056241950700'
 - expected_values:
     F150_DTE_DISP: 927.3
   response: '7E8056241952439'
