@@ -18,3 +18,6 @@ test_cases:
 - expected_values:
     F150_PCM_CMD_TRANS_MAIN_LINE_P: 820
   response: 7E805621E1A019A
+- expected_values:
+    F150_PCM_CMD_TRANS_MAIN_LINE_P: 842
+  response: 7E805621E1A01A5
