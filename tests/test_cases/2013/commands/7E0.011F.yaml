@@ -20,6 +20,11 @@ test_cases:
     7E81009411F02F300BF
     7E8219FA89700000000
 - expected_values:
+    RUNTM: 1078
+  response: |-
+    7E81009411F043600BF
+    7E8219FA89700000000
+- expected_values:
     RUNTM: 3664
   response: |-
     7E81009411F0E5000BF
