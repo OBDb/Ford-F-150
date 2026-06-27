@@ -4,5 +4,5 @@ test_cases:
     LOAD_PCT: 16.47059
   response: 7E80341042A
 - expected_values:
-    LOAD_PCT: 90.58824
-  response: 7E8034104E7
+    LOAD_PCT: 93.33333
+  response: 7E8034104EE
