@@ -10,5 +10,8 @@ test_cases:
     SHRTFT2: 1.5625
   response: '7E803410882'
 - expected_values:
+    SHRTFT2: 2.34375
+  response: '7E803410883'
+- expected_values:
     SHRTFT2: 7.03125
   response: '7E803410889'
