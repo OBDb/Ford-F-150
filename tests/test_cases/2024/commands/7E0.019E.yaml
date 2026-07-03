@@ -4,5 +4,29 @@ test_cases:
     EXH_RATE: 0
   response: 7E804419E0000
 - expected_values:
+    EXH_RATE: 54.2
+  response: 7E804419E010F
+- expected_values:
+    EXH_RATE: 73
+  response: 7E804419E016D
+- expected_values:
+    EXH_RATE: 92
+  response: 7E804419E01CC
+- expected_values:
     EXH_RATE: 136.2
   response: 7E804419E02A9
+- expected_values:
+    EXH_RATE: 141.2
+  response: 7E804419E02C2
+- expected_values:
+    EXH_RATE: 165.4
+  response: 7E804419E033B
+- expected_values:
+    EXH_RATE: 168.4
+  response: 7E804419E034A
+- expected_values:
+    EXH_RATE: 189
+  response: 7E804419E03B1
+- expected_values:
+    EXH_RATE: 921.2
+  response: 7E804419E11FE
