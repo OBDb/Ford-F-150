@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2205FC|f=2009-
+test_cases:
+- expected_values:
+    F150_PCM_CYL_HEAD_T_SENS_2_RAW: 71.6875
+  response: 7E8056205FC11EC
+- expected_values:
+    F150_PCM_CYL_HEAD_T_SENS_2_RAW: 84
+  response: 7E8056205FC1500
+- expected_values:
+    F150_PCM_CYL_HEAD_T_SENS_2_RAW: 91.95312
+  response: 7E8056205FC16FD
+- expected_values:
+    F150_PCM_CYL_HEAD_T_SENS_2_RAW: 101.15625
+  response: 7E8056205FC194A

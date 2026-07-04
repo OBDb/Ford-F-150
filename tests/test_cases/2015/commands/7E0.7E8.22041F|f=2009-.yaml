@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22041F|f=2009-
+test_cases:
+- expected_values:
+    F150_LPFP_DES: 87.435
+  response: 7E80462041FC9
