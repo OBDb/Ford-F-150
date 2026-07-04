@@ -17,5 +17,5 @@ test_cases:
     > 760.768.222B08|f=2009-
     CAN ERROR
 - expected_values:
-    F150_CL: 1.20605
-  response: 7E80562030F9A60
+    F150_CL: 1.27548
+  response: 7E80562030FA343
