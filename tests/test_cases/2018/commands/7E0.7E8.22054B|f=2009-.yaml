@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.22054B|f=2009-
+test_cases:
+- expected_values:
+    F150_PCM_ENG_OIL_LIFE_REM: 42
+  response: 7E80462054B2A
+- expected_values:
+    F150_PCM_ENG_OIL_LIFE_REM: 77
+  response: 7E80462054B4D
+- expected_values:
+    F150_PCM_ENG_OIL_LIFE_REM: 78
+  response: 7E80462054B4E
+- expected_values:
+    F150_PCM_ENG_OIL_LIFE_REM: 82
+  response: 7E80462054B52
+- expected_values:
+    F150_PCM_ENG_OIL_LIFE_REM: 96
+  response: 7E80462054B60

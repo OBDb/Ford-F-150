@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.221E16|f=2009-
+test_cases:
+- expected_values:
+    F150_AXLE_GEAR_RATIO_MEAS: 0.69067
+  response: 7E805621E160B0D
+- expected_values:
+    F150_AXLE_GEAR_RATIO_MEAS: 0.69092
+  response: 7E805621E160B0E
+- expected_values:
+    F150_AXLE_GEAR_RATIO_MEAS: 0.86743
+  response: 7E805621E160DE1
+- expected_values:
+    F150_AXLE_GEAR_RATIO_MEAS: 3.39697
+  response: 7E805621E16365A
+- expected_values:
+    F150_AXLE_GEAR_RATIO_MEAS: 4.17456
+  response: 7E805621E1642CB
+- expected_values:
+    F150_AXLE_GEAR_RATIO_MEAS: 5
+  response: 7E805621E165000

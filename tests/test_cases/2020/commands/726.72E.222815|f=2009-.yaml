@@ -1,0 +1,30 @@
+command_id: 726.72E.222815|f=2009-
+test_cases:
+- expected_values:
+    F150_TP_RRO: 33.2
+  response: '72E 05 62 28 15 02 98 '
+- expected_values:
+    F150_TP_RRO: 37.9
+  response: '72E 05 62 28 15 02 F6 '
+- expected_values:
+    F150_TP_RRO: 28.4
+  response: '72E056228150238'
+- expected_values:
+    F150_TP_RRO: 38.35
+  response: 72E0562281502FF
+- expected_values:
+    F150_TP_RRO: 38.4
+  response: '72E056228150300'
+- expected_values:
+    F150_TP_RRO: 38.55
+  response: |-
+    72E056228150303
+    72E035902CA
+- expected_values:
+    F150_TP_RRO: 150
+  response: 72E056228150BB8
+- expected_values:
+    F150_TP_RRO: 40.15
+  response: |-
+    72E22080A0000000000
+    72E056228150323
