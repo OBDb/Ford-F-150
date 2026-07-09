@@ -1,0 +1,22 @@
+command_id: 7E0.0172
+test_cases:
+- expected_values:
+    WG_A_ACT: 46.27451
+    WG_A_ACT_SUP: 1
+    WG_A_CMD: 46.27451
+    WG_A_CMD_SUP: 1
+    WG_B_ACT: 47.05882
+    WG_B_ACT_SUP: 1
+    WG_B_CMD: 47.05882
+    WG_B_CMD_SUP: 1
+  response: 7E80741720F76767878
+- expected_values:
+    WG_A_ACT: 65.88235
+    WG_A_ACT_SUP: 1
+    WG_A_CMD: 65.88235
+    WG_A_CMD_SUP: 1
+    WG_B_ACT: 66.27451
+    WG_B_ACT_SUP: 1
+    WG_B_CMD: 66.27451
+    WG_B_CMD_SUP: 1
+  response: 7E80741720FA8A8A9A9

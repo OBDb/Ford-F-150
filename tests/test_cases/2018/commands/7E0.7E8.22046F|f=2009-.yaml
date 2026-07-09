@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22046F|f=2009-
+test_cases:
+- expected_values:
+    F150_INJ_MODE: 7
+  response: '7E8 04 62 04 6F 07 '
+- expected_values:
+    F150_INJ_MODE: 7
+  response: 7E80462046F07

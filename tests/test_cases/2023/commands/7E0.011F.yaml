@@ -1,0 +1,26 @@
+command_id: 7E0.011F
+test_cases:
+- expected_values:
+    RUNTM: 48
+  response: 7E804411F0030
+- expected_values:
+    RUNTM: 158
+  response: 7E804411F009E
+- expected_values:
+    RUNTM: 165
+  response: 7E804411F00A5
+- expected_values:
+    RUNTM: 175
+  response: 7E804411F00AF
+- expected_values:
+    RUNTM: 202
+  response: 7E804411F00CA
+- expected_values:
+    RUNTM: 367
+  response: 7E804411F016F
+- expected_values:
+    RUNTM: 555
+  response: 7E804411F022B
+- expected_values:
+    RUNTM: 806
+  response: 7E804411F0326

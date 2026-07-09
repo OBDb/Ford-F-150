@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22F404|f=2009-
+test_cases:
+- expected_values:
+    F150_ENG_LOAD_PCT: 22.7451
+  response: 7E80462F4043A
+- expected_values:
+    F150_ENG_LOAD_PCT: 91.37255
+  response: 7E80462F404E9
