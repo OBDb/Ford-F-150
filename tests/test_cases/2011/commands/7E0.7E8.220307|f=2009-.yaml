@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.220307|f=2009-
+test_cases:
+- expected_values:
+    F150_LPFP_DUTY: 29.69666
+  response: '7E8056203072603'
+- expected_values:
+    F150_LPFP_DUTY: 30.24292
+  response: 7E80562030726B6
