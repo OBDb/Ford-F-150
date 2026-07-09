@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.2203BC|f=2009-
+test_cases:
+- expected_values:
+    F150_VCT_INT_DES: 0
+  response: 7E8056203BC0000
+- expected_values:
+    F150_VCT_INT_DES: -25
+  response: 7E8056203BCFE70
+- expected_values:
+    F150_VCT_INT_DES: -24.9375
+  response: 7E8056203BCFE71
+- expected_values:
+    F150_VCT_INT_DES: -23.8125
+  response: 7E8056203BCFE83
+- expected_values:
+    F150_VCT_INT_DES: -10.1875
+  response: 7E8056203BCFF5D
+- expected_values:
+    F150_VCT_INT_DES: -3.125
+  response: 7E8056203BCFFCE
+- expected_values:
+    F150_VCT_INT_DES: -0.4375
+  response: 7E8056203BCFFF9

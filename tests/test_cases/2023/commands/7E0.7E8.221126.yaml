@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221126
+test_cases:
+- expected_values:
+    F150_ERT: 0
+  response: '7E80462112600'
