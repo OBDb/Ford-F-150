@@ -4,11 +4,11 @@ test_cases:
     F150_LPFP_DUTY: 19.6106
   response: 7E805620307191A
 - expected_values:
-    F150_LPFP_DUTY: 24.98779
-  response: 7E8056203071FFC
+    F150_LPFP_DUTY: 23.42834
+  response: 7E8056203071DFD
 - expected_values:
     F150_LPFP_DUTY: 25.00305
   response: '7E8056203072001'
 - expected_values:
-    F150_LPFP_DUTY: 28.35693
-  response: 7E805620307244C
+    F150_LPFP_DUTY: 28.22571
+  response: '7E8056203072421'
