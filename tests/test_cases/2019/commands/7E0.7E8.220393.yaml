@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.220393
+test_cases:
+- expected_values:
+    F150_AC_P: 74.5494
+  response: '7E8056203930101'
+- expected_values:
+    F150_AC_P: 145.03775
+  response: 7E80562039301F4
+- expected_values:
+    F150_AC_P: 149.38888
+  response: '7E8056203930203'

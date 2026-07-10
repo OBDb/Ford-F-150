@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.220466|f=2009-
+test_cases:
+- expected_values:
+    F150_TIP_DES_ABS: 11.46479
+  response: 7E805620466287A
+- expected_values:
+    F150_TIP_DES_ABS: 11.60862
+  response: 7E80562046628FC
+- expected_values:
+    F150_TIP_DES_ABS: 13.88344
+  response: '7E8056204663104'
+- expected_values:
+    F150_TIP_DES_ABS: 17.38196
+  response: 7E8056204663D5E

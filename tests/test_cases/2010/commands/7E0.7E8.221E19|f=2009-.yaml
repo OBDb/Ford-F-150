@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.221E19|f=2009-
+test_cases:
+- expected_values:
+    F150_PCM_CMD_TRANS_GEAR_RATIO: 0.69093
+  response: 7E805621E190B0E
+- expected_values:
+    F150_PCM_CMD_TRANS_GEAR_RATIO: 0.86696
+  response: 7E805621E190DDF
+- expected_values:
+    F150_PCM_CMD_TRANS_GEAR_RATIO: 1.14284
+  response: 7E805621E191249
+- expected_values:
+    F150_PCM_CMD_TRANS_GEAR_RATIO: 1.52102
+  response: 7E805621E191856
+- expected_values:
+    F150_PCM_CMD_TRANS_GEAR_RATIO: 2.33988
+  response: 7E805621E192570
+- expected_values:
+    F150_PCM_CMD_TRANS_GEAR_RATIO: 4.17096
+  response: 7E805621E1942BC
