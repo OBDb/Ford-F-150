@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.221279|f=2009-
+test_cases:
+- expected_values:
+    F150_IAT_SENS_V: 0.94819
+  response: 7E80562127900C2
+- expected_values:
+    F150_IAT_SENS_V: 1.24633
+  response: 7E80562127900FF
+- expected_values:
+    F150_IAT_SENS_V: 1.25611
+  response: '7E8056212790101'
+- expected_values:
+    F150_IAT_SENS_V: 2.50733
+  response: '7E8056212790201'

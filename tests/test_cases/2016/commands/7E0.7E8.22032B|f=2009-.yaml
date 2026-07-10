@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22032B|f=2009-
+test_cases:
+- expected_values:
+    F150_ACC_POS: 0
+  response: 7E80462032B00
+- expected_values:
+    F150_ACC_POS: 27
+  response: 7E80462032B36

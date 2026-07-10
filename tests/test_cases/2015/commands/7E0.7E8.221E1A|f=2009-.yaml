@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.221E1A|f=2009-
+test_cases:
+- expected_values:
+    F150_PCM_CMD_TRANS_MAIN_LINE_P: 404
+  response: 7E805621E1A00CA
+- expected_values:
+    F150_PCM_CMD_TRANS_MAIN_LINE_P: 460
+  response: 7E805621E1A00E6
+- expected_values:
+    F150_PCM_CMD_TRANS_MAIN_LINE_P: 494
+  response: 7E805621E1A00F7
+- expected_values:
+    F150_PCM_CMD_TRANS_MAIN_LINE_P: 586
+  response: 7E805621E1A0125
+- expected_values:
+    F150_PCM_CMD_TRANS_MAIN_LINE_P: 592
+  response: 7E805621E1A0128
+- expected_values:
+    F150_PCM_CMD_TRANS_MAIN_LINE_P: 722
+  response: 7E805621E1A0169

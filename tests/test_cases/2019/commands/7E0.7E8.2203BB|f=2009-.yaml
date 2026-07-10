@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2203BB|f=2009-
+test_cases:
+- expected_values:
+    F150_VCT_EXH_DES: 0
+  response: 7E8056203BB0000
+- expected_values:
+    F150_VCT_EXH_DES: 15.9375
+  response: 7E8056203BB00FF
+- expected_values:
+    F150_VCT_EXH_DES: 32.0625
+  response: 7E8056203BB0201

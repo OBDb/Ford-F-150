@@ -1,0 +1,32 @@
+command_id: 7E0.7E8.2203E8|f=2009-
+test_cases:
+- expected_values:
+    F150_OAR: 0.05078
+  response: 7E8056203E80340
+- expected_values:
+    F150_OAR: 0.06433
+  response: 7E8056203E8041E
+- expected_values:
+    F150_OAR: 0.13904
+  response: 7E8056203E808E6
+- expected_values:
+    F150_OAR: 0
+  response: 7E8056203E8C18C
+- expected_values:
+    F150_OAR: 0
+  response: 7E8056203E8D18E
+- expected_values:
+    F150_OAR: 0
+  response: 7E8056203E8E0BE
+- expected_values:
+    F150_OAR: 0
+  response: 7E8056203E8E717
+- expected_values:
+    F150_OAR: 0
+  response: 7E8056203E8EFA9
+- expected_values:
+    F150_OAR: 0
+  response: 7E8056203E8F40C
+- expected_values:
+    F150_OAR: 0
+  response: 7E8056203E8F8B6
