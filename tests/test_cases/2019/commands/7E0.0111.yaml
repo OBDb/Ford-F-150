@@ -15,5 +15,5 @@ test_cases:
     7E80341111600000000
     CAN ERROR
 - expected_values:
-    TP: 82.7451
-  response: 7E8034111D3
+    TP: 90.19608
+  response: 7E8034111E6
