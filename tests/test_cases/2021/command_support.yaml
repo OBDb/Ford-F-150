@@ -215,3 +215,7 @@ unsupported_commands_by_ecu:
   - 7E0.7E8.220393:F150_AC_P
   - 7E0.7E8.220460|f=2009-:F150_CAT_SENS_V
   - 7E0.7E8.221126:F150_ERT
+  "7E4":
+  - 7E4.7EC.0105
+  "7E6":
+  - 7E6.7EE.0105
