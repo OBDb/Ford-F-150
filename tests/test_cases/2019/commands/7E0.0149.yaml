@@ -8,3 +8,6 @@ test_cases:
     7E80462F4067B000000
     > 760.768.222B0C|f=2009-
     CAN ERROR
+- expected_values:
+    APP_D: 15.68627
+  response: '7E803414928'
