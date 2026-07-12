@@ -14,8 +14,8 @@ test_cases:
     > 764.76C.22A224|f=2009-
     CAN ERROR
 - expected_values:
-    CLR_DIST: 13320
-  response: '7E80441313408'
+    CLR_DIST: 7126
+  response: 7E80441311BD6
 - expected_values:
     CLR_DIST: 23295
   response: 7E80441315AFF

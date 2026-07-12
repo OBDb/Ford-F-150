@@ -7,3 +7,6 @@ test_cases:
     > 7E0.7E8.221E19|f=2009-
     > 726.72E.222817|f=2009-
     CAN ERROR
+- expected_values:
+    APP_E: 7.84314
+  response: 7E803414A14
