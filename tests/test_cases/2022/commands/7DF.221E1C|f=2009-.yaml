@@ -30,10 +30,10 @@ test_cases:
     7E805621E1C0400
     7EE05621E1C03F0
 - expected_values:
-    F150_TOT: 95
+    F150_TOT: 79
   response: |-
-    7E805621E1C05FD
-    7EE05621E1C05F0
+    7E805621E1C04FD
+    7EE05621E1C04F0
 - expected_values:
     F150_TOT: 95
   response: |-
