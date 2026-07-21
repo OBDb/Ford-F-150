@@ -15,6 +15,16 @@ test_cases:
     CTAC_B_SUP: 0
     RTP_A_SUP: 1
     RTP_B_SUP: 0
+    TAC_A_CMD: 9.41176
+    TAC_B_CMD: 0
+    TP_A_REL: 9.01961
+    TP_B_REL: 0
+  response: 7E807416C0318170000
+- expected_values:
+    CTAC_A_SUP: 1
+    CTAC_B_SUP: 0
+    RTP_A_SUP: 1
+    RTP_B_SUP: 0
     TAC_A_CMD: 11.76471
     TAC_B_CMD: 0
     TP_A_REL: 11.76471
