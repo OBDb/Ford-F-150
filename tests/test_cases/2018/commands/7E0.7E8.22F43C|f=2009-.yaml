@@ -4,11 +4,11 @@ test_cases:
     F150_CAT_TEMP: 9.8
   response: 7E80562F43C01F2
 - expected_values:
-    F150_CAT_TEMP: 445.5
-  response: 7E80562F43C12F7
+    F150_CAT_TEMP: 394.4
+  response: 7E80562F43C10F8
 - expected_values:
-    F150_CAT_TEMP: 575.1
-  response: 7E80562F43C1807
+    F150_CAT_TEMP: 395.3
+  response: 7E80562F43C1101
 - expected_values:
     F150_CAT_TEMP: 638.5
   response: 7E80562F43C1A81
