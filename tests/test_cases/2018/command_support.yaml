@@ -15,6 +15,7 @@ supported_commands_by_ecu:
   "760":
   - 760.768.222B00|f=2009-:F150_PARK_BRK
   "7DF":
+  - 7DF.0104
   - 7DF.010D
   - 7DF.0111
   - 7DF.012F
@@ -215,8 +216,6 @@ unsupported_commands_by_ecu:
   "764":
   - 764.22DD01
   - 764.76C.22A224|f=2009-:F150_CC_TGT_VSS
-  "7DF":
-  - 7DF.0104
   "7E0":
   - 7E0.220519
   - 7E0.221310
