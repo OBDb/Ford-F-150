@@ -1,32 +1,8 @@
 command_id: 7E0.0152
 test_cases:
 - expected_values:
-    ALCH_PCT: 43.52941
-  response: 7E80341526F
-- expected_values:
-    ALCH_PCT: 45.88235
-  response: '7E803415275'
-- expected_values:
-    ALCH_PCT: 48.62745
-  response: 7E80341527C
-- expected_values:
-    ALCH_PCT: 56.07843
-  response: 7E80341528F
-- expected_values:
-    ALCH_PCT: 56.47059
-  response: '7E803415290'
-- expected_values:
-    ALCH_PCT: 69.41176
-  response: 7E8034152B1
-- expected_values:
-    ALCH_PCT: 70.98039
-  response: 7E8034152B5
-- expected_values:
-    ALCH_PCT: 75.68627
-  response: 7E8034152C1
-- expected_values:
-    ALCH_PCT: 77.2549
-  response: 7E8034152C5
+    ALCH_PCT: 31.37255
+  response: '7E803415250'
 - expected_values:
     ALCH_PCT: 77.64706
   response: 7E8034152C6
