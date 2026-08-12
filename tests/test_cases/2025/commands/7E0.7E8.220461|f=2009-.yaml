@@ -27,3 +27,6 @@ test_cases:
 - expected_values:
     F150_CAT: 1.71875
   response: 7E8056204610A6E
+- expected_values:
+    F150_CAT: 3.96875
+  response: 7E8056204610AFE

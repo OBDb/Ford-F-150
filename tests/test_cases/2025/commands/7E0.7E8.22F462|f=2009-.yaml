@@ -27,3 +27,6 @@ test_cases:
 - expected_values:
     F150_PCM_ACT_ENG_PCT_TRQ: 21
   response: 7E80462F46292
+- expected_values:
+    F150_PCM_ACT_ENG_PCT_TRQ: 54
+  response: 7E80462F462B3
