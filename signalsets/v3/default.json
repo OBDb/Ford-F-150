@@ -3,7 +3,7 @@
   "signals": [
     {"id": "F150_ODO", "path": "Trips", "fmt": { "len": 24, "max": 1677721, "div": 10, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "720", "rax": "728", "cmd": {"22": "6185"}, "freq": 5, "filter": { "to": 2015 }, "dbgfilter": { "to": 2003, "years": [2005, 2006, 2009], "from": 2011 },
+{ "hdr": "720", "rax": "728", "cmd": {"22": "6185"}, "freq": 5, "filter": { "to": 2015 }, "dbgfilter": { "to": 2003, "years": [2005, 2009], "from": 2011 },
   "signals": [
     {"id": "F150_FLI_ALT", "path": "Fuel", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Fuel level, alternate", "suggestedMetric": "fuelTankLevel"}
   ]},
