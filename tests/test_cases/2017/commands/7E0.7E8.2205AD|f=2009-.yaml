@@ -15,3 +15,6 @@ test_cases:
 - expected_values:
     F150_PCM_CYL_2_KNK_COMB_PERF_CNT: 9
   response: 7E8046205AD09
+- expected_values:
+    F150_PCM_CYL_2_KNK_COMB_PERF_CNT: 13
+  response: 7E8046205AD0D
