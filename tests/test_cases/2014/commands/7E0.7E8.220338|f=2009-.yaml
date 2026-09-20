@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.220338|f=2009-
 test_cases:
 - expected_values:
-    F150_ETC_TRIM_LRN: 0.41992
-  response: 7E80562033800D7
+    F150_ETC_TRIM_LRN: 0.35352
+  response: 7E80562033800B5
 - expected_values:
     F150_ETC_TRIM_LRN: 0.53711
   response: '7E8056203380113'
