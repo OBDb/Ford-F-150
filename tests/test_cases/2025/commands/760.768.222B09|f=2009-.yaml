@@ -12,3 +12,6 @@ test_cases:
 - expected_values:
     F150_RL_VSS: 101
   response: 76804622B0965
+- expected_values:
+    F150_RL_VSS: 103
+  response: 76804622B0967
