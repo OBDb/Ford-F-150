@@ -16,6 +16,11 @@ test_cases:
     222814
     72E056228140312
 - expected_values:
+    F150_TP_FR: 40.3
+  response: |-
+    222814
+    72E056228140326
+- expected_values:
     F150_TP_FR: 0
   response: '72E056228140000'
 - expected_values:
