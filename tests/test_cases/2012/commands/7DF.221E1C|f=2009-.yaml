@@ -11,10 +11,10 @@ test_cases:
     221E1C
     7E805621E1C02DD
 - expected_values:
-    F150_TOT: 55.75
+    F150_TOT: 72.5625
   response: |-
     221E1C
-    7E805621E1C037C
+    7E805621E1C0489
 - expected_values:
     F150_TOT: 0.0625
   response: 7E805621E1C0001
