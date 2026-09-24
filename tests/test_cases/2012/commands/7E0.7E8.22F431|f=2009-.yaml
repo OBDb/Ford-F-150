@@ -17,8 +17,8 @@ test_cases:
     F150_DIST_DTC_CLR: 7167
   response: 7E80562F4311BFF
 - expected_values:
-    F150_DIST_DTC_CLR: 14848
-  response: 7E80562F4313A00
+    F150_DIST_DTC_CLR: 7424
+  response: 7E80562F4311D00
 - expected_values:
     F150_DIST_DTC_CLR: 30839
   response: 7E80562F4317877
