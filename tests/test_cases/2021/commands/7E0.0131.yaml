@@ -28,11 +28,11 @@ test_cases:
     7EE04413108AF
     7EC044131005E
 - expected_values:
-    CLR_DIST: 3327
-  response: 7E80441310CFF
+    CLR_DIST: 2303
+  response: 7E804413108FF
 - expected_values:
-    CLR_DIST: 3328
-  response: 7E80441310D00
+    CLR_DIST: 2304
+  response: '7E80441310900'
 - expected_values:
     CLR_DIST: 46961
   response: 7E8044131B771
