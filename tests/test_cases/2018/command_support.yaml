@@ -220,6 +220,9 @@ unsupported_commands_by_ecu:
   "764":
   - 764.22DD01
   - 764.76C.22A224|f=2009-:F150_CC_TGT_VSS
+  "7DF":
+  - 7DF.010C
+  - 7DF.0143
   "7E0":
   - 7E0.220519
   - 7E0.221310
