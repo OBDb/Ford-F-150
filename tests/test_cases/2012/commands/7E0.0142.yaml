@@ -6,6 +6,11 @@ test_cases:
     0142
     7E80441422F43
 - expected_values:
+    VPWR: 13.808
+  response: |-
+    0142
+    7E804414235F0
+- expected_values:
     VPWR: 14.139
   response: |-
     0142
