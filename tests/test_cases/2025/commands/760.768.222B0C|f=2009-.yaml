@@ -4,25 +4,25 @@ test_cases:
     F150_LAT_ANG: 0
   response: 76805622B0C0000
 - expected_values:
-    F150_LAT_ANG: 0
+    F150_LAT_ANG: 4
   response: 76805622B0C0004
 - expected_values:
-    F150_LAT_ANG: 0
+    F150_LAT_ANG: 7
   response: 76805622B0C0007
 - expected_values:
-    F150_LAT_ANG: 0
+    F150_LAT_ANG: 8
   response: 76805622B0C0008
 - expected_values:
-    F150_LAT_ANG: 0
+    F150_LAT_ANG: 21
   response: 76805622B0C0015
 - expected_values:
-    F150_LAT_ANG: -1
+    F150_LAT_ANG: -9
   response: 76805622B0CFFF7
 - expected_values:
-    F150_LAT_ANG: -1
+    F150_LAT_ANG: -3
   response: 76805622B0CFFFD
 - expected_values:
-    F150_LAT_ANG: -1
+    F150_LAT_ANG: -2
   response: 76805622B0CFFFE
 - expected_values:
     F150_LAT_ANG: -1

@@ -1,32 +1,32 @@
 command_id: 726.72E.224028|f=2009-
 test_cases:
 - expected_values:
-    F150_BATT_SOC: 26.27451
+    F150_BATT_SOC: 67
   response: '72E0462402843'
 - expected_values:
-    F150_BATT_SOC: 26.66667
+    F150_BATT_SOC: 68
   response: '72E0462402844'
 - expected_values:
-    F150_BATT_SOC: 27.05882
+    F150_BATT_SOC: 69
   response: '72E0462402845'
 - expected_values:
-    F150_BATT_SOC: 28.23529
+    F150_BATT_SOC: 72
   response: '72E0462402848'
 - expected_values:
-    F150_BATT_SOC: 29.41176
+    F150_BATT_SOC: 75
   response: 72E046240284B
 - expected_values:
-    F150_BATT_SOC: 30.19608
+    F150_BATT_SOC: 77
   response: 72E046240284D
 - expected_values:
-    F150_BATT_SOC: 30.58824
+    F150_BATT_SOC: 78
   response: 72E046240284E
 - expected_values:
-    F150_BATT_SOC: 30.98039
+    F150_BATT_SOC: 79
   response: 72E046240284F
 - expected_values:
-    F150_BATT_SOC: 35.29412
+    F150_BATT_SOC: 90
   response: 72E046240285A
 - expected_values:
-    F150_BATT_SOC: 35.68627
+    F150_BATT_SOC: 91
   response: 72E046240285B
