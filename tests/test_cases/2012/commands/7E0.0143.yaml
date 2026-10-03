@@ -6,8 +6,8 @@ test_cases:
     0143
     7E8044143004D
 - expected_values:
-    LOAD_ABS: 7.45098
-  response: '7E80441430013'
+    LOAD_ABS: 0
+  response: '7E80441430000'
 - expected_values:
     LOAD_ABS: 97.64706
   response: 7E804414300F9
