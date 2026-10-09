@@ -12,5 +12,5 @@ test_cases:
     > 726.72E.222816|f=2009-
     CAN ERROR
 - expected_values:
-    ECT: 99
-  response: 7E80341058B
+    ECT: 107
+  response: '7E803410593'
