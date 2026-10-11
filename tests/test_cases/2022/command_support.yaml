@@ -244,6 +244,7 @@ supported_commands_by_ecu:
   - 015B:BAT_SOC
   - 7E4.7EC.0104
   - 7E4.7EC.0105
+  - 7E4.7EC.010C
   - 7E4.7EC.0142
   - 7E4.7EC.015B
   "7E6":
