@@ -22,6 +22,7 @@ supported_commands_by_ecu:
   - 7DF.0131
   - 7DF.0134
   - 7DF.0142
+  - 7DF.0143
   - 7DF.0144
   - 7DF.221E1C|f=2009-:F150_TOT
   "7E0":
@@ -233,7 +234,6 @@ unsupported_commands_by_ecu:
   - 764.76C.22A224|f=2009-:F150_CC_TGT_VSS
   "7DF":
   - 7DF.010C
-  - 7DF.0143
   "7E0":
   - 7E0.220519
   - 7E0.221310
