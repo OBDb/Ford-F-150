@@ -3,3 +3,27 @@ test_cases:
 - expected_values:
     F150_PCM_ENG_EOP_RAW: 102
   response: '7E8056204150066'
+- expected_values:
+    F150_PCM_ENG_EOP_RAW: 281
+  response: '7E8056204150119'
+- expected_values:
+    F150_PCM_ENG_EOP_RAW: 305
+  response: '7E8056204150131'
+- expected_values:
+    F150_PCM_ENG_EOP_RAW: 319
+  response: 7E805620415013F
+- expected_values:
+    F150_PCM_ENG_EOP_RAW: 329
+  response: '7E8056204150149'
+- expected_values:
+    F150_PCM_ENG_EOP_RAW: 340
+  response: '7E8056204150154'
+- expected_values:
+    F150_PCM_ENG_EOP_RAW: 344
+  response: '7E8056204150158'
+- expected_values:
+    F150_PCM_ENG_EOP_RAW: 369
+  response: '7E8056204150171'
+- expected_values:
+    F150_PCM_ENG_EOP_RAW: 404
+  response: '7E8056204150194'

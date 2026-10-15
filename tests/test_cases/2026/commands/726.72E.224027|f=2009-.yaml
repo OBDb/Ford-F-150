@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     F150_BATT_AGE: 12
   response: 72E05624027000C
+- expected_values:
+    F150_BATT_AGE: 31
+  response: 72E05624027001F
+- expected_values:
+    F150_BATT_AGE: 32
+  response: '72E056240270020'

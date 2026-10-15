@@ -27,3 +27,6 @@ test_cases:
 - expected_values:
     F150_AC_P_SENS_V: 1.28906
   response: '7E8056298000528'
+- expected_values:
+    F150_AC_P_SENS_V: 1.58203
+  response: '7E8056298000654'

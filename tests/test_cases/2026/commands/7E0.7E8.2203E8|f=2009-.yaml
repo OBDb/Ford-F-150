@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     F150_OAR: 0
   response: 7E8056203E8D3A4
+- expected_values:
+    F150_OAR: 0
+  response: 7E8056203E8D97A
+- expected_values:
+    F150_OAR: 0
+  response: 7E8056203E8E32A
