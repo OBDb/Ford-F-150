@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     F150_VCT_INT_DES: 0
   response: 7E8056203BC0000
+- expected_values:
+    F150_VCT_INT_DES: 1.3125
+  response: 7E8056203BC0015
+- expected_values:
+    F150_VCT_INT_DES: 9.9375
+  response: 7E8056203BC009F

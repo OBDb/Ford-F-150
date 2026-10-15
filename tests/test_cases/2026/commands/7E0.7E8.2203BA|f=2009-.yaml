@@ -1,6 +1,12 @@
 command_id: 7E0.7E8.2203BA|f=2009-
 test_cases:
 - expected_values:
+    F150_AAT_V: 2.27761
+  response: 7E8056203BA01D2
+- expected_values:
+    F150_AAT_V: 2.37537
+  response: 7E8056203BA01E6
+- expected_values:
     F150_AAT_V: 3.07918
   response: 7E8056203BA0276
 - expected_values:

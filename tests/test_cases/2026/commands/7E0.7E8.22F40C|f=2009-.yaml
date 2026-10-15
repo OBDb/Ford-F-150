@@ -3,3 +3,30 @@ test_cases:
 - expected_values:
     F150_RPM: 0
   response: 7E80562F40C0000
+- expected_values:
+    F150_RPM: 525
+  response: 7E80562F40C0834
+- expected_values:
+    F150_RPM: 527
+  response: 7E80562F40C083C
+- expected_values:
+    F150_RPM: 530.25
+  response: 7E80562F40C0849
+- expected_values:
+    F150_RPM: 530.5
+  response: 7E80562F40C084A
+- expected_values:
+    F150_RPM: 603.25
+  response: 7E80562F40C096D
+- expected_values:
+    F150_RPM: 613.25
+  response: 7E80562F40C0995
+- expected_values:
+    F150_RPM: 948.25
+  response: 7E80562F40C0ED1
+- expected_values:
+    F150_RPM: 959
+  response: 7E80562F40C0EFC
+- expected_values:
+    F150_RPM: 1293.5
+  response: 7E80562F40C1436

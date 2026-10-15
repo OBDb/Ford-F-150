@@ -3,3 +3,21 @@ test_cases:
 - expected_values:
     F150_ENG_LOAD_ACT: 0
   response: 7E80562F4430000
+- expected_values:
+    F150_ENG_LOAD_ACT: 10.58824
+  response: 7E80562F443001B
+- expected_values:
+    F150_ENG_LOAD_ACT: 17.64706
+  response: 7E80562F443002D
+- expected_values:
+    F150_ENG_LOAD_ACT: 18.43137
+  response: 7E80562F443002F
+- expected_values:
+    F150_ENG_LOAD_ACT: 18.82353
+  response: 7E80562F4430030
+- expected_values:
+    F150_ENG_LOAD_ACT: 19.21569
+  response: 7E80562F4430031
+- expected_values:
+    F150_ENG_LOAD_ACT: 27.05882
+  response: 7E80562F4430045
