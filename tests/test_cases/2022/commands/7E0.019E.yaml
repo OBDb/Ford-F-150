@@ -4,6 +4,9 @@ test_cases:
     EXH_RATE: 9.4
   response: 7E804419E002F
 - expected_values:
+    EXH_RATE: 19.8
+  response: 7E804419E0063
+- expected_values:
     EXH_RATE: 153.8
   response: 7E804419E0301
 - expected_values:
