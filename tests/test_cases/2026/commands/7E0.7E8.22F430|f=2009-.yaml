@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     F150_WARMUP_CLR: 18
   response: 7E80462F43012
+- expected_values:
+    F150_WARMUP_CLR: 27
+  response: 7E80462F4301B
