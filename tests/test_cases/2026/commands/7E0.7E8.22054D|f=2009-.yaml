@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.22054D|f=2009-
 test_cases:
 - expected_values:
-    F150_LPFP_SENS_V: 2.13867
-  response: 7E80562054D088E
+    F150_LPFP_SENS_V: 2.10449
+  response: 7E80562054D086B
 - expected_values:
     F150_LPFP_SENS_V: 2.4541
   response: 7E80562054D09D1

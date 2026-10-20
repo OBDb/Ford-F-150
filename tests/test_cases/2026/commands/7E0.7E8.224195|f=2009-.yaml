@@ -6,3 +6,15 @@ test_cases:
 - expected_values:
     F150_DTE_DISP: 594.1
   response: '7E8056241951735'
+- expected_values:
+    F150_DTE_DISP: 756.5
+  response: 7E8056241951D8D
+- expected_values:
+    F150_DTE_DISP: 756.7
+  response: 7E8056241951D8F
+- expected_values:
+    F150_DTE_DISP: 757
+  response: 7E8056241951D92
+- expected_values:
+    F150_DTE_DISP: 757.3
+  response: 7E8056241951D95
