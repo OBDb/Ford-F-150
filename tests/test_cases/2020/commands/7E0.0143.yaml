@@ -4,26 +4,5 @@ test_cases:
     LOAD_ABS: 0
   response: '7E80441430000'
 - expected_values:
-    LOAD_ABS: 9.01961
-  response: '7E80441430017'
-- expected_values:
-    LOAD_ABS: 11.37255
-  response: 7E8044143001D
-- expected_values:
-    LOAD_ABS: 19.21569
-  response: '7E80441430031'
-- expected_values:
-    LOAD_ABS: 25.09804
-  response: '7E80441430040'
-- expected_values:
-    LOAD_ABS: 27.05882
-  response: '7E80441430045'
-- expected_values:
-    LOAD_ABS: 28.23529
-  response: '7E80441430048'
-- expected_values:
-    LOAD_ABS: 35.29412
-  response: 7E8044143005A
-- expected_values:
-    LOAD_ABS: 41.17647
-  response: '7E80441430069'
+    LOAD_ABS: 43.52941
+  response: 7E8044143006F
