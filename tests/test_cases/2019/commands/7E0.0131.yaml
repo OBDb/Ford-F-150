@@ -1,6 +1,9 @@
 command_id: 7E0.0131
 test_cases:
 - expected_values:
+    CLR_DIST: 4
+  response: '7E80441310004'
+- expected_values:
     CLR_DIST: 1316
   response: |-
     7E80441310524000000
@@ -13,9 +16,6 @@ test_cases:
     > 7E0.7E8.224194|f=2009-
     > 764.76C.22A224|f=2009-
     CAN ERROR
-- expected_values:
-    CLR_DIST: 7126
-  response: 7E80441311BD6
 - expected_values:
     CLR_DIST: 23295
   response: 7E80441315AFF
