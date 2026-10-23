@@ -16,8 +16,8 @@ test_cases:
     7EE0462F40D6F
     7EC0462F40D6F
 - expected_values:
-    F150_VSS: 179
-  response: 7E80462F40DB3
+    F150_VSS: 189
+  response: 7E80462F40DBD
 - expected_values:
     F150_VSS: 0
   response: |-
