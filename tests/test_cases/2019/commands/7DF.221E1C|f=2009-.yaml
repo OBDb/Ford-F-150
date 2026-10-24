@@ -64,7 +64,7 @@ test_cases:
     > 726.72E.222814|f=2009-
     CAN ERROR
 - expected_values:
-    F150_TOT: 255
+    F150_TOT: -4.9375
   response: 7E805621E1CFFB1
 - expected_values:
     F150_TOT: 12.8125

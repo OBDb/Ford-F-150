@@ -1,7 +1,7 @@
 command_id: 764.76C.22A224|f=2009-
 test_cases:
 - expected_values:
-    F150_CC_TGT_VSS: -61.2
+    F150_CC_TGT_VSS: -170
   response: |-
     76C0562A224FF56
     > 760.768.222B0D|f=2009-

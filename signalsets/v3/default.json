@@ -88,11 +88,11 @@
   ]},
 { "hdr": "764", "rax": "76C", "cmd": {"22": "A224"}, "freq": 0.5, "filter": { "from": 2009 }, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2016, 2018, 2019, 2020], "from": 2027 },
   "signals": [
-    {"id": "F150_CC_TGT_VSS", "path": "Cruise control", "fmt": { "len": 16, "max": 736, "min": -736, "mul": 3.6, "div": 10, "sign": true, "unit": "kilometersPerHour" }, "name": "Target speed", "description": "The speed of the vehicle ahead of you."}
+    {"id": "F150_CC_TGT_VSS", "path": "Cruise control", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "scalar" }, "name": "Target speed, raw", "description": "Signed 16-bit value from the cruise control module. Replies do not read as the speed of the vehicle ahead: a truck doing 3 km/h reads the equivalent of -61 km/h."}
   ]},
 { "hdr": "7DF", "cmd": {"22": "1E1C"}, "freq": 5, "filter": { "from": 2009 }, "dbgfilter": { "to": 2009, "from": 2027 },
   "signals": [
-    {"id": "F150_TOT", "path": "Transmission", "fmt": { "len": 16, "max": 255, "div": 16, "unit": "celsius" }, "name": "Transmission temperature", "suggestedMetric": "transmissionFluidTemperature"}
+    {"id": "F150_TOT", "path": "Transmission", "fmt": { "len": 16, "max": 255, "min": -40, "div": 16, "sign": true, "unit": "celsius" }, "name": "Transmission temperature", "suggestedMetric": "transmissionFluidTemperature"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0301"}, "freq": 0.25, "filter": { "from": 2009 }, "dbgfilter": { "to": 2010, "from": 2027 },
   "signals": [
