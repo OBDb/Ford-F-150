@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.22091A
 test_cases:
 - expected_values:
-    F150_ETC_ANG_DES: 0.89453
-  response: 7E80562091A01CA
+    F150_ETC_ANG_DES: 0.75
+  response: 7E80562091A0180
 - expected_values:
     F150_ETC_ANG_DES: 1.5
   response: 7E80562091A0300
