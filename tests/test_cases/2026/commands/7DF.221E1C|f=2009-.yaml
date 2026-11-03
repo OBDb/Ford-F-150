@@ -7,13 +7,13 @@ test_cases:
     F150_TOT: 32
   response: 7E805621E1C0200
 - expected_values:
+    F150_TOT: 33
+  response: |-
+    7E805621E1C0213
+    7EE05621E1C0210
+- expected_values:
     F150_TOT: 47.9375
   response: 7E805621E1C02FF
-- expected_values:
-    F150_TOT: 59
-  response: |-
-    7E805621E1C03BF
-    7EE05621E1C03B0
 - expected_values:
     F150_TOT: 63
   response: |-
@@ -28,15 +28,15 @@ test_cases:
     F150_TOT: 96.0625
   response: 7E805621E1C0601
 - expected_values:
-    F150_TOT: 54.5
+    F150_TOT: 30.125
   response: |-
-    7EE05621E1C0360
-    7E805621E1C0368
+    7EE05621E1C01E0
+    7E805621E1C01E2
 - expected_values:
-    F150_TOT: 64.6875
+    F150_TOT: 32.375
   response: |-
-    7EE05621E1C0400
-    7E805621E1C040B
+    7EE05621E1C0200
+    7E805621E1C0206
 - expected_values:
     F150_TOT: 65.9375
   response: |-
