@@ -35,9 +35,11 @@ supported_commands_by_ecu:
   - 7DF.0104
   - 7DF.0105
   - 7DF.010C
+  - 7DF.010D
   - 7DF.0134
   - 7DF.0144
   - 7DF.015B
+  - 7DF.01A6
   - 7DF.221E12
   - 7DF.221E1C|f=2009-:F150_TOT
   - 7DF.221E23
@@ -340,6 +342,9 @@ unsupported_commands_by_ecu:
   "7E2":
   - 7E2.7EA.22DD04
   - 7E2.7EA.22DD05
+  "7E4":
+  - 7E4.7EC.0105
+  - 7E4.7EC.010D
   "7E6":
   - 7E6.7EE.0104
   - 7E6.7EE.010C
