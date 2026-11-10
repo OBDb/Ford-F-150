@@ -366,9 +366,9 @@
   "signals": [
     {"id": "F150_IAT_SENS_V", "path": "Engine", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 1023, "unit": "volts" }, "name": "Intake temperature sensor voltage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1E12"}, "freq": 1, "filter": { "from": 2009 }, "dbgfilter": { "to": 2009, "from": 2027 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1E12"}, "freq": 0.25, "filter": { "from": 2009 }, "dbgfilter": { "to": 2009, "from": 2027 },
   "signals": [
-    {"id": "F150_GEAR", "path": "Transmission", "name": "Gear, current", "description": "The automatic transmission gear.", "fmt": {"len": 8, "map": {
+    {"id": "F150_GEAR", "path": "Transmission", "name": "Gear, current", "description": "The automatic transmission gear.", "suggestedMetric": "gear", "fmt": {"len": 8, "map": {
           "1":  { "description": "First gear",   "value": "1" },
           "2":  { "description": "Second gear",  "value": "2" },
           "3":  { "description": "Third gear",   "value": "3" },
@@ -394,18 +394,37 @@
   "signals": [
     {"id": "F150_PCM_CMD_TRANS_MAIN_LINE_P", "path": "Transmission", "fmt": { "len": 16, "max": 65534, "min": -65536, "mul": 2, "sign": true, "unit": "kilopascal" }, "name": "Transmission pressure, commanded"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1E1F"}, "freq": 1, "filter": { "from": 2015 }, "dbgfilter": { "to": 2017, "from": 2027 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1E1F"}, "freq": 0.25, "filter": { "from": 2015 }, "dbgfilter": { "to": 2017, "from": 2027 },
   "signals": [
-    {"id": "F150_GEAR_ENG", "path": "Transmission", "fmt": { "len": 8, "max": 6, "unit": "scalar" }, "name": "Gear, engaged"}
+    {"id": "F150_GEAR_ENG", "path": "Transmission", "name": "Gear, engaged", "suggestedMetric": "gear", "fmt": {"len": 8, "map": {
+          "1":  { "description": "First gear",   "value": "1" },
+          "2":  { "description": "Second gear",  "value": "2" },
+          "3":  { "description": "Third gear",   "value": "3" },
+          "4":  { "description": "Fourth gear",  "value": "4" },
+          "5":  { "description": "Fifth gear",   "value": "5" },
+          "6":  { "description": "Sixth gear",   "value": "6" },
+          "7":  { "description": "Seventh gear", "value": "7" },
+          "8":  { "description": "Eighth gear",  "value": "8" },
+          "9":  { "description": "Ninth gear",   "value": "9" },
+          "10": { "description": "Tenth gear",   "value": "10" },
+          "70": { "description": "Park",         "value": "PARK" }
+        }}
+    }
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1E23"}, "freq": 1, "filter": { "from": 2009 }, "dbgfilter": { "to": 2010, "from": 2027 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1E23"}, "freq": 0.25, "filter": { "from": 2009 }, "dbgfilter": { "to": 2010, "from": 2027 },
   "signals": [
-    {"id": "F150_GEAR_SHFT", "path": "Transmission", "name": "Gear, shift", "fmt": {"len": 8, "map": {
-          "10": { "description": "Manual",  "value": "MANUAL" },
-          "46": { "description": "Drive",   "value": "DRIVE" },
-          "50": { "description": "Neutral", "value": "NEUTRAL" },
-          "60": { "description": "Reverse", "value": "REVERSE" },
-          "70": { "description": "Park",    "value": "PARK" }
+    {"id": "F150_GEAR_SHFT", "path": "Transmission", "name": "Gear, shift", "suggestedMetric": "gearSelector", "fmt": {"len": 8, "map": {
+          "10":  { "description": "Manual",  "value": "MANUAL" },
+          "20":  { "description": "Low",     "value": "LOW" },
+          "40":  { "description": "Drive",   "value": "DRIVE" },
+          "46":  { "description": "Drive",   "value": "DRIVE" },
+          "50":  { "description": "Neutral", "value": "NEUTRAL" },
+          "60":  { "description": "Reverse", "value": "REVERSE" },
+          "70":  { "description": "Park",    "value": "PARK" },
+          "100": { "description": "Park",    "value": "PARK" },
+          "101": { "description": "Reverse", "value": "REVERSE" },
+          "102": { "description": "Neutral", "value": "NEUTRAL" },
+          "103": { "description": "Drive",   "value": "DRIVE" }
         }}
     }
   ]},
