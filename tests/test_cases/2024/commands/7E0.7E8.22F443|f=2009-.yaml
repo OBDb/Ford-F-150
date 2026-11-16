@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     F150_ENG_LOAD_ACT: 69.01961
   response: 7E80562F44300B0
+- expected_values:
+    F150_ENG_LOAD_ACT: 134.5098
+  response: 7E80562F4430157
