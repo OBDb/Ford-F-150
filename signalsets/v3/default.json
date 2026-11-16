@@ -160,7 +160,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0353"}, "freq": 5, "filter": { "from": 2009 }, "dbgfilter": { "to": 2009, "from": 2027 },
   "signals": [
-    {"id": "F150_BARO", "path": "Engine", "fmt": { "len": 16, "max": 20, "min": 8, "mul": 615, "div": 16963, "unit": "psi" }, "name": "Barometric pressure"}
+    {"id": "F150_BARO", "path": "Engine", "fmt": { "len": 16, "max": 20, "min": 8, "mul": 615, "div": 16963, "unit": "psi" }, "name": "Barometric pressure", "suggestedMetric": "barometricPressure"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "035A"}, "freq": 5, "dbgfilter": { "to": 2011, "years": [2013], "from": 2027 },
   "signals": [
@@ -454,7 +454,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40B"}, "freq": 0.25, "filter": { "from": 2009 }, "dbgfilter": { "to": 2011, "from": 2027 },
   "signals": [
-    {"id": "F150_MAP", "path": "Engine", "fmt": { "len": 8, "max": 36, "mul": 10000, "div": 68947, "unit": "psi" }, "name": "Manifold pressure"}
+    {"id": "F150_MAP", "path": "Engine", "fmt": { "len": 8, "max": 36, "mul": 10000, "div": 68947, "unit": "psi" }, "name": "Manifold pressure", "suggestedMetric": "absoluteBoostPressure"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40C"}, "freq": 0.1, "filter": { "from": 2009 }, "dbgfilter": { "to": 2009, "from": 2027 },
   "signals": [
