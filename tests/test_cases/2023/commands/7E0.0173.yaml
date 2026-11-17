@@ -1,0 +1,14 @@
+command_id: 7E0.0173
+test_cases:
+- expected_values:
+    EP_11: 144.44
+    EP_11_SUP: 1
+    EP_21: 0
+    EP_21_SUP: 0
+  response: 7E807417301386C0000
+- expected_values:
+    EP_11: 219.99
+    EP_11_SUP: 1
+    EP_21: 0
+    EP_21_SUP: 0
+  response: 7E80741730155EF0000
