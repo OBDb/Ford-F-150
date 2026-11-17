@@ -16,27 +16,27 @@
   ]},
 { "hdr": "726", "rax": "72E", "cmd": {"22": "2813"}, "freq": 5, "filter": { "from": 2009 }, "dbgfilter": { "to": 2010, "from": 2027 },
   "signals": [
-    {"id": "F150_TP_FL", "path": "Tires", "fmt": { "len": 16, "max": 3276, "div": 20, "unit": "psi" }, "name": "Tire pressure, front left", "suggestedMetric": "frontLeftTirePressure"}
+    {"id": "F150_TP_FL", "path": "Tires", "fmt": { "len": 16, "max": 150, "div": 20, "nullmax": 150, "unit": "psi" }, "name": "Tire pressure, front left", "suggestedMetric": "frontLeftTirePressure"}
   ]},
 { "hdr": "726", "rax": "72E", "cmd": {"22": "2814"}, "freq": 5, "filter": { "from": 2009 }, "dbgfilter": { "to": 2010, "from": 2027 },
   "signals": [
-    {"id": "F150_TP_FR", "path": "Tires", "fmt": { "len": 16, "max": 3276, "div": 20, "unit": "psi" }, "name": "Tire pressure, front right", "suggestedMetric": "frontRightTirePressure"}
+    {"id": "F150_TP_FR", "path": "Tires", "fmt": { "len": 16, "max": 150, "div": 20, "nullmax": 150, "unit": "psi" }, "name": "Tire pressure, front right", "suggestedMetric": "frontRightTirePressure"}
   ]},
 { "hdr": "726", "rax": "72E", "cmd": {"22": "2815"}, "freq": 5, "filter": { "from": 2009 }, "dbgfilter": { "to": 2010, "from": 2027 },
   "signals": [
-    {"id": "F150_TP_RRO", "path": "Tires", "fmt": { "len": 16, "max": 3276, "div": 20, "unit": "psi" }, "name": "Tire pressure, rear right outer", "suggestedMetric": "rearRightTirePressure"}
+    {"id": "F150_TP_RRO", "path": "Tires", "fmt": { "len": 16, "max": 150, "div": 20, "nullmax": 150, "unit": "psi" }, "name": "Tire pressure, rear right outer", "suggestedMetric": "rearRightTirePressure"}
   ]},
 { "hdr": "726", "rax": "72E", "cmd": {"22": "2816"}, "freq": 5, "filter": { "from": 2009 }, "dbgfilter": { "to": 2010, "from": 2027 },
   "signals": [
-    {"id": "F150_TP_RLO", "path": "Tires", "fmt": { "len": 16, "max": 3276, "div": 20, "unit": "psi" }, "name": "Tire pressure, rear left outer", "suggestedMetric": "rearLeftTirePressure"}
+    {"id": "F150_TP_RLO", "path": "Tires", "fmt": { "len": 16, "max": 150, "div": 20, "nullmax": 150, "unit": "psi" }, "name": "Tire pressure, rear left outer", "suggestedMetric": "rearLeftTirePressure"}
   ]},
 { "hdr": "726", "rax": "72E", "cmd": {"22": "2817"}, "freq": 5, "filter": { "from": 2009 }, "dbgfilter": { "to": 2010, "from": 2027 },
   "signals": [
-    {"id": "F150_TP_RRI", "path": "Tires", "fmt": { "len": 16, "max": 3276, "div": 20, "unit": "psi" }, "name": "Tire pressure, rear right inner"}
+    {"id": "F150_TP_RRI", "path": "Tires", "fmt": { "len": 16, "max": 150, "div": 20, "nullmax": 150, "unit": "psi" }, "name": "Tire pressure, rear right inner"}
   ]},
 { "hdr": "726", "rax": "72E", "cmd": {"22": "2818"}, "freq": 5, "filter": { "from": 2009 }, "dbgfilter": { "to": 2010, "from": 2027 },
   "signals": [
-    {"id": "F150_TP_RLI", "path": "Tires", "fmt": { "len": 16, "max": 3276, "div": 20, "unit": "psi" }, "name": "Tire pressure, rear left inner"}
+    {"id": "F150_TP_RLI", "path": "Tires", "fmt": { "len": 16, "max": 150, "div": 20, "nullmax": 150, "unit": "psi" }, "name": "Tire pressure, rear left inner"}
   ]},
 { "hdr": "726", "rax": "72E", "cmd": {"22": "4027"}, "freq": 3600, "filter": { "from": 2009 }, "dbgfilter": { "to": 2010, "from": 2027 },
   "signals": [
@@ -76,7 +76,7 @@
   ]},
 { "hdr": "760", "rax": "768", "cmd": {"22": "2B0D"}, "freq": 0.25, "filter": { "from": 2021 }, "dbgfilter": { "from": 2027 },
   "signals": [
-    {"id": "F150_BRK_FL_P", "path": "Control", "fmt": { "len": 8, "max": 255, "unit": "kilopascal" }, "name": "Brake hydraulic pressure"}
+    {"id": "F150_BRK_FL_P", "path": "Control", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Brake hydraulic pressure"}
   ]},
 { "hdr": "760", "rax": "768", "cmd": {"22": "2B11"}, "freq": 0.1, "filter": { "from": 2021 }, "dbgfilter": { "from": 2027 },
   "signals": [
@@ -236,7 +236,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "03E8"}, "freq": 5, "filter": { "from": 2009 }, "dbgfilter": { "to": 2009, "from": 2027 },
   "signals": [
-    {"id": "F150_OAR", "path": "Engine", "fmt": { "len": 16, "max": 1, "div": 16384, "sign": true, "unit": "scalar" }, "name": "Octane adjustment"}
+    {"id": "F150_OAR", "path": "Engine", "fmt": { "len": 16, "max": 1, "min": -1, "div": 16384, "sign": true, "unit": "scalar" }, "name": "Octane adjustment"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "03EC"}, "freq": 0.25, "filter": { "from": 2009 }, "dbgfilter": { "to": 2009, "from": 2027 },
   "signals": [
