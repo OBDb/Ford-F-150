@@ -10,5 +10,5 @@ test_cases:
     CATEMP21: 471.9
   response: 7E804413D13FF
 - expected_values:
-    CATEMP21: 789.9
-  response: 7E804413D206B
+    CATEMP21: 926.2
+  response: 7E804413D25BE
