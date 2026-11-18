@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     F150_CAT_SENS_V: 0.88965
   response: 7E805620460038F
+- expected_values:
+    F150_CAT_SENS_V: 1.0166
+  response: '7E8056204600411'

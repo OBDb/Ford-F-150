@@ -1,0 +1,6 @@
+command_id: 7E0.0193
+test_cases:
+- expected_values:
+    MI_TIME_CUM: 0
+    MI_TIME_CUM_SUP: 1
+  response: '7E8054193010000'
