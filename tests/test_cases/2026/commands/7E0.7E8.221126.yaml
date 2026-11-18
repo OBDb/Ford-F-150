@@ -22,5 +22,8 @@ test_cases:
     F150_ERT: 141
   response: 7E8046211268D
 - expected_values:
+    F150_ERT: 158
+  response: 7E8046211269E
+- expected_values:
     F150_ERT: 255
   response: 7E804621126FF

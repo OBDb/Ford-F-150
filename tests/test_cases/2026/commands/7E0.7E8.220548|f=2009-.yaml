@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.220548|f=2009-
 test_cases:
 - expected_values:
-    F150_LPFP_ACT: 64.97839
-  response: '7E8056205480380'
+    F150_LPFP_ACT: 60.33708
+  response: '7E8056205480340'
 - expected_values:
     F150_LPFP_ACT: 74.04345
   response: 7E80562054803FD
