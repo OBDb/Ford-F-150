@@ -7,5 +7,5 @@ test_cases:
     F150_RPM: 959
   response: 7E80562F40C0EFC
 - expected_values:
-    F150_RPM: 1293.5
-  response: 7E80562F40C1436
+    F150_RPM: 1444.25
+  response: 7E80562F40C1691

@@ -4,6 +4,15 @@ test_cases:
     F150_VCT_INT_DUTY: 0
   response: '7E8056203160000'
 - expected_values:
+    F150_VCT_INT_DUTY: 45.65125
+  response: 7E8056203163A6F
+- expected_values:
+    F150_VCT_INT_DUTY: 46.67969
+  response: 7E8056203163BC0
+- expected_values:
+    F150_VCT_INT_DUTY: 47.54944
+  response: 7E8056203163CDD
+- expected_values:
     F150_VCT_INT_DUTY: 50.24414
   response: '7E8056203164050'
 - expected_values:

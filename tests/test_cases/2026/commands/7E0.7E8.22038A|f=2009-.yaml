@@ -10,6 +10,12 @@ test_cases:
     F150_PCM_MISF_ACCEL_CYL3_NORM: 0.03125
   response: 7E80462038A02
 - expected_values:
+    F150_PCM_MISF_ACCEL_CYL3_NORM: 0.125
+  response: 7E80462038A08
+- expected_values:
+    F150_PCM_MISF_ACCEL_CYL3_NORM: -0.1875
+  response: 7E80462038AF4
+- expected_values:
     F150_PCM_MISF_ACCEL_CYL3_NORM: -0.125
   response: 7E80462038AF8
 - expected_values:
