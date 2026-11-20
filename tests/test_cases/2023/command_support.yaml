@@ -32,6 +32,7 @@ supported_commands_by_ecu:
   - 764.22DD01
   - 764.76C.22A224|f=2009-:F150_CC_TGT_VSS
   "7DF":
+  - 7DF.010C
   - 7DF.010D
   - 7DF.0111
   - 7DF.0121
