@@ -30,7 +30,7 @@
   "signals": [
     {"id": "F150_TP_RLO", "path": "Tires", "fmt": { "len": 16, "max": 150, "div": 20, "nullmax": 150, "unit": "psi" }, "name": "Tire pressure, rear left outer", "suggestedMetric": "rearLeftTirePressure"}
   ]},
-{ "hdr": "726", "rax": "72E", "cmd": {"22": "2817"}, "freq": 5, "filter": { "from": 2009 }, "dbgfilter": { "to": 2010, "years": [2016, 2018, 2020, 2021], "from": 2025 },
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "2817"}, "freq": 5, "filter": { "from": 2009 }, "dbgfilter": { "to": 2010, "years": [2016, 2020, 2021], "from": 2025 },
   "signals": [
     {"id": "F150_TP_RRI", "path": "Tires", "fmt": { "len": 16, "max": 150, "div": 20, "nullmax": 150, "unit": "psi" }, "name": "Tire pressure, rear right inner"}
   ]},
