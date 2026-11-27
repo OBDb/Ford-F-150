@@ -7,5 +7,8 @@ test_cases:
     F150_GEAR_SHFT: REVERSE
   response: 7E804621E2365
 - expected_values:
+    F150_GEAR_SHFT: NEUTRAL
+  response: 7E804621E2366
+- expected_values:
     F150_GEAR_SHFT: DRIVE
   response: 7E804621E2367
